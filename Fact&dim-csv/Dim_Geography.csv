@@ -1,0 +1,3773 @@
+City,State,Country,Region,Geo Key
+"Sacramento","California","United States","West",9
+"Los Angeles","California","United States","West",27
+"Fresno","California","United States","West",32
+"Huntington Beach","California","United States","West",45
+"San Diego","California","United States","West",111
+"Long Beach","California","United States","West",119
+"San Francisco","California","United States","West",161
+"Santa Ana","California","United States","West",299
+"Concord","California","United States","West",441
+"Anaheim","California","United States","West",515
+"Redlands","California","United States","West",539
+"Oakland","California","United States","West",543
+"Santa Barbara","California","United States","West",586
+"San Gabriel","California","United States","West",593
+"Brentwood","California","United States","West",737
+"Westminster","California","United States","West",810
+"Danville","California","United States","West",870
+"Temecula","California","United States","West",935
+"Apple Valley","California","United States","West",939
+"Fairfield","California","United States","West",949
+"Sunnyvale","California","United States","West",1213
+"Burbank","California","United States","West",1381
+"San Jose","California","United States","West",1433
+"Redondo Beach","California","United States","West",1475
+"Pasadena","California","United States","West",1515
+"Torrance","California","United States","West",1583
+"Inglewood","California","United States","West",1733
+"Pomona","California","United States","West",1736
+"Chula Vista","California","United States","West",1750
+"Riverside","California","United States","West",1751
+"El Cajon","California","United States","West",1762
+"Oxnard","California","United States","West",1807
+"Lakewood","California","United States","West",1905
+"Vallejo","California","United States","West",1945
+"Camarillo","California","United States","West",1947
+"Mission Viejo","California","United States","West",1959
+"Roseville","California","United States","West",1972
+"Lake Forest","California","United States","West",2015
+"Hesperia","California","United States","West",2027
+"San Bernardino","California","United States","West",2038
+"Bakersfield","California","United States","West",2077
+"Pico Rivera","California","United States","West",2149
+"Vacaville","California","United States","West",2154
+"Stockton","California","United States","West",2157
+"Oceanside","California","United States","West",2175
+"Salinas","California","United States","West",2214
+"Costa Mesa","California","United States","West",2218
+"Whittier","California","United States","West",2222
+"Morgan Hill","California","United States","West",2230
+"Murrieta","California","United States","West",2296
+"Santa Maria","California","United States","West",2310
+"Ontario","California","United States","West",2368
+"Lake Elsinore","California","United States","West",2386
+"Manteca","California","United States","West",2433
+"Moreno Valley","California","United States","West",2444
+"Redding","California","United States","West",2524
+"Woodland","California","United States","West",2544
+"Rancho Cucamonga","California","United States","West",2572
+"Chico","California","United States","West",2593
+"Encinitas","California","United States","West",2623
+"Visalia","California","United States","West",2641
+"La Mesa","California","United States","West",2704
+"Lancaster","California","United States","West",2713
+"San Mateo","California","United States","West",2796
+"Citrus Heights","California","United States","West",2887
+"Laguna Niguel","California","United States","West",3093
+"Coachella","California","United States","West",3112
+"Modesto","California","United States","West",3203
+"La Quinta","California","United States","West",3238
+"Santa Clara","California","United States","West",3267
+"Lodi","California","United States","West",3317
+"Thousand Oaks","California","United States","West",3320
+"Redwood City","California","United States","West",3409
+"San Clemente","California","United States","West",3420
+"Montebello","California","United States","West",3439
+"Yucaipa","California","United States","West",3473
+"Antioch","California","United States","West",3543
+"Escondido","California","United States","West",3557
+"Davis","California","United States","West",3664
+"Dublin","California","United States","West",3704
+"San Luis Obispo","California","United States","West",3768
+"Seattle","Washington","United States","West",48
+"Henderson","Nevada","United States","West",77
+"North Las Vegas","Nevada","United States","West",149
+"Bellingham","Washington","United States","West",335
+"Lehi","Utah","United States","West",368
+"Avondale","Arizona","United States","West",454
+"Denver","Colorado","United States","West",480
+"Des Moines","Washington","United States","West",568
+"Pueblo","Colorado","United States","West",623
+"Sparks","Nevada","United States","West",645
+"Phoenix","Arizona","United States","West",705
+"Thornton","Colorado","United States","West",717
+"Pleasant Grove","Utah","United States","West",748
+"Glendale","Arizona","United States","West",777
+"Spokane","Washington","United States","West",820
+"Aurora","Colorado","United States","West",835
+"Edmonds","Washington","United States","West",897
+"Orem","Utah","United States","West",952
+"Longmont","Colorado","United States","West",972
+"Las Vegas","Nevada","United States","West",985
+"Gresham","Oregon","United States","West",1026
+"Reno","Nevada","United States","West",1033
+"Colorado Springs","Colorado","United States","West",1074
+"Great Falls","Montana","United States","West",1095
+"Louisville","Colorado","United States","West",1102
+"Portland","Oregon","United States","West",1134
+"Tucson","Arizona","United States","West",1148
+"Pasco","Washington","United States","West",1184
+"Cheyenne","Wyoming","United States","West",1185
+"Farmington","New Mexico","United States","West",1235
+"Gilbert","Arizona","United States","West",1242
+"Fort Collins","Colorado","United States","West",1259
+"Renton","Washington","United States","West",1445
+"Parker","Colorado","United States","West",1479
+"Boise","Idaho","United States","West",1482
+"Tempe","Arizona","United States","West",1533
+"Provo","Utah","United States","West",1561
+"Redmond","Oregon","United States","West",1646
+"Springfield","Oregon","United States","West",1650
+"Pocatello","Idaho","United States","West",1667
+"Salt Lake City","Utah","United States","West",1689
+"Chandler","Arizona","United States","West",1692
+"Arvada","Colorado","United States","West",1705
+"Peoria","Arizona","United States","West",1741
+"Albuquerque","New Mexico","United States","West",1742
+"Scottsdale","Arizona","United States","West",1806
+"Mesa","Arizona","United States","West",1820
+"Kent","Washington","United States","West",1834
+"Salem","Oregon","United States","West",1939
+"Twin Falls","Idaho","United States","West",1982
+"Yuma","Arizona","United States","West",1989
+"Rio Rancho","New Mexico","United States","West",2005
+"Eugene","Oregon","United States","West",2072
+"Broomfield","Colorado","United States","West",2105
+"Olympia","Washington","United States","West",2153
+"Tigard","Oregon","United States","West",2155
+"Carlsbad","New Mexico","United States","West",2311
+"Helena","Montana","United States","West",2420
+"Missoula","Montana","United States","West",2511
+"Draper","Utah","United States","West",2548
+"Covington","Washington","United States","West",2700
+"Vancouver","Washington","United States","West",2864
+"Murray","Utah","United States","West",2873
+"Las Cruces","New Mexico","United States","West",2904
+"Caldwell","Idaho","United States","West",2956
+"Meridian","Idaho","United States","West",3062
+"Commerce City","Colorado","United States","West",3074
+"Littleton","Colorado","United States","West",3127
+"West Jordan","Utah","United States","West",3132
+"Clovis","New Mexico","United States","West",3179
+"Hillsboro","Oregon","United States","West",3244
+"Englewood","Colorado","United States","West",3318
+"Marysville","Washington","United States","West",3373
+"Sierra Vista","Arizona","United States","West",3470
+"Logan","Utah","United States","West",3486
+"Longview","Washington","United States","West",3504
+"Santa Fe","New Mexico","United States","West",3526
+"Bozeman","Montana","United States","West",3600
+"Medford","Oregon","United States","West",3621
+"Bellevue","Washington","United States","West",3648
+"Redmond","Washington","United States","West",3668
+"Greeley","Colorado","United States","West",3687
+"Billings","Montana","United States","West",3695
+"Loveland","Colorado","United States","West",3716
+"Bullhead City","Arizona","United States","West",3733
+"Layton","Utah","United States","West",3761
+"Everett","Washington","United States","West",3764
+"Auburn","Washington","United States","West",3766
+"Lewiston","Idaho","United States","West",3771
+"New York City","New York","United States","East",1
+"Philadelphia","Pennsylvania","United States","East",72
+"Lakewood","New Jersey","United States","East",94
+"Everett","Massachusetts","United States","East",106
+"Yonkers","New York","United States","East",126
+"Lancaster","Ohio","United States","East",134
+"Newark","Delaware","United States","East",151
+"Providence","Rhode Island","United States","East",158
+"Long Beach","New York","United States","East",159
+"Columbus","Ohio","United States","East",169
+"Morristown","New Jersey","United States","East",206
+"Newark","Ohio","United States","East",224
+"Jamestown","New York","United States","East",249
+"Bethlehem","Pennsylvania","United States","East",328
+"Cranston","Rhode Island","United States","East",341
+"Lorain","Ohio","United States","East",364
+"Cleveland","Ohio","United States","East",420
+"Dover","New Hampshire","United States","East",430
+"Troy","Ohio","United States","East",449
+"Fairfield","Ohio","United States","East",455
+"Lowell","Massachusetts","United States","East",458
+"Columbia","Maryland","United States","East",494
+"Warwick","Rhode Island","United States","East",523
+"Burlington","Vermont","United States","East",555
+"Rochester","New York","United States","East",588
+"Cincinnati","Ohio","United States","East",595
+"Watertown","New York","United States","East",605
+"Toledo","Ohio","United States","East",644
+"Baltimore","Maryland","United States","East",823
+"Wilmington","Delaware","United States","East",842
+"Fairfield","Connecticut","United States","East",843
+"Manchester","Connecticut","United States","East",863
+"Lawrence","Massachusetts","United States","East",868
+"Marion","Ohio","United States","East",880
+"Franklin","Massachusetts","United States","East",960
+"Plainfield","New Jersey","United States","East",993
+"Beverly","Massachusetts","United States","East",1006
+"Buffalo","New York","United States","East",1007
+"Meriden","Connecticut","United States","East",1137
+"Lakewood","Ohio","United States","East",1158
+"Parma","Ohio","United States","East",1234
+"Oceanside","New York","United States","East",1243
+"Dublin","Ohio","United States","East",1260
+"Springfield","Ohio","United States","East",1271
+"Belleville","New Jersey","United States","East",1313
+"Concord","New Hampshire","United States","East",1316
+"Perth Amboy","New Jersey","United States","East",1419
+"Bowling Green","Ohio","United States","East",1424
+"Clinton","Maryland","United States","East",1428
+"Chester","Pennsylvania","United States","East",1438
+"Mount Vernon","New York","United States","East",1461
+"Washington","District of Columbia","United States","East",1510
+"Allentown","Pennsylvania","United States","East",1530
+"Waterbury","Connecticut","United States","East",1664
+"Auburn","New York","United States","East",1730
+"Middletown","Connecticut","United States","East",1749
+"Troy","New York","United States","East",1761
+"Medina","Ohio","United States","East",1792
+"Paterson","New Jersey","United States","East",1890
+"Wheeling","West Virginia","United States","East",1923
+"Passaic","New Jersey","United States","East",1973
+"Reading","Pennsylvania","United States","East",2025
+"Revere","Massachusetts","United States","East",2054
+"Mentor","Ohio","United States","East",2085
+"Akron","Ohio","United States","East",2104
+"Utica","New York","United States","East",2142
+"Hempstead","New York","United States","East",2162
+"York","Pennsylvania","United States","East",2199
+"Clifton","New Jersey","United States","East",2263
+"Bangor","Maine","United States","East",2268
+"Quincy","Massachusetts","United States","East",2318
+"Lancaster","Pennsylvania","United States","East",2323
+"Westfield","New Jersey","United States","East",2332
+"New Rochelle","New York","United States","East",2388
+"Freeport","New York","United States","East",2418
+"Hackensack","New Jersey","United States","East",2457
+"Rome","New York","United States","East",2467
+"Bristol","Connecticut","United States","East",2485
+"Holyoke","Massachusetts","United States","East",2538
+"East Orange","New Jersey","United States","East",2565
+"Vineland","New Jersey","United States","East",2568
+"Norwich","Connecticut","United States","East",2667
+"Rockville","Maryland","United States","East",2729
+"Niagara Falls","New York","United States","East",2744
+"Gaithersburg","Maryland","United States","East",2770
+"Kent","Ohio","United States","East",2775
+"Dover","Delaware","United States","East",2803
+"Milford","Connecticut","United States","East",2816
+"Cambridge","Massachusetts","United States","East",2896
+"Grove City","Ohio","United States","East",2964
+"Woonsocket","Rhode Island","United States","East",2988
+"Hamilton","Ohio","United States","East",3010
+"Marlborough","Massachusetts","United States","East",3067
+"Linden","New Jersey","United States","East",3099
+"New Bedford","Massachusetts","United States","East",3193
+"Orange","New Jersey","United States","East",3221
+"Laurel","Maryland","United States","East",3248
+"Leominster","Massachusetts","United States","East",3301
+"Bayonne","New Jersey","United States","East",3326
+"Mason","Ohio","United States","East",3335
+"Malden","Massachusetts","United States","East",3371
+"Andover","Massachusetts","United States","East",3384
+"Lindenhurst","New York","United States","East",3434
+"Shelton","Connecticut","United States","East",3458
+"Hagerstown","Maryland","United States","East",3468
+"Bridgeton","New Jersey","United States","East",3616
+"Altoona","Pennsylvania","United States","East",3627
+"Danbury","Connecticut","United States","East",3657
+"Lewiston","Maine","United States","East",3677
+"Nashua","New Hampshire","United States","East",3679
+"Cuyahoga Falls","Ohio","United States","East",3714
+"New Brunswick","New Jersey","United States","East",3741
+"Atlantic City","New Jersey","United States","East",3753
+"Elyria","Ohio","United States","East",3762
+"Concord","North Carolina","United States","South",10
+"Alexandria","Virginia","United States","South",11
+"Henderson","Kentucky","United States","South",16
+"Burlington","North Carolina","United States","South",34
+"Tallahassee","Florida","United States","South",51
+"Richmond","Virginia","United States","South",55
+"Atlanta","Georgia","United States","South",66
+"Harrisonburg","Virginia","United States","South",105
+"Charlotte","North Carolina","United States","South",140
+"Virginia Beach","Virginia","United States","South",190
+"Florence","Kentucky","United States","South",233
+"Huntsville","Alabama","United States","South",243
+"Columbus","Georgia","United States","South",246
+"Mobile","Alabama","United States","South",302
+"Springfield","Virginia","United States","South",306
+"Lafayette","Louisiana","United States","South",346
+"Sandy Springs","Georgia","United States","South",418
+"Jacksonville","Florida","United States","South",438
+"Roswell","Georgia","United States","South",444
+"Raleigh","North Carolina","United States","South",521
+"Chesapeake","Virginia","United States","South",563
+"Fayetteville","North Carolina","United States","South",609
+"Miami","Florida","United States","South",613
+"Greenville","North Carolina","United States","South",621
+"Louisville","Kentucky","United States","South",637
+"Waynesboro","Virginia","United States","South",663
+"Florence","Alabama","United States","South",679
+"Hialeah","Florida","United States","South",710
+"Marietta","Georgia","United States","South",711
+"Georgetown","Kentucky","United States","South",718
+"Richmond","Kentucky","United States","South",722
+"Lakeland","Florida","United States","South",736
+"Asheville","North Carolina","United States","South",750
+"Jacksonville","North Carolina","United States","South",818
+"Fort Lauderdale","Florida","United States","South",860
+"Bossier City","Louisiana","United States","South",901
+"Tampa","Florida","United States","South",904
+"Montgomery","Alabama","United States","South",944
+"Newport News","Virginia","United States","South",954
+"Greensboro","North Carolina","United States","South",1009
+"Clarksville","Tennessee","United States","South",1044
+"Columbia","South Carolina","United States","South",1051
+"Smyrna","Georgia","United States","South",1103
+"Arlington","Virginia","United States","South",1121
+"Nashville","Tennessee","United States","South",1144
+"Little Rock","Arkansas","United States","South",1164
+"Suffolk","Virginia","United States","South",1252
+"Knoxville","Tennessee","United States","South",1264
+"Jackson","Mississippi","United States","South",1309
+"Deltona","Florida","United States","South",1386
+"Memphis","Tennessee","United States","South",1399
+"Durham","North Carolina","United States","South",1416
+"Tamarac","Florida","United States","South",1425
+"Jackson","Tennessee","United States","South",1443
+"Jonesboro","Arkansas","United States","South",1476
+"Smyrna","Tennessee","United States","South",1492
+"Hoover","Alabama","United States","South",1493
+"Fayetteville","Arkansas","United States","South",1541
+"Kissimmee","Florida","United States","South",1549
+"Auburn","Alabama","United States","South",1581
+"Coral Springs","Florida","United States","South",1600
+"Decatur","Alabama","United States","South",1633
+"Columbia","Tennessee","United States","South",1686
+"Florence","South Carolina","United States","South",1711
+"Plantation","Florida","United States","South",1727
+"Gastonia","North Carolina","United States","South",1738
+"Murray","Kentucky","United States","South",1877
+"Woodstock","Georgia","United States","South",1915
+"Southaven","Mississippi","United States","South",1924
+"Mount Pleasant","South Carolina","United States","South",1999
+"Wilmington","North Carolina","United States","South",2003
+"Monroe","Louisiana","United States","South",2013
+"Apopka","Florida","United States","South",2039
+"Monroe","North Carolina","United States","South",2125
+"Orlando","Florida","United States","South",2145
+"Johnson City","Tennessee","United States","South",2170
+"Hollywood","Florida","United States","South",2251
+"Pine Bluff","Arkansas","United States","South",2258
+"Franklin","Tennessee","United States","South",2267
+"Athens","Georgia","United States","South",2316
+"Saint Petersburg","Florida","United States","South",2317
+"Texarkana","Arkansas","United States","South",2366
+"Lake Charles","Louisiana","United States","South",2373
+"Conway","Arkansas","United States","South",2405
+"Hattiesburg","Mississippi","United States","South",2409
+"Palm Coast","Florida","United States","South",2423
+"Delray Beach","Florida","United States","South",2482
+"Pembroke Pines","Florida","United States","South",2483
+"Miramar","Florida","United States","South",2516
+"Hampton","Virginia","United States","South",2522
+"Lebanon","Tennessee","United States","South",2560
+"Chattanooga","Tennessee","United States","South",2616
+"Salem","Virginia","United States","South",2617
+"Hendersonville","Tennessee","United States","South",2647
+"Sanford","Florida","United States","South",2679
+"Daytona Beach","Florida","United States","South",2724
+"North Charleston","South Carolina","United States","South",2760
+"Port Saint Lucie","Florida","United States","South",2776
+"Warner Robins","Georgia","United States","South",2788
+"Summerville","South Carolina","United States","South",2823
+"Bowling Green","Kentucky","United States","South",2842
+"Wilson","North Carolina","United States","South",2852
+"Hot Springs","Arkansas","United States","South",2888
+"Cary","North Carolina","United States","South",2971
+"Boynton Beach","Florida","United States","South",2997
+"Macon","Georgia","United States","South",3063
+"Bristol","Tennessee","United States","South",3083
+"Kenner","Louisiana","United States","South",3136
+"Pompano Beach","Florida","United States","South",3143
+"Melbourne","Florida","United States","South",3171
+"Hickory","North Carolina","United States","South",3243
+"Gulfport","Mississippi","United States","South",3246
+"Goldsboro","North Carolina","United States","South",3256
+"Homestead","Florida","United States","South",3258
+"Tuscaloosa","Alabama","United States","South",3286
+"East Point","Georgia","United States","South",3290
+"Murfreesboro","Tennessee","United States","South",3312
+"Thomasville","North Carolina","United States","South",3357
+"Coral Gables","Florida","United States","South",3396
+"Rogers","Arkansas","United States","South",3427
+"West Palm Beach","Florida","United States","South",3449
+"Rock Hill","South Carolina","United States","South",3450
+"Charlottesville","Virginia","United States","South",3455
+"Boca Raton","Florida","United States","South",3478
+"Owensboro","Kentucky","United States","South",3495
+"Bartlett","Tennessee","United States","South",3572
+"Chapel Hill","North Carolina","United States","South",3700
+"Margate","Florida","United States","South",3703
+"North Miami","Florida","United States","South",3721
+"Pensacola","Florida","United States","South",3724
+"Port Orange","Florida","United States","South",3738
+"Springdale","Arkansas","United States","South",3747
+"Jupiter","Florida","United States","South",3763
+"Ormond Beach","Florida","United States","South",3767
+"Chicago","Illinois","United States","Central",20
+"Amarillo","Texas","United States","Central",30
+"Minneapolis","Minnesota","United States","Central",40
+"Jackson","Michigan","United States","Central",71
+"Detroit","Michigan","United States","Central",102
+"Madison","Wisconsin","United States","Central",115
+"Houston","Texas","United States","Central",124
+"Norman","Oklahoma","United States","Central",131
+"Springfield","Missouri","United States","Central",235
+"Lafayette","Indiana","United States","Central",238
+"San Antonio","Texas","United States","Central",247
+"Indianapolis","Indiana","United States","Central",255
+"Franklin","Wisconsin","United States","Central",293
+"Omaha","Nebraska","United States","Central",294
+"Columbia","Missouri","United States","Central",372
+"Carrollton","Texas","United States","Central",377
+"Round Rock","Texas","United States","Central",424
+"Fort Worth","Texas","United States","Central",427
+"Noblesville","Indiana","United States","Central",504
+"Lansing","Michigan","United States","Central",537
+"Muskogee","Oklahoma","United States","Central",556
+"Milwaukee","Wisconsin","United States","Central",573
+"Aurora","Illinois","United States","Central",676
+"Ann Arbor","Michigan","United States","Central",698
+"Greenwood","Indiana","United States","Central",703
+"Tulsa","Oklahoma","United States","Central",726
+"Rockford","Illinois","United States","Central",766
+"Dallas","Texas","United States","Central",787
+"Fremont","Nebraska","United States","Central",803
+"Fargo","North Dakota","United States","Central",834
+"El Paso","Texas","United States","Central",855
+"Evanston","Illinois","United States","Central",900
+"Kenosha","Wisconsin","United States","Central",926
+"Columbus","Indiana","United States","Central",931
+"Richardson","Texas","United States","Central",942
+"Austin","Texas","United States","Central",945
+"Pearland","Texas","United States","Central",966
+"Broken Arrow","Oklahoma","United States","Central",1061
+"Lawrence","Indiana","United States","Central",1063
+"Oklahoma City","Oklahoma","United States","Central",1093
+"Lakeville","Minnesota","United States","Central",1098
+"Saint Cloud","Minnesota","United States","Central",1104
+"Appleton","Wisconsin","United States","Central",1122
+"Dubuque","Iowa","United States","Central",1154
+"Naperville","Illinois","United States","Central",1178
+"Des Moines","Iowa","United States","Central",1192
+"Pasadena","Texas","United States","Central",1248
+"Midland","Michigan","United States","Central",1266
+"Peoria","Illinois","United States","Central",1290
+"Independence","Missouri","United States","Central",1363
+"Brownsville","Texas","United States","Central",1369
+"Pharr","Texas","United States","Central",1377
+"Huntsville","Texas","United States","Central",1434
+"Roseville","Minnesota","United States","Central",1444
+"Mansfield","Texas","United States","Central",1487
+"Beaumont","Texas","United States","Central",1502
+"Edmond","Oklahoma","United States","Central",1519
+"Decatur","Illinois","United States","Central",1523
+"Laredo","Texas","United States","Central",1601
+"Highland Park","Illinois","United States","Central",1614
+"Normal","Illinois","United States","Central",1638
+"Arlington","Texas","United States","Central",1660
+"Richmond","Indiana","United States","Central",1671
+"Elmhurst","Illinois","United States","Central",1697
+"Maple Grove","Minnesota","United States","Central",1729
+"Saint Charles","Illinois","United States","Central",1735
+"Plano","Texas","United States","Central",1743
+"Green Bay","Wisconsin","United States","Central",1746
+"Mcallen","Texas","United States","Central",1782
+"Dearborn","Michigan","United States","Central",1802
+"Kirkwood","Missouri","United States","Central",1815
+"South Bend","Indiana","United States","Central",1860
+"Roseville","Michigan","United States","Central",1868
+"Canton","Michigan","United States","Central",1873
+"Overland Park","Kansas","United States","Central",1885
+"Lawton","Oklahoma","United States","Central",1889
+"Saint Peters","Missouri","United States","Central",1897
+"La Crosse","Wisconsin","United States","Central",1911
+"Woodbury","Minnesota","United States","Central",1962
+"Des Plaines","Illinois","United States","Central",1964
+"Dearborn Heights","Michigan","United States","Central",1981
+"Trenton","Michigan","United States","Central",2007
+"Wheeling","Illinois","United States","Central",2023
+"Wichita","Kansas","United States","Central",2071
+"Grand Prairie","Texas","United States","Central",2099
+"Port Arthur","Texas","United States","Central",2102
+"La Porte","Indiana","United States","Central",2110
+"Buffalo Grove","Illinois","United States","Central",2118
+"Woodstock","Illinois","United States","Central",2120
+"Rochester","Minnesota","United States","Central",2135
+"Gladstone","Missouri","United States","Central",2165
+"Oak Park","Michigan","United States","Central",2193
+"Eau Claire","Wisconsin","United States","Central",2197
+"Skokie","Illinois","United States","Central",2202
+"Oswego","Illinois","United States","Central",2211
+"Superior","Wisconsin","United States","Central",2221
+"Carol Stream","Illinois","United States","Central",2234
+"Lubbock","Texas","United States","Central",2237
+"Mishawaka","Indiana","United States","Central",2270
+"Moorhead","Minnesota","United States","Central",2299
+"Bryan","Texas","United States","Central",2314
+"Waco","Texas","United States","Central",2333
+"Irving","Texas","United States","Central",2357
+"Sioux Falls","South Dakota","United States","Central",2385
+"Edinburg","Texas","United States","Central",2437
+"Tyler","Texas","United States","Central",2533
+"San Angelo","Texas","United States","Central",2581
+"Taylor","Michigan","United States","Central",2587
+"Saint Louis","Missouri","United States","Central",2602
+"Cedar Rapids","Iowa","United States","Central",2608
+"Bedford","Texas","United States","Central",2632
+"League City","Texas","United States","Central",2652
+"Rapid City","South Dakota","United States","Central",2656
+"Frankfort","Illinois","United States","Central",2658
+"Park Ridge","Illinois","United States","Central",2666
+"Manhattan","Kansas","United States","Central",2676
+"The Colony","Texas","United States","Central",2678
+"Conroe","Texas","United States","Central",2682
+"Olathe","Kansas","United States","Central",2702
+"Bloomington","Illinois","United States","Central",2726
+"Freeport","Illinois","United States","Central",2736
+"Garden City","Kansas","United States","Central",2747
+"Palatine","Illinois","United States","Central",2758
+"Glenview","Illinois","United States","Central",2761
+"Coppell","Texas","United States","Central",2766
+"Texas City","Texas","United States","Central",2772
+"Westland","Michigan","United States","Central",2791
+"College Station","Texas","United States","Central",2839
+"Harlingen","Texas","United States","Central",2861
+"Grand Rapids","Michigan","United States","Central",2875
+"Coon Rapids","Minnesota","United States","Central",2889
+"Saint Charles","Missouri","United States","Central",2913
+"San Marcos","Texas","United States","Central",2942
+"Rochester Hills","Michigan","United States","Central",2965
+"Haltom City","Texas","United States","Central",2972
+"Allen","Texas","United States","Central",3003
+"Marion","Iowa","United States","Central",3019
+"Odessa","Texas","United States","Central",3021
+"Lincoln Park","Michigan","United States","Central",3041
+"Elkhart","Indiana","United States","Central",3045
+"Quincy","Illinois","United States","Central",3053
+"Orland Park","Illinois","United States","Central",3061
+"Holland","Michigan","United States","Central",3072
+"Champaign","Illinois","United States","Central",3101
+"Wausau","Wisconsin","United States","Central",3109
+"Bolingbrook","Illinois","United States","Central",3140
+"Saginaw","Michigan","United States","Central",3144
+"Corpus Christi","Texas","United States","Central",3166
+"Cedar Hill","Texas","United States","Central",3220
+"Saint Paul","Minnesota","United States","Central",3225
+"New Albany","Indiana","United States","Central",3262
+"Bloomington","Indiana","United States","Central",3263
+"Cottage Grove","Minnesota","United States","Central",3292
+"Apple Valley","Minnesota","United States","Central",3293
+"Eagan","Minnesota","United States","Central",3296
+"Jefferson City","Missouri","United States","Central",3329
+"Urbandale","Iowa","United States","Central",3347
+"New Castle","Indiana","United States","Central",3395
+"Mesquite","Texas","United States","Central",3398
+"Sterling Heights","Michigan","United States","Central",3417
+"La Porte","Texas","United States","Central",3436
+"Aberdeen","South Dakota","United States","Central",3460
+"Grapevine","Texas","United States","Central",3462
+"Burlington","Iowa","United States","Central",3499
+"Garland","Texas","United States","Central",3541
+"Frisco","Texas","United States","Central",3542
+"West Allis","Wisconsin","United States","Central",3556
+"Waukesha","Wisconsin","United States","Central",3570
+"Mount Pleasant","Michigan","United States","Central",3606
+"Portage","Indiana","United States","Central",3611
+"Tinley Park","Illinois","United States","Central",3626
+"Sheboygan","Wisconsin","United States","Central",3641
+"Royal Oak","Michigan","United States","Central",3691
+"Missouri City","Texas","United States","Central",3715
+"Deer Park","Texas","United States","Central",3720
+"Baytown","Texas","United States","Central",3730
+"Waterloo","Iowa","United States","Central",3732
+"Arlington Heights","Illinois","United States","Central",3739
+"Norfolk","Nebraska","United States","Central",3743
+"Iowa City","Iowa","United States","Central",3745
+"Grand Island","Nebraska","United States","Central",3746
+"Keller","Texas","United States","Central",3748
+"Oak Park","Illinois","United States","Central",3749
+"Romeoville","Illinois","United States","Central",3755
+"Abilene","Texas","United States","Central",3769
+"Lille","Nord-Pas-de-Calais","France","Central",69
+"Le Bouscat","Aquitaine","France","Central",88
+"Nice","Provence-Alpes-Côte d'Azur","France","Central",91
+"Muret","Midi-Pyrénées","France","Central",99
+"Le Petit-Quevilly","Upper Normandy","France","Central",122
+"Talence","Aquitaine","France","Central",143
+"La Baule-Escoublac","Pays de la Loire","France","Central",174
+"Laval","Pays de la Loire","France","Central",180
+"Nantes","Pays de la Loire","France","Central",193
+"Menton","Provence-Alpes-Côte d'Azur","France","Central",242
+"Bayeux","Lower Normandy","France","Central",250
+"Lens","Nord-Pas-de-Calais","France","Central",251
+"Saint-Laurent-du-Var","Provence-Alpes-Côte d'Azur","France","Central",261
+"Angers","Pays de la Loire","France","Central",267
+"Le Mans","Pays de la Loire","France","Central",273
+"Oyonnax","Rhône-Alpes","France","Central",297
+"Saint-Priest","Rhône-Alpes","France","Central",309
+"Mont-de-Marsan","Aquitaine","France","Central",394
+"Vernon","Upper Normandy","France","Central",401
+"Montpellier","Languedoc-Roussillon","France","Central",419
+"Saint-Chamond","Rhône-Alpes","France","Central",425
+"Annecy-le-Vieux","Rhône-Alpes","France","Central",437
+"Bayonne","Aquitaine","France","Central",453
+"Poitiers","Poitou-Charentes","France","Central",476
+"Thionville","Lorraine","France","Central",509
+"Gap","Provence-Alpes-Côte d'Azur","France","Central",538
+"Marseille","Provence-Alpes-Côte d'Azur","France","Central",546
+"Outreau","Nord-Pas-de-Calais","France","Central",554
+"Bourg-en-Bresse","Rhône-Alpes","France","Central",557
+"Mulhouse","Alsace","France","Central",558
+"Schiltigheim","Alsace","France","Central",572
+"Bordeaux","Aquitaine","France","Central",587
+"Arras","Nord-Pas-de-Calais","France","Central",624
+"Colmar","Alsace","France","Central",653
+"La Seyne-sur-Mer","Provence-Alpes-Côte d'Azur","France","Central",655
+"Creil","Picardy","France","Central",657
+"Bressuire","Poitou-Charentes","France","Central",691
+"Toulon","Provence-Alpes-Côte d'Azur","France","Central",693
+"Vitrolles","Provence-Alpes-Côte d'Azur","France","Central",706
+"Antibes","Provence-Alpes-Côte d'Azur","France","Central",733
+"Concarneau","Brittany","France","Central",735
+"Grenoble","Rhône-Alpes","France","Central",769
+"Dieppe","Upper Normandy","France","Central",778
+"Lunel","Languedoc-Roussillon","France","Central",783
+"Nancy","Lorraine","France","Central",791
+"Vichy","Auvergne","France","Central",828
+"Villeurbanne","Rhône-Alpes","France","Central",839
+"Saint-Dizier","Champagne-Ardenne","France","Central",852
+"Beauvais","Picardy","France","Central",861
+"Arles","Provence-Alpes-Côte d'Azur","France","Central",871
+"Libourne","Aquitaine","France","Central",903
+"Rennes","Brittany","France","Central",908
+"Dreux","Centre","France","Central",916
+"Toulouse","Midi-Pyrénées","France","Central",917
+"Fontaine","Rhône-Alpes","France","Central",933
+"Miramas","Provence-Alpes-Côte d'Azur","France","Central",955
+"Carcassonne","Languedoc-Roussillon","France","Central",969
+"Saint-Louis","Alsace","France","Central",991
+"Villeneuve-d'Ascq","Nord-Pas-de-Calais","France","Central",995
+"Douai","Nord-Pas-de-Calais","France","Central",1022
+"Pontivy","Brittany","France","Central",1034
+"Le Cannet","Provence-Alpes-Côte d'Azur","France","Central",1050
+"Rillieux-la-Pape","Rhône-Alpes","France","Central",1065
+"Clermont-Ferrand","Auvergne","France","Central",1091
+"Hautmont","Nord-Pas-de-Calais","France","Central",1129
+"Bourges","Centre","France","Central",1141
+"Lyon","Rhône-Alpes","France","Central",1143
+"Draguignan","Provence-Alpes-Côte d'Azur","France","Central",1145
+"Echirolles","Rhône-Alpes","France","Central",1173
+"Saint-Genis-Laval","Rhône-Alpes","France","Central",1179
+"Les Herbiers","Pays de la Loire","France","Central",1183
+"Tours","Centre","France","Central",1189
+"Soissons","Picardy","France","Central",1198
+"Strasbourg","Alsace","France","Central",1200
+"Annecy","Rhône-Alpes","France","Central",1212
+"Pamiers","Midi-Pyrénées","France","Central",1237
+"Landerneau","Brittany","France","Central",1273
+"Rouen","Upper Normandy","France","Central",1274
+"Villefontaine","Rhône-Alpes","France","Central",1279
+"Castres","Midi-Pyrénées","France","Central",1332
+"Reims","Champagne-Ardenne","France","Central",1344
+"Aix-en-Provence","Provence-Alpes-Côte d'Azur","France","Central",1356
+"Wattrelos","Nord-Pas-de-Calais","France","Central",1364
+"Niort","Poitou-Charentes","France","Central",1375
+"Martigues","Provence-Alpes-Côte d'Azur","France","Central",1383
+"Bastia","Corsica","France","Central",1384
+"Villeneuve-sur-Lot","Aquitaine","France","Central",1393
+"Avion","Nord-Pas-de-Calais","France","Central",1413
+"Tournefeuille","Midi-Pyrénées","France","Central",1437
+"Valenciennes","Nord-Pas-de-Calais","France","Central",1450
+"Saumur","Pays de la Loire","France","Central",1456
+"Limoges","Limousin","France","Central",1462
+"Wasquehal","Nord-Pas-de-Calais","France","Central",1463
+"Vannes","Brittany","France","Central",1465
+"Marignane","Provence-Alpes-Côte d'Azur","France","Central",1481
+"Montauban","Midi-Pyrénées","France","Central",1584
+"Quimper","Brittany","France","Central",1590
+"Brive-la-Gaillarde","Limousin","France","Central",1609
+"Coudekerque-Branche","Nord-Pas-de-Calais","France","Central",1612
+"Issoire","Auvergne","France","Central",1677
+"Thonon-les-Bains","Rhône-Alpes","France","Central",1721
+"Allauch","Provence-Alpes-Côte d'Azur","France","Central",1722
+"Metz","Lorraine","France","Central",1740
+"Narbonne","Languedoc-Roussillon","France","Central",1755
+"Istres","Provence-Alpes-Côte d'Azur","France","Central",1764
+"Mougins","Provence-Alpes-Côte d'Azur","France","Central",1771
+"Dijon","Burgundy","France","Central",1777
+"La Teste-de-Buch","Aquitaine","France","Central",1797
+"Saint-Brieuc","Brittany","France","Central",1804
+"Lormont","Aquitaine","France","Central",1810
+"Pau","Aquitaine","France","Central",1846
+"Avignon","Provence-Alpes-Côte d'Azur","France","Central",1854
+"Hazebrouck","Nord-Pas-de-Calais","France","Central",1857
+"Agen","Aquitaine","France","Central",1861
+"Six-Fours-les-Plages","Provence-Alpes-Côte d'Azur","France","Central",1876
+"Tourcoing","Nord-Pas-de-Calais","France","Central",1896
+"Firminy","Rhône-Alpes","France","Central",1900
+"Ajaccio","Corsica","France","Central",1908
+"Meyzieu","Rhône-Alpes","France","Central",1909
+"Haguenau","Alsace","France","Central",1917
+"Saint-Malo","Brittany","France","Central",1966
+"Gradignan","Aquitaine","France","Central",2006
+"Caen","Lower Normandy","France","Central",2017
+"Frontignan","Languedoc-Roussillon","France","Central",2019
+"Pertuis","Provence-Alpes-Côte d'Azur","France","Central",2031
+"La Rochelle","Poitou-Charentes","France","Central",2033
+"Colomiers","Midi-Pyrénées","France","Central",2034
+"Vallauris","Provence-Alpes-Côte d'Azur","France","Central",2084
+"Bar-le-Duc","Lorraine","France","Central",2111
+"Auxerre","Burgundy","France","Central",2112
+"Carvin","Nord-Pas-de-Calais","France","Central",2131
+"Anglet","Aquitaine","France","Central",2184
+"Moulins","Auvergne","France","Central",2195
+"Castelnau-le-Lez","Languedoc-Roussillon","France","Central",2216
+"Amiens","Picardy","France","Central",2232
+"Chartres","Centre","France","Central",2236
+"Cholet","Pays de la Loire","France","Central",2248
+"Cannes","Provence-Alpes-Côte d'Azur","France","Central",2253
+"La Madeleine","Nord-Pas-de-Calais","France","Central",2255
+"Salon-de-Provence","Provence-Alpes-Côte d'Azur","France","Central",2274
+"Cognac","Poitou-Charentes","France","Central",2275
+"Halluin","Nord-Pas-de-Calais","France","Central",2277
+"Nogent-sur-Oise","Picardy","France","Central",2280
+"Belfort","Franche-Comté","France","Central",2309
+"Tarbes","Midi-Pyrénées","France","Central",2322
+"Perpignan","Languedoc-Roussillon","France","Central",2331
+"Flers","Lower Normandy","France","Central",2339
+"Plaisance-du-Touch","Midi-Pyrénées","France","Central",2348
+"La Roche-sur-Yon","Pays de la Loire","France","Central",2369
+"Cagnes-sur-Mer","Provence-Alpes-Côte d'Azur","France","Central",2392
+"Valence","Rhône-Alpes","France","Central",2402
+"Le Havre","Upper Normandy","France","Central",2424
+"Epinal","Lorraine","France","Central",2446
+"Pessac","Aquitaine","France","Central",2488
+"Senlis","Picardy","France","Central",2496
+"Le Pontet","Provence-Alpes-Côte d'Azur","France","Central",2497
+"Cambrai","Nord-Pas-de-Calais","France","Central",2502
+"Vaulx-en-Velin","Rhône-Alpes","France","Central",2505
+"Laon","Picardy","France","Central",2521
+"Bron","Rhône-Alpes","France","Central",2523
+"Mâcon","Burgundy","France","Central",2531
+"Ploemeur","Brittany","France","Central",2534
+"Vertou","Pays de la Loire","France","Central",2537
+"Mauguio","Languedoc-Roussillon","France","Central",2539
+"Gien","Centre","France","Central",2576
+"Evreux","Upper Normandy","France","Central",2590
+"Les Pennes-Mirabeau","Provence-Alpes-Côte d'Azur","France","Central",2599
+"Carquefou","Pays de la Loire","France","Central",2607
+"Saint-Quentin","Picardy","France","Central",2611
+"Louviers","Upper Normandy","France","Central",2628
+"Albi","Midi-Pyrénées","France","Central",2630
+"Fleury-les-Aubrais","Centre","France","Central",2645
+"Bourgoin-Jallieu","Rhône-Alpes","France","Central",2680
+"Saint-Herblain","Pays de la Loire","France","Central",2689
+"Auch","Midi-Pyrénées","France","Central",2716
+"Albertville","Rhône-Alpes","France","Central",2718
+"Lanester","Brittany","France","Central",2723
+"Forbach","Lorraine","France","Central",2735
+"Grasse","Provence-Alpes-Côte d'Azur","France","Central",2742
+"Cournon-d'Auvergne","Auvergne","France","Central",2755
+"Boulogne-sur-Mer","Nord-Pas-de-Calais","France","Central",2756
+"Saint-Nazaire","Pays de la Loire","France","Central",2769
+"Annonay","Rhône-Alpes","France","Central",2782
+"Verdun","Lorraine","France","Central",2785
+"Berck","Nord-Pas-de-Calais","France","Central",2786
+"Roanne","Rhône-Alpes","France","Central",2787
+"Roubaix","Nord-Pas-de-Calais","France","Central",2793
+"Sanary-sur-Mer","Provence-Alpes-Côte d'Azur","France","Central",2805
+"Lisieux","Lower Normandy","France","Central",2809
+"Argentan","Lower Normandy","France","Central",2912
+"Sarreguemines","Lorraine","France","Central",2914
+"Rochefort","Poitou-Charentes","France","Central",2921
+"Montargis","Centre","France","Central",2953
+"Lons-le-Saunier","Franche-Comté","France","Central",2976
+"Oullins","Rhône-Alpes","France","Central",2977
+"Saint-Pol-sur-Mer","Nord-Pas-de-Calais","France","Central",3022
+"Lorient","Brittany","France","Central",3035
+"Elbeuf","Upper Normandy","France","Central",3040
+"Montbrison","Rhône-Alpes","France","Central",3087
+"Beaune","Burgundy","France","Central",3096
+"Ronchin","Nord-Pas-de-Calais","France","Central",3121
+"Chaumont","Champagne-Ardenne","France","Central",3123
+"Mons-en-Baroeul","Nord-Pas-de-Calais","France","Central",3155
+"Carpentras","Provence-Alpes-Côte d'Azur","France","Central",3157
+"Annemasse","Rhône-Alpes","France","Central",3164
+"Brest","Brittany","France","Central",3188
+"Olivet","Centre","France","Central",3196
+"Biarritz","Aquitaine","France","Central",3202
+"Abbeville","Picardy","France","Central",3207
+"Villenave-d'Ornon","Aquitaine","France","Central",3226
+"La Ciotat","Provence-Alpes-Côte d'Azur","France","Central",3271
+"Faches-Thumesnil","Nord-Pas-de-Calais","France","Central",3280
+"Denain","Nord-Pas-de-Calais","France","Central",3315
+"Calais","Nord-Pas-de-Calais","France","Central",3328
+"Agde","Languedoc-Roussillon","France","Central",3380
+"Vence","Provence-Alpes-Côte d'Azur","France","Central",3381
+"Saint-Avold","Lorraine","France","Central",3383
+"Cluses","Rhône-Alpes","France","Central",3421
+"Douarnenez","Brittany","France","Central",3437
+"Tulle","Limousin","France","Central",3448
+"Riom","Auvergne","France","Central",3471
+"Blanquefort","Aquitaine","France","Central",3488
+"Lomme","Nord-Pas-de-Calais","France","Central",3494
+"Dax","Aquitaine","France","Central",3500
+"Lattes","Languedoc-Roussillon","France","Central",3539
+"La Crau","Provence-Alpes-Côte d'Azur","France","Central",3546
+"Cavaillon","Provence-Alpes-Côte d'Azur","France","Central",3555
+"Digne-les-Bains","Provence-Alpes-Côte d'Azur","France","Central",3558
+"Maubeuge","Nord-Pas-de-Calais","France","Central",3560
+"Saint-Jean-de-la-Ruelle","Centre","France","Central",3567
+"Loos","Nord-Pas-de-Calais","France","Central",3569
+"Bergerac","Aquitaine","France","Central",3596
+"Fontenay-le-Comte","Pays de la Loire","France","Central",3598
+"Mont-Saint-Aignan","Upper Normandy","France","Central",3613
+"Dole","Franche-Comté","France","Central",3628
+"Illkirch-Graffenstaden","Alsace","France","Central",3636
+"Voiron","Rhône-Alpes","France","Central",3663
+"Givors","Rhône-Alpes","France","Central",3667
+"Cestas","Aquitaine","France","Central",3676
+"Sète","Languedoc-Roussillon","France","Central",3680
+"Aix-les-Bains","Rhône-Alpes","France","Central",3694
+"Sorgues","Provence-Alpes-Côte d'Azur","France","Central",3705
+"Millau","Midi-Pyrénées","France","Central",3752
+"Paris","Ile-de-France","France","Central",78
+"Boulogne-Billancourt","Ile-de-France","France","Central",84
+"Malakoff","Ile-de-France","France","Central",85
+"Chelles","Ile-de-France","France","Central",103
+"Argenteuil","Ile-de-France","France","Central",142
+"Plaisir","Ile-de-France","France","Central",145
+"Vincennes","Ile-de-France","France","Central",229
+"Ivry-sur-Seine","Ile-de-France","France","Central",259
+"Antony","Ile-de-France","France","Central",300
+"Deuil-la-Barre","Ile-de-France","France","Central",345
+"Levallois-Perret","Ile-de-France","France","Central",361
+"Clamart","Ile-de-France","France","Central",385
+"Bondy","Ile-de-France","France","Central",393
+"Puteaux","Ile-de-France","France","Central",413
+"Villiers-le-Bel","Ile-de-France","France","Central",492
+"Saint-Denis","Ile-de-France","France","Central",496
+"Le Chesnay","Ile-de-France","France","Central",535
+"Villeneuve-Saint-Georges","Ile-de-France","France","Central",583
+"Noisy-le-Grand","Ile-de-France","France","Central",606
+"Bagneux","Ile-de-France","France","Central",648
+"Clichy-sous-Bois","Ile-de-France","France","Central",654
+"Cachan","Ile-de-France","France","Central",746
+"Saint-Germain-en-Laye","Ile-de-France","France","Central",771
+"Fontainebleau","Ile-de-France","France","Central",815
+"Nanterre","Ile-de-France","France","Central",824
+"Grigny","Ile-de-France","France","Central",889
+"Cergy","Ile-de-France","France","Central",893
+"Bry-sur-Marne","Ile-de-France","France","Central",914
+"Neuilly-sur-Seine","Ile-de-France","France","Central",947
+"Montreuil","Ile-de-France","France","Central",992
+"Mantes-la-Jolie","Ile-de-France","France","Central",1031
+"Drancy","Ile-de-France","France","Central",1066
+"Stains","Ile-de-France","France","Central",1072
+"Bagnolet","Ile-de-France","France","Central",1076
+"Versailles","Ile-de-France","France","Central",1108
+"Sannois","Ile-de-France","France","Central",1151
+"Saint-Ouen","Ile-de-France","France","Central",1170
+"Le Plessis-Robinson","Ile-de-France","France","Central",1171
+"Roissy-en-Brie","Ile-de-France","France","Central",1222
+"Coulommiers","Ile-de-France","France","Central",1224
+"Pantin","Ile-de-France","France","Central",1241
+"Evry","Ile-de-France","France","Central",1253
+"Poissy","Ile-de-France","France","Central",1256
+"Pontoise","Ile-de-France","France","Central",1269
+"Meudon","Ile-de-France","France","Central",1288
+"Villemomble","Ile-de-France","France","Central",1291
+"Rambouillet","Ile-de-France","France","Central",1295
+"Marly-le-Roi","Ile-de-France","France","Central",1310
+"Sartrouville","Ile-de-France","France","Central",1337
+"Les Ulis","Ile-de-France","France","Central",1396
+"Sucy-en-Brie","Ile-de-France","France","Central",1442
+"Montmorency","Ile-de-France","France","Central",1447
+"Athis-Mons","Ile-de-France","France","Central",1467
+"Champigny-sur-Marne","Ile-de-France","France","Central",1490
+"Fresnes","Ile-de-France","France","Central",1538
+"Livry-Gargan","Ile-de-France","France","Central",1586
+"Montereau-Fault-Yonne","Ile-de-France","France","Central",1643
+"Issy-les-Moulineaux","Ile-de-France","France","Central",1679
+"Taverny","Ile-de-France","France","Central",1695
+"Noisy-le-Sec","Ile-de-France","France","Central",1765
+"Fontenay-aux-Roses","Ile-de-France","France","Central",1774
+"Torcy","Ile-de-France","France","Central",1784
+"Orsay","Ile-de-France","France","Central",1791
+"Thiais","Ile-de-France","France","Central",1794
+"Aulnay-sous-Bois","Ile-de-France","France","Central",1819
+"Trappes","Ile-de-France","France","Central",1825
+"Montrouge","Ile-de-France","France","Central",1826
+"Gagny","Ile-de-France","France","Central",1841
+"Savigny-le-Temple","Ile-de-France","France","Central",1926
+"Saint-Michel-sur-Orge","Ile-de-France","France","Central",1976
+"Melun","Ile-de-France","France","Central",1984
+"Palaiseau","Ile-de-France","France","Central",1990
+"Ermont","Ile-de-France","France","Central",2043
+"Les Mureaux","Ile-de-France","France","Central",2045
+"Aubervilliers","Ile-de-France","France","Central",2101
+"Sarcelles","Ile-de-France","France","Central",2130
+"Mitry-Mory","Ile-de-France","France","Central",2138
+"Courbevoie","Ile-de-France","France","Central",2156
+"Corbeil-Essonnes","Ile-de-France","France","Central",2183
+"Massy","Ile-de-France","France","Central",2240
+"Fontenay-sous-Bois","Ile-de-France","France","Central",2250
+"Vanves","Ile-de-France","France","Central",2292
+"Pontault-Combault","Ile-de-France","France","Central",2313
+"Franconville","Ile-de-France","France","Central",2335
+"Colombes","Ile-de-France","France","Central",2355
+"Choisy-le-Roi","Ile-de-France","France","Central",2382
+"Gonesse","Ile-de-France","France","Central",2407
+"Saint-Cloud","Ile-de-France","France","Central",2413
+"Neuilly-sur-Marne","Ile-de-France","France","Central",2434
+"Le Blanc-Mesnil","Ile-de-France","France","Central",2479
+"Maisons-Alfort","Ile-de-France","France","Central",2546
+"Meaux","Ile-de-France","France","Central",2554
+"Vitry-sur-Seine","Ile-de-France","France","Central",2574
+"Domont","Ile-de-France","France","Central",2671
+"Cormeilles-en-Parisis","Ile-de-France","France","Central",2696
+"Neuilly-Plaisance","Ile-de-France","France","Central",2710
+"Alfortville","Ile-de-France","France","Central",2780
+"Villeparisis","Ile-de-France","France","Central",2784
+"Villeneuve-la-Garenne","Ile-de-France","France","Central",2794
+"Clichy","Ile-de-France","France","Central",2814
+"Sevran","Ile-de-France","France","Central",2824
+"Villejuif","Ile-de-France","France","Central",2837
+"Rosny-sous-Bois","Ile-de-France","France","Central",2847
+"Bezons","Ile-de-France","France","Central",2860
+"Gennevilliers","Ile-de-France","France","Central",2883
+"Conflans-Sainte-Honorine","Ile-de-France","France","Central",2915
+"Vigneux-sur-Seine","Ile-de-France","France","Central",2917
+"Maisons-Laffitte","Ile-de-France","France","Central",2926
+"Les Lilas","Ile-de-France","France","Central",2929
+"La Celle-Saint-Cloud","Ile-de-France","France","Central",2954
+"Montesson","Ile-de-France","France","Central",2975
+"Montgeron","Ile-de-France","France","Central",3004
+"Les Pavillons-sous-Bois","Ile-de-France","France","Central",3047
+"Tremblay-en-France","Ile-de-France","France","Central",3052
+"Limay","Ile-de-France","France","Central",3146
+"Bobigny","Ile-de-France","France","Central",3197
+"Bonneuil-sur-Marne","Ile-de-France","France","Central",3242
+"Villiers-sur-Marne","Ile-de-France","France","Central",3257
+"Pierrefitte-sur-Seine","Ile-de-France","France","Central",3285
+"Longjumeau","Ile-de-France","France","Central",3295
+"Guyancourt","Ile-de-France","France","Central",3316
+"Rueil-Malmaison","Ile-de-France","France","Central",3340
+"Le Pré-Saint-Gervais","Ile-de-France","France","Central",3343
+"Moissy-Cramayel","Ile-de-France","France","Central",3354
+"Mantes-la-Ville","Ile-de-France","France","Central",3445
+"Suresnes","Ile-de-France","France","Central",3447
+"Viroflay","Ile-de-France","France","Central",3479
+"Saint-Gratien","Ile-de-France","France","Central",3506
+"Montigny-le-Bretonneux","Ile-de-France","France","Central",3529
+"Chilly-Mazarin","Ile-de-France","France","Central",3532
+"Villeneuve-le-Roi","Ile-de-France","France","Central",3578
+"Lagny-sur-Marne","Ile-de-France","France","Central",3629
+"Avon","Ile-de-France","France","Central",3661
+"Osny","Ile-de-France","France","Central",3765
+"Mudanjiang","Heilongjiang","China","North Asia",15
+"Suzhou","Anhui","China","North Asia",21
+"Shouguang","Shandong","China","North Asia",41
+"Wuxi","Jiangsu","China","North Asia",54
+"Jinan","Shandong","China","North Asia",60
+"Nanchong","Sichuan","China","North Asia",67
+"Gaoyou","Jiangsu","China","North Asia",97
+"Zigong","Sichuan","China","North Asia",100
+"Sanya","Hainan","China","North Asia",109
+"Wuhan","Hubei","China","North Asia",114
+"Anshan","Liaoning","China","North Asia",121
+"Changchun","Jilin","China","North Asia",128
+"Beijing","Beijing","China","North Asia",136
+"Shenzhen","Guangdong","China","North Asia",153
+"Qingdao","Shandong","China","North Asia",160
+"Xiangtan","Hunan","China","North Asia",170
+"Shaoxing","Zhejiang","China","North Asia",171
+"Luoyang","Henan","China","North Asia",187
+"Wuhai","Inner Mongolia","China","North Asia",192
+"Cangzhou","Hebei","China","North Asia",217
+"Shanghai","Shanghai","China","North Asia",218
+"Chongqing","Chongqing","China","North Asia",230
+"Harbin","Heilongjiang","China","North Asia",264
+"Mianyang","Sichuan","China","North Asia",274
+"Xiamen","Fujian","China","North Asia",284
+"Jieyang","Guangdong","China","North Asia",286
+"Ningbo","Zhejiang","China","North Asia",288
+"Suzhou","Gansu","China","North Asia",317
+"Shenyang","Liaoning","China","North Asia",327
+"Wafangdian","Liaoning","China","North Asia",350
+"Huaibei","Anhui","China","North Asia",367
+"Kunming","Yunnan","China","North Asia",371
+"Jixi","Heilongjiang","China","North Asia",387
+"Fengcheng","Liaoning","China","North Asia",400
+"Tianjin","Tianjin","China","North Asia",402
+"Lanzhou","Gansu","China","North Asia",407
+"Shashi","Hubei","China","North Asia",421
+"Chaoyang","Jilin","China","North Asia",422
+"Baotou","Inner Mongolia","China","North Asia",426
+"Jining","Shandong","China","North Asia",431
+"Zhenjiang","Jiangsu","China","North Asia",432
+"Jining","Inner Mongolia","China","North Asia",434
+"Macheng","Hubei","China","North Asia",442
+"Jiangmen","Guangdong","China","North Asia",448
+"Guilin","Guangxi","China","North Asia",466
+"Gaomi","Shandong","China","North Asia",467
+"Luoyang","Fujian","China","North Asia",508
+"Guangzhou","Guangdong","China","North Asia",532
+"Shuangcheng","Heilongjiang","China","North Asia",540
+"Xinyi","Guangdong","China","North Asia",545
+"Anqing","Anhui","China","North Asia",591
+"Luoyang","Guangdong","China","North Asia",602
+"Liaoyang","Liaoning","China","North Asia",608
+"Zhanjiang","Guangdong","China","North Asia",620
+"Yueyang","Hunan","China","North Asia",622
+"Hefei","Anhui","China","North Asia",636
+"Tengzhou","Shandong","China","North Asia",647
+"Daqing","Heilongjiang","China","North Asia",662
+"Jiangdu","Jiangsu","China","North Asia",667
+"Tangshan","Hebei","China","North Asia",680
+"Yangzhou","Jiangsu","China","North Asia",696
+"Hengyang","Hunan","China","North Asia",708
+"Kaifeng","Henan","China","North Asia",716
+"Bengbu","Anhui","China","North Asia",731
+"Xinshi","Hubei","China","North Asia",743
+"Xiaogan","Hubei","China","North Asia",752
+"Yuci","Shanxi","China","North Asia",753
+"Gongzhuling","Jilin","China","North Asia",755
+"Shulan","Jilin","China","North Asia",759
+"Liaocheng","Shandong","China","North Asia",763
+"Shantou","Guangdong","China","North Asia",765
+"Xinzhou","Shanxi","China","North Asia",776
+"Laiyang","Shandong","China","North Asia",785
+"Ninghai","Shandong","China","North Asia",789
+"Dongguan","Guangdong","China","North Asia",814
+"Shihezi","Xinjiang Uygur","China","North Asia",825
+"Jiangyan","Jiangsu","China","North Asia",841
+"Yunyang","Henan","China","North Asia",846
+"Changshu","Jiangsu","China","North Asia",848
+"Changzhou","Jiangsu","China","North Asia",850
+"Xuzhou","Jiangsu","China","North Asia",857
+"Ninghai","Zhejiang","China","North Asia",858
+"Suining","Sichuan","China","North Asia",875
+"Yibin","Sichuan","China","North Asia",890
+"Mentougou","Beijing","China","North Asia",895
+"Datong","Shanxi","China","North Asia",909
+"Nanning","Guangxi","China","North Asia",920
+"Xining","Qinghai","China","North Asia",922
+"Guiyang","Guizhou","China","North Asia",924
+"Meizhou","Guangdong","China","North Asia",940
+"Suzhou","Jiangsu","China","North Asia",961
+"Ezhou","Hubei","China","North Asia",973
+"Jiaozuo","Henan","China","North Asia",978
+"Zunyi","Guizhou","China","North Asia",1019
+"Wuchang","Heilongjiang","China","North Asia",1020
+"Yulin","Shaanxi","China","North Asia",1040
+"Guangshui","Hubei","China","North Asia",1045
+"Jinjiang","Fujian","China","North Asia",1059
+"Zhaoqing","Guangdong","China","North Asia",1060
+"Luohe","Henan","China","North Asia",1067
+"Qitaihe","Heilongjiang","China","North Asia",1077
+"Jinhua","Zhejiang","China","North Asia",1081
+"Jilin","Jilin","China","North Asia",1107
+"Bijie","Guizhou","China","North Asia",1139
+"Leshan","Sichuan","China","North Asia",1168
+"Dalian","Liaoning","China","North Asia",1211
+"Tongchuan","Shaanxi","China","North Asia",1216
+"Taiyuan","Shanxi","China","North Asia",1247
+"Anshun","Guizhou","China","North Asia",1254
+"Huangshi","Hubei","China","North Asia",1262
+"Xinghua","Jiangsu","China","North Asia",1263
+"Zhengzhou","Henan","China","North Asia",1272
+"Heze","Shandong","China","North Asia",1275
+"Kaiyuan","Liaoning","China","North Asia",1297
+"Huainan","Anhui","China","North Asia",1302
+"Zhongxiang","Hubei","China","North Asia",1322
+"Chengdu","Sichuan","China","North Asia",1326
+"Fushun","Liaoning","China","North Asia",1333
+"Jiutai","Jilin","China","North Asia",1340
+"Suihua","Heilongjiang","China","North Asia",1342
+"Aksu","Xinjiang Uygur","China","North Asia",1353
+"Licheng","Guangdong","China","North Asia",1365
+"Huaiyin","Jiangsu","China","North Asia",1367
+"Shanwei","Guangdong","China","North Asia",1389
+"Linhai","Zhejiang","China","North Asia",1412
+"Donghai","Guangdong","China","North Asia",1439
+"Jieshou","Anhui","China","North Asia",1520
+"Weifang","Shandong","China","North Asia",1571
+"Yantai","Shandong","China","North Asia",1578
+"Jiangyou","Sichuan","China","North Asia",1585
+"Xi'an","Shaanxi","China","North Asia",1588
+"Haikou","Hainan","China","North Asia",1621
+"Hangzhou","Zhejiang","China","North Asia",1625
+"Huizhou","Guangdong","China","North Asia",1631
+"Licheng","Jiangsu","China","North Asia",1636
+"Tieling","Liaoning","China","North Asia",1640
+"Xuanhua","Hebei","China","North Asia",1645
+"Xianyang","Shaanxi","China","North Asia",1648
+"Yicheng","Hubei","China","North Asia",1661
+"Xintai","Shandong","China","North Asia",1670
+"Wuchuan","Guangdong","China","North Asia",1672
+"Yichun","Heilongjiang","China","North Asia",1678
+"Chaozhou","Guangdong","China","North Asia",1680
+"Chaoyang","Liaoning","China","North Asia",1681
+"Sanming","Fujian","China","North Asia",1687
+"Nanchang","Jiangxi","China","North Asia",1713
+"Zhuhai","Guangdong","China","North Asia",1717
+"Handan","Hebei","China","North Asia",1725
+"Tongling","Anhui","China","North Asia",1744
+"Shangyu","Zhejiang","China","North Asia",1766
+"Nantong","Jiangsu","China","North Asia",1770
+"Hangu","Tianjin","China","North Asia",1776
+"Wuxi","Hunan","China","North Asia",1779
+"Jingmen","Hubei","China","North Asia",1813
+"Xinxiang","Henan","China","North Asia",1865
+"Neijiang","Sichuan","China","North Asia",1882
+"Wenzhou","Zhejiang","China","North Asia",1920
+"Pingdingshan","Henan","China","North Asia",1928
+"Linyi","Shandong","China","North Asia",1948
+"Changsha","Hunan","China","North Asia",1980
+"Yongchuan","Chongqing","China","North Asia",1983
+"Heyuan","Guangdong","China","North Asia",1994
+"Pingnan","Guangxi","China","North Asia",1996
+"Xingtai","Hebei","China","North Asia",2000
+"Huangshan","Anhui","China","North Asia",2021
+"Zhuzhou","Hunan","China","North Asia",2032
+"Nanyang","Henan","China","North Asia",2036
+"Fuzhou","Fujian","China","North Asia",2041
+"Zhoukou","Henan","China","North Asia",2044
+"Chenzhou","Hunan","China","North Asia",2053
+"Shuangyashan","Heilongjiang","China","North Asia",2056
+"Tongliao","Inner Mongolia","China","North Asia",2082
+"Laohekou","Hubei","China","North Asia",2092
+"Qiqihar","Heilongjiang","China","North Asia",2129
+"Yingcheng","Hubei","China","North Asia",2166
+"Hailin","Heilongjiang","China","North Asia",2213
+"Guiping","Guangxi","China","North Asia",2238
+"Shijiazhuang","Hebei","China","North Asia",2239
+"Huadian","Jilin","China","North Asia",2246
+"Huzhou","Zhejiang","China","North Asia",2279
+"Hechuan","Chongqing","China","North Asia",2287
+"Puyang","Henan","China","North Asia",2324
+"Zhumadian","Henan","China","North Asia",2329
+"Xichang","Sichuan","China","North Asia",2391
+"Kaiyuan","Yunnan","China","North Asia",2396
+"Yancheng","Jiangsu","China","North Asia",2431
+"Siping","Jilin","China","North Asia",2461
+"Rizhao","Shandong","China","North Asia",2489
+"Shangzhi","Heilongjiang","China","North Asia",2494
+"Zhaoyuan","Heilongjiang","China","North Asia",2532
+"Korla","Xinjiang Uygur","China","North Asia",2545
+"Wuzhou","Guangxi","China","North Asia",2562
+"Jiaxing","Zhejiang","China","North Asia",2596
+"Zhangjiakou","Hebei","China","North Asia",2597
+"Changde","Hunan","China","North Asia",2605
+"Xianning","Hubei","China","North Asia",2615
+"Lanxi","Zhejiang","China","North Asia",2681
+"Lianzhou","Guangdong","China","North Asia",2683
+"Chengjiang","Jiangsu","China","North Asia",2712
+"Qidong","Jiangsu","China","North Asia",2733
+"Yichun","Jiangxi","China","North Asia",2737
+"Jincheng","Shanxi","China","North Asia",2768
+"Jiamusi","Heilongjiang","China","North Asia",2792
+"Datong","Anhui","China","North Asia",2810
+"Pingxiang","Jiangxi","China","North Asia",2836
+"Yanji","Jilin","China","North Asia",2843
+"Yushu","Jilin","China","North Asia",2881
+"Wendeng","Shandong","China","North Asia",2891
+"Yiwu","Zhejiang","China","North Asia",2940
+"Lianzhou","Guangxi","China","North Asia",2957
+"Xinzhou","Hubei","China","North Asia",2958
+"Lianyuan","Hunan","China","North Asia",2960
+"Hohhot","Inner Mongolia","China","North Asia",2987
+"Xiangfan","Hubei","China","North Asia",2993
+"Tanggu","Tianjin","China","North Asia",3018
+"Wenling","Zhejiang","China","North Asia",3028
+"Taizhou","Jiangsu","China","North Asia",3049
+"Beipiao","Liaoning","China","North Asia",3066
+"Loudi","Hunan","China","North Asia",3082
+"Yangjiang","Guangdong","China","North Asia",3090
+"Deyang","Sichuan","China","North Asia",3104
+"Foshan","Guangdong","China","North Asia",3129
+"Tongzhou","Beijing","China","North Asia",3139
+"Changzhi","Shanxi","China","North Asia",3148
+"Zaoyang","Hubei","China","North Asia",3151
+"Jingdezhen","Jiangxi","China","North Asia",3154
+"Chifeng","Inner Mongolia","China","North Asia",3158
+"Zhangzhou","Fujian","China","North Asia",3170
+"Liuyang","Hunan","China","North Asia",3187
+"Shizuishan","Ningxia","China","North Asia",3208
+"Shangqiu","Henan","China","North Asia",3241
+"Anyang","Henan","China","North Asia",3269
+"Huaihua","Hunan","China","North Asia",3277
+"Yuanjiang","Hunan","China","North Asia",3289
+"Tongchuan","Sichuan","China","North Asia",3300
+"Baoding","Hebei","China","North Asia",3319
+"Penglai","Shandong","China","North Asia",3323
+"Chaohu","Anhui","China","North Asia",3327
+"Taixing","Jiangsu","China","North Asia",3353
+"Yiyang","Hunan","China","North Asia",3386
+"Quanzhou","Fujian","China","North Asia",3400
+"Weihai","Shandong","China","North Asia",3426
+"Jiaohe","Jilin","China","North Asia",3459
+"Yuyao","Zhejiang","China","North Asia",3480
+"Benxi","Liaoning","China","North Asia",3483
+"Yuncheng","Shanxi","China","North Asia",3525
+"Langfang","Hebei","China","North Asia",3534
+"Liaoyuan","Jilin","China","North Asia",3550
+"Binzhou","Shandong","China","North Asia",3576
+"Yangquan","Shanxi","China","North Asia",3603
+"Suizhou","Hubei","China","North Asia",3604
+"Hebi","Henan","China","North Asia",3639
+"Zaozhuang","Shandong","China","North Asia",3651
+"Xiantao","Hubei","China","North Asia",3672
+"Renqiu","Hebei","China","North Asia",3678
+"Binzhou","Heilongjiang","China","North Asia",3731
+"Surat","Gujarat","India","Central Asia",28
+"Gorakhpur","Haryana","India","Central Asia",37
+"Thiruvananthapuram","Kerala","India","Central Asia",38
+"Jamshedpur","Jharkhand","India","Central Asia",42
+"Bhopal","Madhya Pradesh","India","Central Asia",47
+"Delhi","Delhi","India","Central Asia",49
+"Raipur","Uttarakhand","India","Central Asia",57
+"Naihati","West Bengal","India","Central Asia",68
+"Vadodara","Gujarat","India","Central Asia",108
+"Aurangabad","Bihar","India","Central Asia",144
+"Bokaro","Jharkhand","India","Central Asia",163
+"Kozhikode","Kerala","India","Central Asia",166
+"Jabalpur","Madhya Pradesh","India","Central Asia",172
+"Patna","Bihar","India","Central Asia",173
+"Kochi","Kerala","India","Central Asia",184
+"Agra","Uttar Pradesh","India","Central Asia",201
+"Dehra Dun","Uttarakhand","India","Central Asia",215
+"Kota","Chhattisgarh","India","Central Asia",226
+"Lucknow","Uttar Pradesh","India","Central Asia",232
+"Kanpur","Uttar Pradesh","India","Central Asia",260
+"Salem","Tamil Nadu","India","Central Asia",266
+"Chennai","Tamil Nadu","India","Central Asia",269
+"Kulti","West Bengal","India","Central Asia",272
+"Muzaffarpur","Bihar","India","Central Asia",279
+"Thane","Maharashtra","India","Central Asia",281
+"Bangalore","Karnataka","India","Central Asia",283
+"Jodhpur","Rajasthan","India","Central Asia",289
+"Nagpur","Maharashtra","India","Central Asia",295
+"Bhavnagar","Gujarat","India","Central Asia",307
+"Jaipur","Rajasthan","India","Central Asia",316
+"Imphal","Manipur","India","Central Asia",326
+"Jhansi","Uttar Pradesh","India","Central Asia",348
+"Amravati","Maharashtra","India","Central Asia",349
+"Nasik","Maharashtra","India","Central Asia",378
+"Visakhapatnam","Andhra Pradesh","India","Central Asia",384
+"Kollam","Kerala","India","Central Asia",391
+"Madurai","Tamil Nadu","India","Central Asia",445
+"Aligarh","Uttar Pradesh","India","Central Asia",471
+"Vijayawada","Andhra Pradesh","India","Central Asia",488
+"Mangalore","Karnataka","India","Central Asia",497
+"Gwalior","Madhya Pradesh","India","Central Asia",507
+"Srinagar","Jammu and Kashmir","India","Central Asia",510
+"Allahabad","Uttar Pradesh","India","Central Asia",511
+"Varanasi","Uttar Pradesh","India","Central Asia",518
+"Tiruppur","Tamil Nadu","India","Central Asia",533
+"Bhilwara","Rajasthan","India","Central Asia",547
+"Malegaon","Maharashtra","India","Central Asia",577
+"Hyderabad","Telangana","India","Central Asia",582
+"Bhilai","Chhattisgarh","India","Central Asia",585
+"Pune","Maharashtra","India","Central Asia",612
+"Kalyan","Maharashtra","India","Central Asia",615
+"Avadi","Tamil Nadu","India","Central Asia",617
+"Thanjavur","Tamil Nadu","India","Central Asia",639
+"Bhatinda","Punjab","India","Central Asia",651
+"Mumbai","Maharashtra","India","Central Asia",670
+"Solapur","Maharashtra","India","Central Asia",692
+"Tiruchchirappalli","Tamil Nadu","India","Central Asia",707
+"Bhiwandi","Maharashtra","India","Central Asia",714
+"Cuttack","Odisha","India","Central Asia",772
+"Ludhiana","Punjab","India","Central Asia",775
+"Fatehpur","Rajasthan","India","Central Asia",847
+"Dewas","Madhya Pradesh","India","Central Asia",866
+"Gorakhpur","Uttar Pradesh","India","Central Asia",887
+"Faridabad","Haryana","India","Central Asia",948
+"Korba","Chhattisgarh","India","Central Asia",968
+"Anantapur","Andhra Pradesh","India","Central Asia",976
+"Mathura","Uttar Pradesh","India","Central Asia",996
+"Gaya","Bihar","India","Central Asia",999
+"Kolhapur","Maharashtra","India","Central Asia",1004
+"Rajkot","Gujarat","India","Central Asia",1038
+"Satna","Madhya Pradesh","India","Central Asia",1039
+"Bikaner","Rajasthan","India","Central Asia",1046
+"Indore","Madhya Pradesh","India","Central Asia",1047
+"Tirupati","Andhra Pradesh","India","Central Asia",1052
+"Meerut","Uttar Pradesh","India","Central Asia",1078
+"Parbhani","Maharashtra","India","Central Asia",1117
+"Ranchi","Jharkhand","India","Central Asia",1126
+"Nagercoil","Tamil Nadu","India","Central Asia",1132
+"Nizamabad","Telangana","India","Central Asia",1136
+"Bareilly","Uttar Pradesh","India","Central Asia",1149
+"Puducherry","Puducherry","India","Central Asia",1163
+"Tirunelveli","Tamil Nadu","India","Central Asia",1181
+"Ichalkaranji","Maharashtra","India","Central Asia",1194
+"Firozabad","Uttar Pradesh","India","Central Asia",1197
+"Ujjain","Madhya Pradesh","India","Central Asia",1218
+"Asansol","West Bengal","India","Central Asia",1219
+"Brahmapur","Odisha","India","Central Asia",1220
+"Durgapur","Maharashtra","India","Central Asia",1329
+"Ajmer","Rajasthan","India","Central Asia",1346
+"Ulhasnagar","Maharashtra","India","Central Asia",1359
+"Pimpri","Maharashtra","India","Central Asia",1368
+"Ratlam","Madhya Pradesh","India","Central Asia",1410
+"Coimbatore","Tamil Nadu","India","Central Asia",1415
+"Nellore","Andhra Pradesh","India","Central Asia",1420
+"Bilaspur","Uttar Pradesh","India","Central Asia",1451
+"Tumkur","Karnataka","India","Central Asia",1460
+"Raipur","Chhattisgarh","India","Central Asia",1495
+"Guwahati","Assam","India","Central Asia",1496
+"Aurangabad","Maharashtra","India","Central Asia",1526
+"Patiala","Punjab","India","Central Asia",1572
+"Darbhanga","Bihar","India","Central Asia",1599
+"Guntur","Andhra Pradesh","India","Central Asia",1627
+"Belgaum","Karnataka","India","Central Asia",1656
+"Bhubaneswar","Odisha","India","Central Asia",1683
+"Mau","Madhya Pradesh","India","Central Asia",1718
+"Amritsar","Punjab","India","Central Asia",1723
+"Akola","Maharashtra","India","Central Asia",1760
+"Bihar Sharif","Bihar","India","Central Asia",1821
+"Hubli","Karnataka","India","Central Asia",1836
+"Baranagar","West Bengal","India","Central Asia",1850
+"Jamnagar","Gujarat","India","Central Asia",1891
+"Moradabad","Uttar Pradesh","India","Central Asia",1902
+"Jammu","Jammu and Kashmir","India","Central Asia",1963
+"Saharanpur","Uttar Pradesh","India","Central Asia",2073
+"Srinagar","Uttarakhand","India","Central Asia",2139
+"Kota","Rajasthan","India","Central Asia",2231
+"Hisar","Haryana","India","Central Asia",2233
+"Karimnagar","Telangana","India","Central Asia",2260
+"Warangal","Telangana","India","Central Asia",2302
+"Dhule","Maharashtra","India","Central Asia",2307
+"Panihati","West Bengal","India","Central Asia",2380
+"Raipur","Rajasthan","India","Central Asia",2383
+"Chandigarh","Chandigarh","India","Central Asia",2389
+"Mirzapur","Uttar Pradesh","India","Central Asia",2466
+"Sangli","Maharashtra","India","Central Asia",2515
+"Jodhpur","Gujarat","India","Central Asia",2518
+"Durgapur","West Bengal","India","Central Asia",2530
+"Bijapur","Karnataka","India","Central Asia",2550
+"Jalna","Maharashtra","India","Central Asia",2620
+"Bellary","Karnataka","India","Central Asia",2657
+"Mau","Uttar Pradesh","India","Central Asia",2662
+"Bhatpara","West Bengal","India","Central Asia",2697
+"Gulbarga","Karnataka","India","Central Asia",2728
+"Kamarhati","West Bengal","India","Central Asia",2773
+"Ganganagar","Rajasthan","India","Central Asia",2821
+"Panipat","Haryana","India","Central Asia",2866
+"Udaipur","Tripura","India","Central Asia",2868
+"Mysore","Karnataka","India","Central Asia",2986
+"Durg","Chhattisgarh","India","Central Asia",3056
+"Sonipat","Haryana","India","Central Asia",3065
+"Hapur","Uttar Pradesh","India","Central Asia",3159
+"Shimoga","Karnataka","India","Central Asia",3163
+"Barddhaman","West Bengal","India","Central Asia",3189
+"Barasat","West Bengal","India","Central Asia",3223
+"Ghaziabad","Uttar Pradesh","India","Central Asia",3240
+"Kukatpalli","Telangana","India","Central Asia",3276
+"Rohtak","Haryana","India","Central Asia",3461
+"Etawah","Uttar Pradesh","India","Central Asia",3466
+"Ambattur","Tamil Nadu","India","Central Asia",3492
+"Bharatpur","Rajasthan","India","Central Asia",3559
+"Latur","Maharashtra","India","Central Asia",3625
+"Karnal","Haryana","India","Central Asia",3634
+"Kakinada","Andhra Pradesh","India","Central Asia",3647
+"Shahjahanpur","Uttar Pradesh","India","Central Asia",3697
+"New Delhi","Delhi","India","Central Asia",3735
+"Berlin","Berlin","Germany","Central",4
+"Leipzig","Saxony","Germany","Central",26
+"Celle","Lower Saxony","Germany","Central",53
+"Krefeld","North Rhine-Westphalia","Germany","Central",73
+"Augsburg","Bavaria","Germany","Central",90
+"Hanover","Lower Saxony","Germany","Central",95
+"Bremen","Bremen","Germany","Central",98
+"Bochum","North Rhine-Westphalia","Germany","Central",123
+"Hamburg","Hamburg","Germany","Central",152
+"Munster","Lower Saxony","Germany","Central",227
+"Iserlohn","North Rhine-Westphalia","Germany","Central",252
+"Weimar","Thuringia","Germany","Central",290
+"Erlangen","Bavaria","Germany","Central",314
+"Regensburg","Bavaria","Germany","Central",383
+"Garbsen","Lower Saxony","Germany","Central",386
+"Menden","North Rhine-Westphalia","Germany","Central",397
+"Nuremberg","Bavaria","Germany","Central",440
+"Dortmund","North Rhine-Westphalia","Germany","Central",446
+"Schwerin","Mecklenburg-Vorpommern","Germany","Central",470
+"Herford","North Rhine-Westphalia","Germany","Central",562
+"Munich","Bavaria","Germany","Central",576
+"Euskirchen","North Rhine-Westphalia","Germany","Central",578
+"Frankfurt","Hesse","Germany","Central",590
+"Trier","Rhineland-Palatinate","Germany","Central",600
+"Rostock","Mecklenburg-Vorpommern","Germany","Central",629
+"Duisburg","North Rhine-Westphalia","Germany","Central",649
+"Stuttgart","Baden-Württemberg","Germany","Central",671
+"Dormagen","North Rhine-Westphalia","Germany","Central",688
+"Mainz","Rhineland-Palatinate","Germany","Central",729
+"Gronau","North Rhine-Westphalia","Germany","Central",730
+"Solingen","North Rhine-Westphalia","Germany","Central",738
+"Cologne","North Rhine-Westphalia","Germany","Central",741
+"Bottrop","North Rhine-Westphalia","Germany","Central",757
+"Ulm","Baden-Württemberg","Germany","Central",760
+"Castrop-Rauxel","North Rhine-Westphalia","Germany","Central",770
+"Bonn","North Rhine-Westphalia","Germany","Central",869
+"Herne","North Rhine-Westphalia","Germany","Central",876
+"Oberhausen","North Rhine-Westphalia","Germany","Central",910
+"Hildesheim","Lower Saxony","Germany","Central",979
+"Wilhelmshaven","Lower Saxony","Germany","Central",997
+"Kassel","Hesse","Germany","Central",1008
+"Sindelfingen","Baden-Württemberg","Germany","Central",1016
+"Essen","North Rhine-Westphalia","Germany","Central",1025
+"Bielefeld","North Rhine-Westphalia","Germany","Central",1071
+"Langenhagen","Lower Saxony","Germany","Central",1110
+"Offenburg","Baden-Württemberg","Germany","Central",1130
+"Hamm","North Rhine-Westphalia","Germany","Central",1147
+"Remscheid","North Rhine-Westphalia","Germany","Central",1166
+"Dresden","Saxony","Germany","Central",1187
+"Neuwied","Rhineland-Palatinate","Germany","Central",1207
+"Halle","Saxony-Anhalt","Germany","Central",1221
+"Reutlingen","Baden-Württemberg","Germany","Central",1281
+"Oldenburg","Lower Saxony","Germany","Central",1314
+"Ludwigshafen am Rhein","Rhineland-Palatinate","Germany","Central",1335
+"Troisdorf","North Rhine-Westphalia","Germany","Central",1354
+"Langen","Lower Saxony","Germany","Central",1392
+"Aachen","North Rhine-Westphalia","Germany","Central",1408
+"Pforzheim","Baden-Württemberg","Germany","Central",1414
+"Siegen","North Rhine-Westphalia","Germany","Central",1457
+"Gera","Thuringia","Germany","Central",1474
+"Potsdam","Brandenburg","Germany","Central",1477
+"Neunkirchen","Saarland","Germany","Central",1480
+"Aalen","Baden-Württemberg","Germany","Central",1525
+"Greifswald","Mecklenburg-Vorpommern","Germany","Central",1532
+"Halle","North Rhine-Westphalia","Germany","Central",1544
+"Wiesbaden","Hesse","Germany","Central",1592
+"Magdeburg","Saxony-Anhalt","Germany","Central",1594
+"Erftstadt","North Rhine-Westphalia","Germany","Central",1607
+"Lippstadt","North Rhine-Westphalia","Germany","Central",1608
+"Pulheim","North Rhine-Westphalia","Germany","Central",1611
+"Offenbach","Hesse","Germany","Central",1629
+"Kiel","Schleswig-Holstein","Germany","Central",1662
+"Kaiserslautern","Rhineland-Palatinate","Germany","Central",1663
+"Rosenheim","Bavaria","Germany","Central",1665
+"Worms","Rhineland-Palatinate","Germany","Central",1675
+"Darmstadt","Hesse","Germany","Central",1676
+"Minden","North Rhine-Westphalia","Germany","Central",1702
+"Herten","North Rhine-Westphalia","Germany","Central",1703
+"Ratingen","North Rhine-Westphalia","Germany","Central",1731
+"Aschaffenburg","Bavaria","Germany","Central",1780
+"Paderborn","North Rhine-Westphalia","Germany","Central",1790
+"Moers","North Rhine-Westphalia","Germany","Central",1799
+"Wuppertal","North Rhine-Westphalia","Germany","Central",1828
+"Bayreuth","Bavaria","Germany","Central",1831
+"Ludwigsfelde","Brandenburg","Germany","Central",1837
+"Delmenhorst","Lower Saxony","Germany","Central",1839
+"Emden","Lower Saxony","Germany","Central",1843
+"Karlsruhe","Baden-Württemberg","Germany","Central",1844
+"Grevenbroich","North Rhine-Westphalia","Germany","Central",1869
+"Cottbus","Brandenburg","Germany","Central",1880
+"Heidelberg","Baden-Württemberg","Germany","Central",1916
+"Ingolstadt","Bavaria","Germany","Central",1922
+"Stralsund","Mecklenburg-Vorpommern","Germany","Central",1931
+"Gelsenkirchen","North Rhine-Westphalia","Germany","Central",1943
+"Dorsten","North Rhine-Westphalia","Germany","Central",1951
+"Norderstedt","Schleswig-Holstein","Germany","Central",1975
+"Chemnitz","Saxony","Germany","Central",1985
+"Koblenz","Rhineland-Palatinate","Germany","Central",1987
+"Hagen","North Rhine-Westphalia","Germany","Central",1992
+"Heilbronn","Baden-Württemberg","Germany","Central",2127
+"Erfurt","Thuringia","Germany","Central",2152
+"Friedrichshafen","Baden-Württemberg","Germany","Central",2179
+"Marl","North Rhine-Westphalia","Germany","Central",2201
+"Jena","Thuringia","Germany","Central",2235
+"Villingen-Schwenningen","Baden-Württemberg","Germany","Central",2245
+"Recklinghausen","North Rhine-Westphalia","Germany","Central",2281
+"Friedberg","Hesse","Germany","Central",2321
+"Ludwigsburg","Baden-Württemberg","Germany","Central",2334
+"Lohne","Lower Saxony","Germany","Central",2341
+"Wetzlar","Hesse","Germany","Central",2401
+"Wetter (Ruhr)","North Rhine-Westphalia","Germany","Central",2410
+"Naumburg","Saxony-Anhalt","Germany","Central",2440
+"Dinslaken","North Rhine-Westphalia","Germany","Central",2442
+"Gummersbach","North Rhine-Westphalia","Germany","Central",2451
+"Freiburg","Baden-Württemberg","Germany","Central",2491
+"Langenfeld","North Rhine-Westphalia","Germany","Central",2528
+"Gladbeck","North Rhine-Westphalia","Germany","Central",2543
+"Witten","North Rhine-Westphalia","Germany","Central",2551
+"Cuxhaven","Lower Saxony","Germany","Central",2556
+"Brandenburg","Brandenburg","Germany","Central",2566
+"Arnsberg","North Rhine-Westphalia","Germany","Central",2598
+"Leverkusen","North Rhine-Westphalia","Germany","Central",2634
+"Velbert","North Rhine-Westphalia","Germany","Central",2660
+"Eggenstein-Leopoldshafen","Baden-Württemberg","Germany","Central",2686
+"Hilden","North Rhine-Westphalia","Germany","Central",2692
+"Langen","Hesse","Germany","Central",2721
+"Viersen","North Rhine-Westphalia","Germany","Central",2800
+"Neubrandenburg","Mecklenburg-Vorpommern","Germany","Central",2834
+"Bergheim","North Rhine-Westphalia","Germany","Central",2856
+"Bad Waldsee","Baden-Württemberg","Germany","Central",2867
+"Bergisch Gladbach","North Rhine-Westphalia","Germany","Central",2871
+"Wolfsburg","Lower Saxony","Germany","Central",2879
+"Waiblingen","Baden-Württemberg","Germany","Central",2916
+"Bamberg","Bavaria","Germany","Central",2966
+"Mannheim","Baden-Württemberg","Germany","Central",2980
+"Ennigerloh","North Rhine-Westphalia","Germany","Central",3006
+"Sonneberg","Thuringia","Germany","Central",3015
+"Passau","Bavaria","Germany","Central",3032
+"Willich","North Rhine-Westphalia","Germany","Central",3051
+"Kerpen","North Rhine-Westphalia","Germany","Central",3075
+"Flensburg","Schleswig-Holstein","Germany","Central",3089
+"Baden-Baden","Baden-Württemberg","Germany","Central",3219
+"Fulda","Hesse","Germany","Central",3227
+"Borken","North Rhine-Westphalia","Germany","Central",3231
+"Schweinfurt","Bavaria","Germany","Central",3250
+"Hattingen","North Rhine-Westphalia","Germany","Central",3273
+"Schiffweiler","Saarland","Germany","Central",3322
+"Forst","Brandenburg","Germany","Central",3390
+"Unna","North Rhine-Westphalia","Germany","Central",3485
+"Zwickau","Saxony","Germany","Central",3515
+"Detmold","North Rhine-Westphalia","Germany","Central",3575
+"Günzburg","Bavaria","Germany","Central",3594
+"Stadtlohn","North Rhine-Westphalia","Germany","Central",3729
+"Juárez","Chihuahua","Mexico","North",23
+"Gómez Palacio","Durango","Mexico","North",58
+"Puebla","Puebla","Mexico","North",89
+"Guaymas","Sonora","Mexico","North",113
+"Morelia","Michoacán","Mexico","North",127
+"Tulancingo","Hidalgo","Mexico","North",137
+"Mexico City","Distrito Federal","Mexico","North",197
+"Milpa Alta","Distrito Federal","Mexico","North",208
+"León","Guanajuato","Mexico","North",209
+"Coyoacán","Distrito Federal","Mexico","North",211
+"Cancún","Quintana Roo","Mexico","North",263
+"Cadereyta","Nuevo León","Mexico","North",275
+"Villahermosa","Tabasco","Mexico","North",296
+"Metepec","México","Mexico","North",298
+"Culiacán","Sinaloa","Mexico","North",301
+"Azcapotzalco","Distrito Federal","Mexico","North",319
+"Zapopan","Jalisco","Mexico","North",333
+"Chihuahua","Chihuahua","Mexico","North",403
+"Mérida","Yucatán","Mexico","North",435
+"Mexicali","Baja California","Mexico","North",462
+"Tlaquepaque","Jalisco","Mexico","North",495
+"Saltillo","Coahuila","Mexico","North",514
+"Monclova","Coahuila","Mexico","North",525
+"San Luis Potosí","San Luis Potosí","Mexico","North",534
+"Irapuato","Guanajuato","Mexico","North",544
+"Torreón","Coahuila","Mexico","North",551
+"Tijuana","Baja California","Mexico","North",581
+"Victoria","Tamaulipas","Mexico","North",592
+"Ensenada","Baja California","Mexico","North",596
+"Reynosa","Tamaulipas","Mexico","North",627
+"Poza Rica de Hidalgo","Veracruz","Mexico","North",652
+"Monterrey","Nuevo León","Mexico","North",697
+"Tlalpan","Distrito Federal","Mexico","North",700
+"Tlalnepantla","México","Mexico","North",720
+"Santa Catarina","Nuevo León","Mexico","North",804
+"Nicolás Romero","México","Mexico","North",821
+"Nuevo Laredo","Tamaulipas","Mexico","North",864
+"Tepic","Nayarit","Mexico","North",885
+"Durango","Durango","Mexico","North",925
+"Guasave","Sinaloa","Mexico","North",941
+"Villa Frontera","Coahuila","Mexico","North",959
+"Orizaba","Veracruz","Mexico","North",963
+"Lázaro Cárdenas","Michoacán","Mexico","North",964
+"Guadalajara","Jalisco","Mexico","North",1002
+"Ciudad del Carmen","Campeche","Mexico","North",1003
+"Valles","San Luis Potosí","Mexico","North",1005
+"Hermosillo","Sonora","Mexico","North",1021
+"Cuernavaca","Morelos","Mexico","North",1057
+"Apodaca","Nuevo León","Mexico","North",1116
+"Iguala","Guerrero","Mexico","North",1133
+"Jiutepec","Morelos","Mexico","North",1146
+"Toluca","México","Mexico","North",1152
+"Madero","Tamaulipas","Mexico","North",1215
+"Cholula","Puebla","Mexico","North",1236
+"Celaya","Guanajuato","Mexico","North",1244
+"Río Bravo","Tamaulipas","Mexico","North",1249
+"Los Mochis","Sinaloa","Mexico","North",1251
+"San Pablo de las Salinas","México","Mexico","North",1255
+"San Andrés Tuxtla","Veracruz","Mexico","North",1258
+"Atlixco","Puebla","Mexico","North",1277
+"Querétaro","Querétaro","Mexico","North",1282
+"General Escobedo","Nuevo León","Mexico","North",1293
+"Garza García","Nuevo León","Mexico","North",1315
+"Acuña","Coahuila","Mexico","North",1391
+"Coacalco","México","Mexico","North",1423
+"Salamanca","Guanajuato","Mexico","North",1454
+"Tecomán","Colima","Mexico","North",1512
+"Chilpancingo","Guerrero","Mexico","North",1517
+"Progreso","Yucatán","Mexico","North",1522
+"Cuajimalpa","Distrito Federal","Mexico","North",1539
+"Córdoba","Veracruz","Mexico","North",1540
+"Frontera","Tabasco","Mexico","North",1568
+"Ixtapaluca","México","Mexico","North",1591
+"Miguel Hidalgo","Distrito Federal","Mexico","North",1605
+"Obregón","Sonora","Mexico","North",1622
+"Heroica Zitácuaro","Michoacán","Mexico","North",1673
+"Colima","Colima","Mexico","North",1745
+"Veracruz","Veracruz","Mexico","North",1788
+"Tehuacán","Puebla","Mexico","North",1833
+"Guanajuato","Guanajuato","Mexico","North",1935
+"Piedras Negras","Coahuila","Mexico","North",2020
+"Miramar","Tamaulipas","Mexico","North",2047
+"San Cristóbal de Las Casas","Chiapas","Mexico","North",2083
+"San Francisco del Rincón","Guanajuato","Mexico","North",2103
+"Cuautitlán","México","Mexico","North",2114
+"Manzanillo","Colima","Mexico","North",2121
+"Puerto Vallarta","Jalisco","Mexico","North",2128
+"Tuxtla Gutiérrez","Chiapas","Mexico","North",2167
+"San Juan del Río","Querétaro","Mexico","North",2173
+"Temixco","Morelos","Mexico","North",2210
+"Salina Cruz","Oaxaca","Mexico","North",2244
+"Chetumal","Quintana Roo","Mexico","North",2266
+"Lagos de Moreno","Jalisco","Mexico","North",2312
+"Acayucan","Veracruz","Mexico","North",2356
+"Hidalgo","Michoacán","Mexico","North",2381
+"Rosarito","Baja California","Mexico","North",2387
+"Guzmán","Jalisco","Mexico","North",2458
+"La Paz","Baja California Sur","Mexico","North",2535
+"Ocotlán","Jalisco","Mexico","North",2584
+"Campeche","Campeche","Mexico","North",2688
+"Sahuayo de José María Morelos","Michoacán","Mexico","North",2717
+"Coatzacoalcos","Veracruz","Mexico","North",2741
+"Tampico","Tamaulipas","Mexico","North",2765
+"Delicias","Chihuahua","Mexico","North",2779
+"Soledad Díez Gutiérrez","San Luis Potosí","Mexico","North",2812
+"Zacatecas","Zacatecas","Mexico","North",2885
+"Apatzingán de la Constitución","Michoacán","Mexico","North",2894
+"Fresnillo de González Echeverría","Zacatecas","Mexico","North",2919
+"San Luis Río Colorado","Sonora","Mexico","North",3038
+"Acámbaro","Guanajuato","Mexico","North",3078
+"Zihuatanejo","Guerrero","Mexico","North",3102
+"Valle Hermoso","Tamaulipas","Mexico","North",3150
+"Teziutlán","Puebla","Mexico","North",3161
+"Huixquilucan","México","Mexico","North",3184
+"Melchor Ocampo","México","Mexico","North",3228
+"Linares","Nuevo León","Mexico","North",3239
+"Matehuala","San Luis Potosí","Mexico","North",3302
+"Guamúchil","Sinaloa","Mexico","North",3308
+"Tapachula","Chiapas","Mexico","North",3423
+"Silao","Guanajuato","Mexico","North",3435
+"Altotonga","Veracruz","Mexico","North",3685
+"Izúcar de Matamoros","Puebla","Mexico","North",3698
+"Wollongong","New South Wales","Australia","Oceania",2
+"Brisbane","Queensland","Australia","Oceania",3
+"Sydney","New South Wales","Australia","Oceania",6
+"Porirua","Wellington","New Zealand","Oceania",7
+"Hamilton","Waikato","New Zealand","Oceania",8
+"Kabul","Kabul","Afghanistan","Central Asia",12
+"Townsville","Queensland","Australia","Oceania",17
+"Edinburgh","Scotland","United Kingdom","North",22
+"Taipei","Taipei City","Taiwan","North Asia",25
+"Santo Domingo","Santo Domingo","Dominican Republic","Caribbean",29
+"Gold Coast","Queensland","Australia","Oceania",31
+"Mataram","Nusa Tenggara Barat","Indonesia","Southeast Asia",36
+"Geraldton","Western Australia","Australia","Oceania",50
+"Dhaka","Dhaka","Bangladesh","Central Asia",52
+"Palembang","Sumatera Selatan","Indonesia","Southeast Asia",63
+"Melbourne","Victoria","Australia","Oceania",65
+"Bandung","Jawa Barat","Indonesia","Southeast Asia",74
+"Tongi","Dhaka","Bangladesh","Central Asia",76
+"Montréal","Quebec","Canada","Canada",79
+"Manila","National Capital","Philippines","Southeast Asia",80
+"Newcastle","New South Wales","Australia","Oceania",81
+"Nowra","New South Wales","Australia","Oceania",83
+"Perth","Western Australia","Australia","Oceania",87
+"Adelaide","South Australia","Australia","Oceania",101
+"Kuantan","Pahang","Malaysia","Southeast Asia",104
+"Bangkok","Bangkok","Thailand","Southeast Asia",110
+"Tasikmalaya","Jawa Barat","Indonesia","Southeast Asia",112
+"Yogyakarta","Yogyakarta","Indonesia","Southeast Asia",120
+"Medan","Sumatera Utara","Indonesia","Southeast Asia",132
+"Jakarta","Jakarta","Indonesia","Southeast Asia",133
+"Surakarta","Jawa Tengah","Indonesia","Southeast Asia",135
+"Phnom Penh","Phnom Penh","Cambodia","Southeast Asia",147
+"Mackay","Queensland","Australia","Oceania",148
+"Jambi","Jambi","Indonesia","Southeast Asia",150
+"Launceston","Tasmania","Australia","Oceania",154
+"Marikina","National Capital","Philippines","Southeast Asia",155
+"Fuji","Shizuoka","Japan","North Asia",164
+"Kuala Lumpur","Kuala Lumpur","Malaysia","Southeast Asia",167
+"Wellington","Wellington","New Zealand","Oceania",186
+"Surabaya","Jawa Timur","Indonesia","Southeast Asia",194
+"Hobart","Tasmania","Australia","Oceania",198
+"Hirakata","Osaka","Japan","North Asia",199
+"Ho Chi Minh City","Ho Chí Minh City","Vietnam","Southeast Asia",203
+"Camagüey","Camagüey","Cuba","Caribbean",204
+"Manukau City","Auckland","New Zealand","Oceania",212
+"Canberra","Australian Capital Territory","Australia","Oceania",222
+"Christchurch","Canterbury","New Zealand","Oceania",228
+"Singapore","Singapore","Singapore","Southeast Asia",236
+"Himeji","Hyogo","Japan","North Asia",239
+"Kendari","Sulawesi Tenggara","Indonesia","Southeast Asia",240
+"Darwin","Northern Territory","Australia","Oceania",248
+"Lahore","Punjab","Pakistan","Central Asia",256
+"Espoo","Uusimaa","Finland","North",257
+"Whyalla","South Australia","Australia","Oceania",258
+"Bundaberg","Queensland","Australia","Oceania",276
+"Manado","Sulawesi Utara","Indonesia","Southeast Asia",278
+"Hamamatsu","Shizuoka","Japan","North Asia",287
+"Auckland","Auckland","New Zealand","Oceania",291
+"Santiago de Cuba","Santiago de Cuba","Cuba","Caribbean",312
+"Shimonoseki","Yamaguchi","Japan","North Asia",324
+"Palu","Sulawesi Tengah","Indonesia","Southeast Asia",325
+"Ballarat","Victoria","Australia","Oceania",330
+"Guelph","Ontario","Canada","Canada",334
+"Guantánamo","Guantánamo","Cuba","Caribbean",342
+"Bacolod City","Western Visayas","Philippines","Southeast Asia",343
+"Kwinana","Western Australia","Australia","Oceania",344
+"San Juan de la Maguana","San Juan","Dominican Republic","Caribbean",351
+"Bendigo","Victoria","Australia","Oceania",355
+"Quetta","Baluchistan","Pakistan","Central Asia",356
+"Masterton","Wellington","New Zealand","Oceania",369
+"Whangarei","Northland","New Zealand","Oceania",370
+"Vancouver","British Columbia","Canada","Canada",373
+"Haninge","Stockholm","Sweden","North",375
+"Ube","Yamaguchi","Japan","North Asia",380
+"Depok","Yogyakarta","Indonesia","Southeast Asia",382
+"Yangon","Yangon","Myanmar (Burma)","Southeast Asia",392
+"Depok","Jawa Barat","Indonesia","Southeast Asia",395
+"Spanish Town","Saint Catherine","Jamaica","Caribbean",398
+"Taupo","Waikato","New Zealand","Oceania",399
+"Santa Cruz de Barahona","Barahona","Dominican Republic","Caribbean",405
+"Alice Springs","Northern Territory","Australia","Oceania",409
+"Matsubara","Oita","Japan","North Asia",412
+"Geelong","Victoria","Australia","Oceania",414
+"Whakatane","Bay of Plenty","New Zealand","Oceania",415
+"Kristiansand","Vest-Agder","Norway","North",451
+"San José de las Lajas","Mayabeque","Cuba","Caribbean",456
+"Queanbeyan","New South Wales","Australia","Oceania",465
+"Seoul","Seoul","South Korea","North Asia",477
+"Kota Kinabalu","Sabah","Malaysia","Southeast Asia",479
+"Swansea","Wales","United Kingdom","North",485
+"Samarinda","Kalimantan Timur","Indonesia","Southeast Asia",487
+"Brampton","Ontario","Canada","Canada",493
+"Sancti Spíritus","Sancti Spíritus","Cuba","Caribbean",498
+"Bergen","Hordaland","Norway","North",500
+"Bekasi","Jawa Barat","Indonesia","Southeast Asia",512
+"Baguio City","Cordillera","Philippines","Southeast Asia",516
+"Chittagong","Chittagong","Bangladesh","Central Asia",524
+"Coffs Harbour","New South Wales","Australia","Oceania",528
+"Hastings","Hawke's Bay","New Zealand","Oceania",542
+"Orange","New South Wales","Australia","Oceania",549
+"Napier","Hawke's Bay","New Zealand","Oceania",550
+"Noda","Chiba","Japan","North Asia",552
+"Sunbury","Victoria","Australia","Oceania",561
+"Cairns","Queensland","Australia","Oceania",564
+"Oslo","Oslo","Norway","North",566
+"San Pedro de Macorís","San Pedro de Macorís","Dominican Republic","Caribbean",569
+"Sakai","Gunma","Japan","North Asia",579
+"Takasaki","Gunma","Japan","North Asia",584
+"La Romana","La Romana","Dominican Republic","Caribbean",597
+"Fort-de-France","Martinique","Martinique","Caribbean",598
+"Vantaa","Uusimaa","Finland","North",604
+"Denpasar","Bali","Indonesia","Southeast Asia",611
+"Goyang","Gyeonggi","South Korea","North Asia",614
+"Khulna","Khulna","Bangladesh","Central Asia",616
+"Semarang","Jawa Tengah","Indonesia","Southeast Asia",618
+"Matsudo","Chiba","Japan","North Asia",625
+"Bayamo","Granma","Cuba","Caribbean",626
+"Koshigaya","Saitama","Japan","North Asia",633
+"Valenzuela","National Capital","Philippines","Southeast Asia",638
+"Tegal","Jawa Tengah","Indonesia","Southeast Asia",640
+"Kitchener","Ontario","Canada","Canada",641
+"Halmstad","Halland","Sweden","North",643
+"Murray Bridge","South Australia","Australia","Oceania",646
+"Balikpapan","Kalimantan Timur","Indonesia","Southeast Asia",650
+"Antipolo","Calabarzon","Philippines","Southeast Asia",656
+"Albury","New South Wales","Australia","Oceania",660
+"Rockhampton","Queensland","Australia","Oceania",664
+"Caloundra","Queensland","Australia","Oceania",672
+"New Plymouth","Taranaki","New Zealand","Oceania",677
+"Edmonton","Alberta","Canada","Canada",681
+"Lismore","New South Wales","Australia","Oceania",682
+"Mandurah","Western Australia","Australia","Oceania",686
+"Kawagoe","Saitama","Japan","North Asia",695
+"Matanzas","Matanzas","Cuba","Caribbean",701
+"Can Tho","Tỉnh Cần Thơ","Vietnam","Southeast Asia",702
+"Las Tunas","Las Tunas","Cuba","Caribbean",704
+"Palmerston North","Manawatu-Wanganui","New Zealand","Oceania",715
+"San Fernando","San Fernando","Trinidad and Tobago","Caribbean",728
+"Dublin","Dublin","Ireland","North",732
+"Palmerston","Northern Territory","Australia","Oceania",739
+"Ipoh","Perak","Malaysia","Southeast Asia",751
+"Devonport","Tasmania","Australia","Oceania",756
+"Jember","Jawa Timur","Indonesia","Southeast Asia",758
+"Stockholm","Stockholm","Sweden","North",762
+"Wagga Wagga","New South Wales","Australia","Oceania",782
+"Bogor","Jawa Barat","Indonesia","Southeast Asia",790
+"Toronto","Ontario","Canada","Canada",794
+"Pematangsiantar","Sumatera Utara","Indonesia","Southeast Asia",796
+"Santa Clara","Villa Clara","Cuba","Caribbean",798
+"Nagasaki","Nagasaki","Japan","North Asia",807
+"Albany","Western Australia","Australia","Oceania",808
+"Las Pinas","National Capital","Philippines","Southeast Asia",809
+"Shah Alam","Selangor","Malaysia","Southeast Asia",811
+"Rach Gia","Kiên Giang","Vietnam","Southeast Asia",813
+"Cardiff","Wales","United Kingdom","North",819
+"Carrefour","Ouest","Haiti","Caribbean",826
+"Kure","Hiroshima","Japan","North Asia",829
+"Waitakere","Auckland","New Zealand","Oceania",833
+"Hanoi","Thủ Dô Hà Nội","Vietnam","Southeast Asia",836
+"Padang","Sumatera Barat","Indonesia","Southeast Asia",845
+"Bridgetown","Saint Michael","Barbados","Caribbean",859
+"Ciego de Ávila","Ciego de Ávila","Cuba","Caribbean",877
+"Mount Isa","Queensland","Australia","Oceania",881
+"Traralgon","Victoria","Australia","Oceania",898
+"Timaru","Canterbury","New Zealand","Oceania",902
+"Toowoomba","Queensland","Australia","Oceania",913
+"Bacoor","Calabarzon","Philippines","Southeast Asia",919
+"Tokyo","Tokyo","Japan","North Asia",927
+"Cork","Cork","Ireland","North",930
+"Upper Hutt","Wellington","New Zealand","Oceania",946
+"Busan","Busan","South Korea","North Asia",965
+"Holguín","Holguín","Cuba","Caribbean",967
+"Gujranwala","Punjab","Pakistan","Central Asia",975
+"Landskrona","Skåne","Sweden","North",983
+"Helsinki","Uusimaa","Finland","North",984
+"La Vega","La Vega","Dominican Republic","Caribbean",1010
+"Kawaguchi","Chiba","Japan","North Asia",1017
+"Fukuyama","Hiroshima","Japan","North Asia",1023
+"Paraparaumu","Wellington","New Zealand","Oceania",1028
+"Glasgow","Scotland","United Kingdom","North",1032
+"Tauranga","Bay of Plenty","New Zealand","Oceania",1035
+"Karlstad","Värmland","Sweden","North",1037
+"Manzanillo","Granma","Cuba","Caribbean",1041
+"Blenheim","Marlborough","New Zealand","Oceania",1064
+"San Francisco de Macorís","Duarte","Dominican Republic","Caribbean",1073
+"North York","Ontario","Canada","Canada",1097
+"Pekanbaru","Riau","Indonesia","Southeast Asia",1101
+"Anyang","Gyeonggi","South Korea","North Asia",1115
+"Kita-ku","Osaka","Japan","North Asia",1118
+"Port Moresby","National Capital","Papua New Guinea","Oceania",1155
+"Port Macquarie","New South Wales","Australia","Oceania",1160
+"Nelson","Nelson","New Zealand","Oceania",1161
+"Changwon","Gyeongsangnam","South Korea","North Asia",1165
+"Griffith","New South Wales","Australia","Oceania",1175
+"Copenhagen","Hovedstaden","Denmark","North",1177
+"Gawler","South Australia","Australia","Oceania",1191
+"Aoba-ku","Kanagawa","Japan","North Asia",1199
+"Tawau","Sabah","Malaysia","Southeast Asia",1203
+"Papakura","Auckland","New Zealand","Oceania",1209
+"Consolación del Sur","Pinar del Río","Cuba","Caribbean",1214
+"Mildura","Victoria","Australia","Oceania",1229
+"Hiratsuka","Kanagawa","Japan","North Asia",1261
+"Daejeon","Daejeon","South Korea","North Asia",1270
+"Rajshahi","Rajshahi","Bangladesh","Central Asia",1278
+"Seremban","Negeri Sembilan","Malaysia","Southeast Asia",1287
+"Kupang","Nusa Tenggara Timur","Indonesia","Southeast Asia",1292
+"Kawasaki","Fukuoka","Japan","North Asia",1294
+"Mount Gambier","South Australia","Australia","Oceania",1305
+"Wodonga","Victoria","Australia","Oceania",1321
+"Armidale","New South Wales","Australia","Oceania",1327
+"Nueva Gerona","Isla de la Juventud","Cuba","Caribbean",1330
+"Mississauga","Ontario","Canada","Canada",1362
+"Turku","Finland Proper","Finland","North",1371
+"Portmore","Saint Catherine","Jamaica","Caribbean",1372
+"Artemisa","Artemisa","Cuba","Caribbean",1374
+"Takamatsu","Kagawa","Japan","North Asia",1379
+"Jayapura","Papua","Indonesia","Southeast Asia",1382
+"London","Ontario","Canada","Canada",1387
+"Vaughan","Ontario","Canada","Canada",1390
+"Dunedin","Otago","New Zealand","Oceania",1402
+"Dubbo","New South Wales","Australia","Oceania",1407
+"Makati","National Capital","Philippines","Southeast Asia",1417
+"Pinar del Río","Pinar del Río","Cuba","Caribbean",1422
+"Saga","Saga","Japan","North Asia",1436
+"Oshawa","Ontario","Canada","Canada",1440
+"Dumai","Riau","Indonesia","Southeast Asia",1458
+"Palma Soriano","Santiago de Cuba","Cuba","Caribbean",1471
+"Tamworth","New South Wales","Australia","Oceania",1488
+"Aberdeen","Scotland","United Kingdom","North",1506
+"Peshawar","Khyber Pakhtunkhwa","Pakistan","Central Asia",1513
+"Kawasaki","Kanagawa","Japan","North Asia",1514
+"Surrey","British Columbia","Canada","Canada",1521
+"Multan","Punjab","Pakistan","Central Asia",1529
+"Sandnes","Rogaland","Norway","North",1547
+"Katoomba","New South Wales","Australia","Oceania",1556
+"Kediri","Jawa Timur","Indonesia","Southeast Asia",1557
+"Malang","Jawa Timur","Indonesia","Southeast Asia",1560
+"Bunbury","Western Australia","Australia","Oceania",1564
+"Maryborough","Queensland","Australia","Oceania",1565
+"Kowloon","Hong Kong","Hong Kong","North Asia",1576
+"Melton","Victoria","Australia","Oceania",1579
+"Drammen","Buskerud","Norway","North",1580
+"Kathmandu","Central","Nepal","Central Asia",1589
+"Cienfuegos","Cienfuegos","Cuba","Caribbean",1604
+"Gisborne","Gisborne","New Zealand","Oceania",1610
+"Les Abymes","Guadeloupe","Guadeloupe","Caribbean",1617
+"Odense","South Denmark","Denmark","North",1620
+"Nishinomiya","Hyogo","Japan","North Asia",1628
+"Santiago de los Caballeros","Santiago","Dominican Republic","Caribbean",1641
+"Laval","Quebec","Canada","Canada",1642
+"Clydach","Wales","United Kingdom","North",1647
+"Forster","New South Wales","Australia","Oceania",1649
+"Yokkaichi","Mie","Japan","North Asia",1652
+"Dundee","Scotland","United Kingdom","North",1655
+"Richmond","British Columbia","Canada","Canada",1674
+"Broken Hill","New South Wales","Australia","Oceania",1684
+"Invercargill","Southland","New Zealand","Oceania",1688
+"Kuching","Sarawak","Malaysia","Southeast Asia",1690
+"Probolinggo","Jawa Timur","Indonesia","Southeast Asia",1691
+"Kandahar","Kandahar","Afghanistan","Central Asia",1693
+"Lower Hutt","Wellington","New Zealand","Oceania",1707
+"Islamabad","F.C.T.","Pakistan","Central Asia",1712
+"Rawalpindi","Punjab","Pakistan","Central Asia",1716
+"Contramaestre","Santiago de Cuba","Cuba","Caribbean",1720
+"Caloocan","National Capital","Philippines","Southeast Asia",1732
+"Sylhet","Sylhet","Bangladesh","Central Asia",1756
+"Sandakan","Sabah","Malaysia","Southeast Asia",1757
+"Takamatsu","Ishikawa","Japan","North Asia",1758
+"Winnipeg","Manitoba","Canada","Canada",1767
+"Burnaby","British Columbia","Canada","Canada",1768
+"Valencia","Northern Mindanao","Philippines","Southeast Asia",1773
+"Rotorua","Bay of Plenty","New Zealand","Oceania",1787
+"Bengkulu","Bengkulu","Indonesia","Southeast Asia",1814
+"Sargodha","Punjab","Pakistan","Central Asia",1817
+"Ottawa","Ontario","Canada","Canada",1822
+"Hyderabad","Sindh","Pakistan","Central Asia",1823
+"Da Nang","Dà Nang","Vietnam","Southeast Asia",1835
+"Kingston","Ontario","Canada","Canada",1840
+"Kuala Terengganu","Trengganu","Malaysia","Southeast Asia",1842
+"Calgary","Alberta","Canada","Canada",1847
+"Whitby","Ontario","Canada","Canada",1848
+"Uppsala","Uppsala","Sweden","North",1858
+"Burnie","Tasmania","Australia","Oceania",1864
+"Pontianak","Kalimantan Barat","Indonesia","Southeast Asia",1867
+"Hamilton","Ontario","Canada","Canada",1870
+"Kilwinning","Scotland","United Kingdom","North",1881
+"Cainta","Calabarzon","Philippines","Southeast Asia",1886
+"Gothenburg","Västra Götaland","Sweden","North",1892
+"Cárdenas","Matanzas","Cuba","Caribbean",1894
+"Sukkur","Sindh","Pakistan","Central Asia",1899
+"Sakai","Ibaraki","Japan","North Asia",1906
+"Galway","Galway","Ireland","North",1919
+"Angeles City","Central Luzon","Philippines","Southeast Asia",1942
+"Moca","Espaillat","Dominican Republic","Caribbean",1953
+"Regina","Saskatchewan","Canada","Canada",1978
+"Binjai","Sumatera Utara","Indonesia","Southeast Asia",1988
+"Gonaïves","Artibonite","Haiti","Caribbean",2002
+"Gladstone","Queensland","Australia","Oceania",2029
+"Cessnock","New South Wales","Australia","Oceania",2035
+"Taytay","Calabarzon","Philippines","Southeast Asia",2042
+"Aewŏl-li","Jeju","South Korea","North Asia",2058
+"Jalalabad","Nangarhar","Afghanistan","Central Asia",2064
+"Daegu","Daegu","South Korea","North Asia",2088
+"Goulburn","New South Wales","Australia","Oceania",2090
+"Torquay","Queensland","Australia","Oceania",2108
+"Purwokerto","Jawa Tengah","Indonesia","Southeast Asia",2133
+"Chaguanas","Chaguanas","Trinidad and Tobago","Caribbean",2141
+"Taiping","Perak","Malaysia","Southeast Asia",2150
+"Pasig","National Capital","Philippines","Southeast Asia",2168
+"Richmond Hill","Ontario","Canada","Canada",2171
+"Yokkaichi","Oita","Japan","North Asia",2242
+"Bucheon","Gyeonggi","South Korea","North Asia",2249
+"Nacka","Stockholm","Sweden","North",2252
+"Calamba","Calabarzon","Philippines","Southeast Asia",2254
+"Livingston","Scotland","United Kingdom","North",2256
+"Herat","Hirat","Afghanistan","Central Asia",2261
+"Takatsuki","Osaka","Japan","North Asia",2262
+"San Jose del Monte","Central Luzon","Philippines","Southeast Asia",2298
+"Kasugai","Aichi","Japan","North Asia",2344
+"Bahawalpur","Punjab","Pakistan","Central Asia",2360
+"Sagamihara","Kanagawa","Japan","North Asia",2390
+"Edogawa-ku","Tokyo","Japan","North Asia",2427
+"Cirebon","Jawa Barat","Indonesia","Southeast Asia",2428
+"Saanich","British Columbia","Canada","Canada",2432
+"Nakhon Ratchasima","Nakhon Ratchasima","Thailand","Southeast Asia",2435
+"Pekalongan","Jawa Tengah","Indonesia","Southeast Asia",2439
+"East Kilbride","Scotland","United Kingdom","North",2449
+"Suwon","Gyeonggi","South Korea","North Asia",2453
+"Sukabumi","Jawa Barat","Indonesia","Southeast Asia",2463
+"Kotka","Kymenlaakso","Finland","North",2470
+"Baní","Peravia","Dominican Republic","Caribbean",2471
+"Ibaraki","Osaka","Japan","North Asia",2472
+"Yao","Osaka","Japan","North Asia",2475
+"Tangerang","Jawa Barat","Indonesia","Southeast Asia",2480
+"Sialkot","Punjab","Pakistan","Central Asia",2487
+"Nha Trang","Khánh Hòa","Vietnam","Southeast Asia",2490
+"Markham","Ontario","Canada","Canada",2514
+"Nagaoka","Shizuoka","Japan","North Asia",2529
+"Funabashi","Chiba","Japan","North Asia",2540
+"Solna","Stockholm","Sweden","North",2579
+"Puerto Padre","Las Tunas","Cuba","Caribbean",2606
+"Eskilstuna","Södermanland","Sweden","North",2619
+"Colombo","Western","Sri Lanka","Central Asia",2661
+"St. Catharines","Ontario","Canada","Canada",2674
+"Stavanger","Rogaland","Norway","North",2685
+"Saskatoon","Saskatchewan","Canada","Canada",2695
+"Sakai","Osaka","Japan","North Asia",2705
+"Mardan","Khyber Pakhtunkhwa","Pakistan","Central Asia",2707
+"Huddinge","Stockholm","Sweden","North",2711
+"Handa","Aichi","Japan","North Asia",2722
+"Fukui","Fukui","Japan","North Asia",2730
+"Bajos de Haina","San Cristóbal","Dominican Republic","Caribbean",2734
+"Ulsan","Ulsan","South Korea","North Asia",2746
+"Kawaguchi","Saitama","Japan","North Asia",2748
+"Banda Aceh","Aceh","Indonesia","Southeast Asia",2790
+"Katsushika-ku","Tokyo","Japan","North Asia",2795
+"Moa","Holguín","Cuba","Caribbean",2799
+"Warrnambool","Victoria","Australia","Oceania",2806
+"Toyohashi","Aichi","Japan","North Asia",2815
+"Halifax","Nova Scotia","Canada","Canada",2829
+"Rhondda","Wales","United Kingdom","North",2844
+"Abbotsford","British Columbia","Canada","Canada",2857
+"Kalundborg","Zealand","Denmark","North",2870
+"Esbjerg","South Denmark","Denmark","North",2906
+"Echuca","Victoria","Australia","Oceania",2935
+"Briton Ferry","Wales","United Kingdom","North",2945
+"Barry","Wales","United Kingdom","North",2946
+"Lund","Skåne","Sweden","North",2952
+"Oakville","Ontario","Canada","Canada",2969
+"Longueuil","Quebec","Canada","Canada",2982
+"Oyama","Tochigi","Japan","North Asia",2991
+"Windsor","Ontario","Canada","Canada",3005
+"Kurashiki","Okayama","Japan","North Asia",3039
+"Tsukuba","Ibaraki","Japan","North Asia",3055
+"Banjarmasin","Kalimantan Selatan","Indonesia","Southeast Asia",3060
+"Quebec","Quebec","Canada","Canada",3086
+"Asahikawa","Hokkaido","Japan","North Asia",3098
+"Ichikawa","Chiba","Japan","North Asia",3110
+"Peterborough","Ontario","Canada","Canada",3126
+"Cambridge","Waikato","New Zealand","Oceania",3149
+"Saint-Laurent","Quebec","Canada","Canada",3156
+"Upplands Väsby","Stockholm","Sweden","North",3181
+"Tallaght","South Dublin","Ireland","North",3191
+"San Pedro","Calabarzon","Philippines","Southeast Asia",3198
+"Red Deer","Alberta","Canada","Canada",3200
+"Helsingborg","Skåne","Sweden","North",3212
+"St. John's","Newfoundland","Canada","Canada",3213
+"Kwangju","Gyeonggi","South Korea","North Asia",3217
+"Hamar","Hedmark","Norway","North",3237
+"Cox’s Bāzār","Chittagong","Bangladesh","Central Asia",3282
+"Atsugacho","Hokkaido","Japan","North Asia",3294
+"Hachinohe","Aomori","Japan","North Asia",3305
+"Waterloo","Ontario","Canada","Canada",3307
+"Amagasaki","Hyogo","Japan","North Asia",3330
+"Paisley","Scotland","United Kingdom","North",3337
+"Gujrat","Punjab","Pakistan","Central Asia",3348
+"Pickering","Ontario","Canada","Canada",3350
+"Dartmouth","Nova Scotia","Canada","Canada",3374
+"Frederiksberg","Hovedstaden","Denmark","North",3382
+"Coquitlam","British Columbia","Canada","Canada",3388
+"Cumbernauld","Scotland","United Kingdom","North",3397
+"Chuncheon","Gangwon","South Korea","North Asia",3453
+"Sonderborg","South Denmark","Denmark","North",3484
+"Morón","Ciego de Ávila","Cuba","Caribbean",3505
+"Gatineau","Quebec","Canada","Canada",3511
+"Cheonan","South Chungcheong","South Korea","North Asia",3512
+"Anjo","Aichi","Japan","North Asia",3536
+"Bonao","Monseñor Nouel","Dominican Republic","Caribbean",3540
+"Narsingdi","Dhaka","Bangladesh","Central Asia",3552
+"Ulan Bator","Ulaanbaatar","Mongolia","North Asia",3562
+"Ueda","Nagano","Japan","North Asia",3610
+"Chigasaki","Kanagawa","Japan","North Asia",3615
+"Kita-ku","Hyogo","Japan","North Asia",3620
+"Brantford","Ontario","Canada","Canada",3650
+"Ambon","Maluku","Indonesia","Southeast Asia",3656
+"Fujisawa","Kanagawa","Japan","North Asia",3662
+"Burlington","Ontario","Canada","Canada",3674
+"Tottori","Tottori","Japan","North Asia",3681
+"Randers","Central Jutland","Denmark","North",3690
+"Levin","Manawatu-Wanganui","New Zealand","Oceania",3718
+"Matsumoto","Nagano","Japan","North Asia",3725
+"Barrie","Ontario","Canada","Canada",3750
+"Soyapango","San Salvador","El Salvador","Central",24
+"Chinandega","Chinandega","Nicaragua","Central",61
+"Graz","Styria","Austria","Central",82
+"Bergen op Zoom","North Brabant","Netherlands","Central",93
+"Mixco","Guatemala","Guatemala","Central",125
+"Matagalpa","Matagalpa","Nicaragua","Central",189
+"Managua","Managua","Nicaragua","Central",191
+"Vienna","Vienna","Austria","Central",196
+"Amsterdam","North Holland","Netherlands","Central",205
+"León","León","Nicaragua","Central",219
+"Mejicanos","San Salvador","El Salvador","Central",241
+"Ghent","East Flanders","Belgium","Central",254
+"Zurich","Zürich","Switzerland","Central",321
+"Eindhoven","North Brabant","Netherlands","Central",338
+"Quetzaltenango","Quezaltenango","Guatemala","Central",339
+"Antiguo Cuscatlán","La Libertad","El Salvador","Central",340
+"San Salvador","San Salvador","El Salvador","Central",363
+"Villa Nueva","Guatemala","Guatemala","Central",436
+"Basel","Basel-Stadt","Switzerland","Central",474
+"Tegucigalpa","Francisco Morazán","Honduras","Central",491
+"Lucerne","Lucerne","Switzerland","Central",502
+"Antwerp","Antwerp","Belgium","Central",548
+"Estelí","Estelí","Nicaragua","Central",570
+"Namur","Namur","Belgium","Central",630
+"Ilopango","San Salvador","El Salvador","Central",712
+"Innsbruck","Tyrol","Austria","Central",764
+"Panama City","Panama","Panama","Central",767
+"Tilburg","North Brabant","Netherlands","Central",773
+"Chimaltenango","Chimaltenango","Guatemala","Central",793
+"Utrecht","Utrecht","Netherlands","Central",806
+"Arnhem","Gelderland","Netherlands","Central",831
+"Genk","Limburg","Belgium","Central",837
+"Santa Ana","Santa Ana","El Salvador","Central",950
+"Petapa","Guatemala","Guatemala","Central",953
+"David","Chiriquí","Panama","Central",957
+"Villach","Carinthia","Austria","Central",970
+"Escuintla","Escuintla","Guatemala","Central",974
+"Villa Canales","Guatemala","Guatemala","Central",1018
+"The Hague","South Holland","Netherlands","Central",1036
+"San Pedro Sula","Cortés","Honduras","Central",1058
+"Spijkenisse","South Holland","Netherlands","Central",1068
+"Breda","North Brabant","Netherlands","Central",1083
+"Charleroi","Hainaut","Belgium","Central",1086
+"Apopa","San Salvador","El Salvador","Central",1123
+"Geneva","Geneva","Switzerland","Central",1128
+"Linz","Upper Austria","Austria","Central",1153
+"La Ceiba","Atlántida","Honduras","Central",1159
+"Chinautla","Guatemala","Guatemala","Central",1169
+"Groningen","Groningen","Netherlands","Central",1193
+"Choluteca","Choluteca","Honduras","Central",1257
+"Arraiján","Panama","Panama","Central",1280
+"San Miguelito","Panama","Panama","Central",1319
+"Tipitapa","Managua","Nicaragua","Central",1350
+"Hasselt","Limburg","Belgium","Central",1352
+"Choloma","Cortés","Honduras","Central",1358
+"Nieuwegein","Utrecht","Netherlands","Central",1366
+"Haarlem","North Holland","Netherlands","Central",1398
+"Mechelen","Antwerp","Belgium","Central",1418
+"Lausanne","Vaud","Switzerland","Central",1466
+"Sonsonate","Sonsonate","El Salvador","Central",1472
+"Huehuetenango","Huehuetenango","Guatemala","Central",1484
+"La Chorrera","Panama","Panama","Central",1508
+"Masaya","Masaya","Nicaragua","Central",1548
+"Granada","Granada","Nicaragua","Central",1554
+"Leuven","Flemish Brabant","Belgium","Central",1566
+"Hardenberg","Overijssel","Netherlands","Central",1575
+"Cuscatancingo","San Salvador","El Salvador","Central",1577
+"Oosterhout","North Brabant","Netherlands","Central",1582
+"Klagenfurt","Carinthia","Austria","Central",1602
+"Roeselare","West Flanders","Belgium","Central",1613
+"Deventer","Overijssel","Netherlands","Central",1639
+"Salzburg","Salzburg","Austria","Central",1654
+"Colón","Colón","Panama","Central",1783
+"Velsen","North Holland","Netherlands","Central",1887
+"Delgado","San Salvador","El Salvador","Central",1940
+"Amersfoort","Utrecht","Netherlands","Central",1946
+"Wels","Upper Austria","Austria","Central",1958
+"Berne","Bern","Switzerland","Central",1960
+"Rotterdam","South Holland","Netherlands","Central",1986
+"Winterthur","Zürich","Switzerland","Central",2016
+"Emmen","Drenthe","Netherlands","Central",2052
+"Verviers","Liège","Belgium","Central",2070
+"Doetinchem","Gelderland","Netherlands","Central",2094
+"Capelle aan den IJssel","South Holland","Netherlands","Central",2106
+"Heerlen","Limburg","Netherlands","Central",2119
+"El Progreso","Yoro","Honduras","Central",2187
+"Amatitlán","Guatemala","Guatemala","Central",2196
+"Zaanstad","North Holland","Netherlands","Central",2269
+"Apeldoorn","Gelderland","Netherlands","Central",2346
+"Almelo","Overijssel","Netherlands","Central",2370
+"Delft","South Holland","Netherlands","Central",2378
+"Sittard","Limburg","Netherlands","Central",2379
+"Uithoorn","North Holland","Netherlands","Central",2384
+"Schiedam","South Holland","Netherlands","Central",2408
+"Brussels","Brussels","Belgium","Central",2430
+"Hengelo","Overijssel","Netherlands","Central",2438
+"Zeist","Utrecht","Netherlands","Central",2468
+"Mouscron","Hainaut","Belgium","Central",2591
+"Guatemala City","Guatemala","Guatemala","Central",2644
+"San Martín","Cuscatlán","El Salvador","Central",2653
+"Barneveld","Gelderland","Netherlands","Central",2654
+"Zwolle","Overijssel","Netherlands","Central",2663
+"Tournai","Hainaut","Belgium","Central",2677
+"Helmond","North Brabant","Netherlands","Central",2833
+"Bruges","West Flanders","Belgium","Central",2858
+"Roermond","Limburg","Netherlands","Central",2878
+"Terneuzen","Zeeland","Netherlands","Central",2928
+"Leeuwarden","Friesland","Netherlands","Central",2939
+"Alphen aan den Rijn","South Holland","Netherlands","Central",2967
+"Aalst","East Flanders","Belgium","Central",3007
+"Dordrecht","South Holland","Netherlands","Central",3016
+"Hamme","East Flanders","Belgium","Central",3027
+"Assen","Drenthe","Netherlands","Central",3030
+"Enschede","Overijssel","Netherlands","Central",3034
+"Purmerend","North Holland","Netherlands","Central",3042
+"Maastricht","Limburg","Netherlands","Central",3092
+"Kortrijk","West Flanders","Belgium","Central",3113
+"Nijmegen","Gelderland","Netherlands","Central",3133
+"Den Helder","North Holland","Netherlands","Central",3162
+"Seraing","Liège","Belgium","Central",3168
+"Hilversum","North Holland","Netherlands","Central",3169
+"Alkmaar","North Holland","Netherlands","Central",3345
+"Vlaardingen","South Holland","Netherlands","Central",3356
+"Roosendaal","North Brabant","Netherlands","Central",3376
+"Venlo","Limburg","Netherlands","Central",3469
+"Veenendaal","Utrecht","Netherlands","Central",3523
+"Peer","Limburg","Belgium","Central",3549
+"St. Gallen","St. Gallen","Switzerland","Central",3592
+"Leiden","South Holland","Netherlands","Central",3642
+"Oss","North Brabant","Netherlands","Central",3709
+"Dakar","Dakar","Senegal","Africa",5
+"Uvinza","Kigoma","Tanzania","Africa",18
+"Kamina","Katanga","Democratic Republic of the Congo","Africa",33
+"Maputo","Cidade De Maputo","Mozambique","Africa",46
+"Kananga","Kasai-Occidental","Democratic Republic of the Congo","Africa",62
+"Meknes","Meknès-Tafilalet","Morocco","Africa",70
+"Casablanca","Grand Casablanca","Morocco","Africa",75
+"Kinshasa","Kinshasa","Democratic Republic of the Congo","Africa",86
+"Hargeysa","Woqooyi Galbeed","Somalia","Africa",118
+"Johannesburg","Gauteng","South Africa","Africa",156
+"Cape Town","Western Cape","South Africa","Africa",175
+"Cairo","Al Qahirah","Egypt","Africa",176
+"Girga","Suhaj","Egypt","Africa",183
+"Maseru","Maseru","Lesotho","Africa",185
+"Yaounde","Centre","Cameroon","Africa",213
+"Port Elizabeth","Eastern Cape","South Africa","Africa",223
+"Benguela","Benguela","Angola","Africa",237
+"Kalemie","Katanga","Democratic Republic of the Congo","Africa",253
+"Kumasi","Ashanti","Ghana","Africa",265
+"Kitwe","Copperbelt","Zambia","Africa",285
+"Lubumbashi","Katanga","Democratic Republic of the Congo","Africa",292
+"Monrovia","Montserrado","Liberia","Africa",311
+"Koumra","Mandoul","Chad","Africa",329
+"Windhoek","Khomas","Namibia","Africa",337
+"Antananarivo","Analamanga","Madagascar","Africa",352
+"Potchefstroom","North-West","South Africa","Africa",388
+"Dar es Salaam","Dar Es Salaam","Tanzania","Africa",439
+"Beni Mellal","Tadla-Azilal","Morocco","Africa",443
+"Loubomo","Niari","Republic of the Congo","Africa",447
+"Algiers","Alger","Algeria","Africa",457
+"Alexandria","Al Iskandariyah","Egypt","Africa",464
+"Pretoria","Gauteng","South Africa","Africa",468
+"Matola","Maputo","Mozambique","Africa",475
+"Makurdi","Benue","Nigeria","Africa",483
+"Gagnoa","Fromager","Cote d'Ivoire","Africa",490
+"Mbuji-mayi","Kasai-Oriental","Democratic Republic of the Congo","Africa",506
+"Daloa","Haut-Sassandra","Cote d'Ivoire","Africa",513
+"Bangui","Bangui","Central African Republic","Africa",541
+"Porto-Novo","Ouémé","Benin","Africa",553
+"Tangier","Tanger-Tétouan","Morocco","Africa",574
+"Sale","Rabat-Salé-Zemmour-Zaer","Morocco","Africa",659
+"Accra","Greater Accra","Ghana","Africa",665
+"Nairobi","Nairobi","Kenya","Africa",675
+"Sikasso","Sikasso","Mali","Africa",683
+"Misratah","Misratah","Libya","Africa",699
+"Marrakech","Marrakech-Tensift-El Haouz","Morocco","Africa",740
+"Lagos","Lagos","Nigeria","Africa",788
+"Annaba","Annaba","Algeria","Africa",805
+"Chililabombwe","Copperbelt","Zambia","Africa",822
+"Kano","Kano","Nigeria","Africa",865
+"Fes","Fès-Boulemane","Morocco","Africa",873
+"Bamako","Bamako","Mali","Africa",883
+"Mahajanga","Boeny","Madagascar","Africa",891
+"Saida","Saida","Algeria","Africa",892
+"Nampula","Nampula","Mozambique","Africa",896
+"Chipata","Eastern","Zambia","Africa",911
+"Benghazi","Banghazi","Libya","Africa",918
+"Roodepoort","Gauteng","South Africa","Africa",932
+"Rabat","Rabat-Salé-Zemmour-Zaer","Morocco","Africa",934
+"Lusaka","Lusaka","Zambia","Africa",937
+"Mwanza","Mwanza","Tanzania","Africa",951
+"Mabopane","Gauteng","South Africa","Africa",956
+"Al Mahallah al Kubra","Al Gharbiyah","Egypt","Africa",981
+"Lome","Maritime","Togo","Africa",988
+"Hurghada","Al Bahr Al Ahmar","Egypt","Africa",998
+"Arusha","Arusha","Tanzania","Africa",1000
+"Nouakchott","Nouakchott","Mauritania","Africa",1011
+"Saint-Louis","Saint-Louis","Senegal","Africa",1012
+"George","Western Cape","South Africa","Africa",1015
+"Luanda","Luanda","Angola","Africa",1055
+"Mbandaka","Equateur","Democratic Republic of the Congo","Africa",1056
+"Nzerekore","Nzérékoré","Guinea","Africa",1069
+"Zaria","Kaduna","Nigeria","Africa",1070
+"Kaduna","Kaduna","Nigeria","Africa",1082
+"Oran","Oran","Algeria","Africa",1087
+"Kigali","Kigali","Rwanda","Africa",1088
+"Atakpame","Plateaux","Togo","Africa",1099
+"Foumban","Ouest","Cameroon","Africa",1106
+"Likasi","Katanga","Democratic Republic of the Congo","Africa",1119
+"Newcastle","Kwazulu-natal","South Africa","Africa",1127
+"Niamey","Niamey","Niger","Africa",1140
+"Bur Sudan","Red Sea","Sudan","Africa",1196
+"Bouake","Vallee Du Bandama","Cote d'Ivoire","Africa",1228
+"Khartoum","Khartoum","Sudan","Africa",1265
+"Quelimane","Zambezia","Mozambique","Africa",1276
+"Kassala","Kassala","Sudan","Africa",1284
+"Ndola","Copperbelt","Zambia","Africa",1300
+"Safi","Doukkala-Abda","Morocco","Africa",1308
+"Mogadishu","Banaadir","Somalia","Africa",1323
+"Soweto","Gauteng","South Africa","Africa",1328
+"Mombasa","Coast","Kenya","Africa",1338
+"Koidu","Eastern","Sierra Leone","Africa",1341
+"Kindia","Kindia","Guinea","Africa",1355
+"Tanta","Al Gharbiyah","Egypt","Africa",1357
+"Abidjan","Lagunes","Cote d'Ivoire","Africa",1370
+"Kankan","Kankan","Guinea","Africa",1388
+"Bissau","Bissau","Guinea-Bissau","Africa",1405
+"Beira","Sofala","Mozambique","Africa",1429
+"Yamoussoukro","Lacs","Cote d'Ivoire","Africa",1431
+"Djibouti","Djibouti","Djibouti","Africa",1435
+"Nakuru","Rift Valley","Kenya","Africa",1446
+"Pietermaritzburg","Kwazulu-natal","South Africa","Africa",1483
+"Port Harcourt","Rivers","Nigeria","Africa",1491
+"Cotonou","Littoral","Benin","Africa",1509
+"Marsabit","Eastern","Kenya","Africa",1527
+"Mufulira","Copperbelt","Zambia","Africa",1531
+"Tunis","Tunis","Tunisia","Africa",1542
+"Guelma","Guelma","Algeria","Africa",1570
+"Aswan","Aswan","Egypt","Africa",1603
+"Chingola","Copperbelt","Zambia","Africa",1626
+"Sohag","Suhaj","Egypt","Africa",1632
+"Thika","Central","Kenya","Africa",1637
+"Bulawayo","Bulawayo","Zimbabwe","Africa",1644
+"Iringa","Iringa","Tanzania","Africa",1658
+"Benin City","Edo","Nigeria","Africa",1659
+"Vryburg","North-West","South Africa","Africa",1668
+"Laghouat","Laghouat","Algeria","Africa",1698
+"Juba","Central Equatoria","South Sudan","Africa",1699
+"Wad Madani","Gezira","Sudan","Africa",1710
+"Bauchi","Bauchi","Nigeria","Africa",1728
+"Libreville","Estuaire","Gabon","Africa",1734
+"Calabar","Cross River","Nigeria","Africa",1786
+"Maradi","Maradi","Niger","Africa",1801
+"Lichinga","Niassa","Mozambique","Africa",1816
+"Huambo","Huambo","Angola","Africa",1827
+"Durban","Kwazulu-natal","South Africa","Africa",1893
+"Shinyanga","Shinyanga","Tanzania","Africa",1903
+"Bukavu","South Kivu","Democratic Republic of the Congo","Africa",1912
+"Man","Dix-Huit Montagnes","Cote d'Ivoire","Africa",1965
+"Ebolowa","Sud","Cameroon","Africa",1967
+"Djougou","Donga","Benin","Africa",1968
+"Thies Nones","Thies","Senegal","Africa",1969
+"Batna","Batna","Algeria","Africa",1971
+"Lubango","Huila","Angola","Africa",1997
+"Kisangani","Orientale","Democratic Republic of the Congo","Africa",2028
+"Barika","Batna","Algeria","Africa",2040
+"Garoua","Nord","Cameroon","Africa",2067
+"Kolwezi","Katanga","Democratic Republic of the Congo","Africa",2068
+"Beni Suef","Bani Suwayf","Egypt","Africa",2096
+"Manzini","Manzini","Swaziland","Africa",2100
+"Stellenbosch","Western Cape","South Africa","Africa",2109
+"Enugu","Enugu","Nigeria","Africa",2116
+"Idfu","Aswan","Egypt","Africa",2117
+"Mbinga","Ruvuma","Tanzania","Africa",2124
+"Bamenda","Nord-Ouest","Cameroon","Africa",2126
+"Bertoua","Est","Cameroon","Africa",2185
+"Kikwit","Bandundu","Democratic Republic of the Congo","Africa",2188
+"Giyani","Limpopo","South Africa","Africa",2189
+"Tanga","Tanga","Tanzania","Africa",2204
+"Tahta","Suhaj","Egypt","Africa",2206
+"Agadir","Souss-Massa-Draâ","Morocco","Africa",2215
+"Livingstone","Southern","Zambia","Africa",2220
+"Kisumu","Nyanza","Kenya","Africa",2223
+"Constantine","Constantine","Algeria","Africa",2224
+"Kindu","Maniema","Democratic Republic of the Congo","Africa",2225
+"Damanhur","Al Buhayrah","Egypt","Africa",2226
+"Minuf","Al Minufiyah","Egypt","Africa",2227
+"Ad Diwem","White Nile","Sudan","Africa",2259
+"Tamale","Northern","Ghana","Africa",2273
+"Ngaoundere","Adamaoua","Cameroon","Africa",2283
+"Moshi","Kilimanjaro","Tanzania","Africa",2293
+"Al Fayyum","Al Fayyum","Egypt","Africa",2326
+"Korhogo","Savanes","Cote d'Ivoire","Africa",2338
+"Musoma","Mara","Tanzania","Africa",2342
+"Mbeya","Mbeya","Tanzania","Africa",2343
+"Ibadan","Oyo","Nigeria","Africa",2349
+"Bejaia","Bejaia","Algeria","Africa",2365
+"Matadi","Bas-Congo","Democratic Republic of the Congo","Africa",2395
+"Chitungwiza","Harare","Zimbabwe","Africa",2403
+"East London","Eastern Cape","South Africa","Africa",2404
+"Maiduguri","Borno","Nigeria","Africa",2406
+"Uvira","South Kivu","Democratic Republic of the Congo","Africa",2426
+"Taza","Taza-Al Hoceima-Taounate","Morocco","Africa",2473
+"Centurion","Gauteng","South Africa","Africa",2481
+"Dire Dawa","Dire Dawa","Ethiopia","Africa",2499
+"Aba","Abia","Nigeria","Africa",2503
+"Butare","Southern","Rwanda","Africa",2507
+"Bo","Southern","Sierra Leone","Africa",2519
+"Natitingou","Atakora","Benin","Africa",2557
+"Ilorin","Kwara","Nigeria","Africa",2563
+"Settat","Chaouia-Ouardigha","Morocco","Africa",2571
+"Port Said","Bur Sa'id","Egypt","Africa",2578
+"Harare","Harare","Zimbabwe","Africa",2600
+"Boghni","Tizi Ouzou","Algeria","Africa",2603
+"Kenitra","Gharb-Chrarda-Béni Hssen","Morocco","Africa",2609
+"Sidi Bel Abbes","Sidi Bel Abbes","Algeria","Africa",2624
+"Kampala","Kampala","Uganda","Africa",2625
+"Mallawi","Al Minya","Egypt","Africa",2631
+"Khenifra","Meknès-Tafilalet","Morocco","Africa",2638
+"Mohammedia","Grand Casablanca","Morocco","Africa",2646
+"Messaad","Djelfa","Algeria","Africa",2664
+"Ikot Ekpene","Akwa Ibom","Nigeria","Africa",2675
+"Zinder","Zinder","Niger","Africa",2699
+"Randfontein","Gauteng","South Africa","Africa",2709
+"Kuito","Bie","Angola","Africa",2714
+"Tetouan","Tanger-Tétouan","Morocco","Africa",2720
+"Khouribga","Chaouia-Ouardigha","Morocco","Africa",2725
+"Minna","Niger","Nigeria","Africa",2739
+"Nkongsamba","Littoral","Cameroon","Africa",2757
+"Antsiranana","Diana","Madagascar","Africa",2762
+"Bandundu","Bandundu","Democratic Republic of the Congo","Africa",2774
+"Warri","Delta","Nigeria","Africa",2778
+"Mtwara","Mtwara","Tanzania","Africa",2789
+"Mostaganem","Mostaganem","Algeria","Africa",2804
+"Asyut","Asyut","Egypt","Africa",2825
+"Medea","Medea","Algeria","Africa",2827
+"Khemisset","Rabat-Salé-Zemmour-Zaer","Morocco","Africa",2838
+"Springs","Gauteng","South Africa","Africa",2855
+"Bilbeis","Ash Sharqiyah","Egypt","Africa",2862
+"Skikda","Skikda","Algeria","Africa",2880
+"Ain Oussera","Djelfa","Algeria","Africa",2897
+"Tlemcen","Tlemcen","Algeria","Africa",2918
+"Westonaria","Gauteng","South Africa","Africa",2924
+"Sapele","Delta","Nigeria","Africa",2932
+"Baraki","Tipaza","Algeria","Africa",2934
+"Ziguinchor","Ziguinchor","Senegal","Africa",2944
+"Qena","Qina","Egypt","Africa",2948
+"Al Minya","Al Minya","Egypt","Africa",2950
+"Abu Kabir","Ash Sharqiyah","Egypt","Africa",2955
+"Kayes","Kayes","Mali","Africa",2962
+"Limbe","Sud-Ouest","Cameroon","Africa",2983
+"Bafoussam","Ouest","Cameroon","Africa",3012
+"Damaturu","Yobe","Nigeria","Africa",3026
+"Shagamu","Ogun","Nigeria","Africa",3033
+"Kabwe","Central","Zambia","Africa",3043
+"Owerri","Imo","Nigeria","Africa",3046
+"Gulu","Gulu","Uganda","Africa",3048
+"Onitsha","Anambra","Nigeria","Africa",3064
+"Edea","Littoral","Cameroon","Africa",3076
+"Bujumbura","Bujumbura-Mairie","Burundi","Africa",3091
+"Kismaayo","Jubbada Hoose","Somalia","Africa",3095
+"Tabora","Tabora","Tanzania","Africa",3100
+"Mopti","Mopti","Mali","Africa",3107
+"Fianarantsoa","Haute-Matsiatra","Madagascar","Africa",3108
+"Parakou","Borgou","Benin","Africa",3117
+"Rustenburg","North-West","South Africa","Africa",3122
+"Disuq","Kafr Ash Shaykh","Egypt","Africa",3145
+"Morogoro","Morogoro","Tanzania","Africa",3160
+"Gusau","Zamfara","Nigeria","Africa",3177
+"Bloemfontein","Free State","South Africa","Africa",3182
+"Luanshya","Copperbelt","Zambia","Africa",3185
+"Sokode","Centrale","Togo","Africa",3186
+"Al Khums","Al Marqab","Libya","Africa",3211
+"Benoni","Gauteng","South Africa","Africa",3251
+"Kandi","Alibori","Benin","Africa",3252
+"Loum","Littoral","Cameroon","Africa",3254
+"Bagamoyo","Pwani","Tanzania","Africa",3255
+"Koforidua","Eastern","Ghana","Africa",3261
+"Jos","Plateau","Nigeria","Africa",3283
+"Owo","Ondo","Nigeria","Africa",3284
+"Ilesha","Osun","Nigeria","Africa",3288
+"Kumba","Sud-Ouest","Cameroon","Africa",3299
+"Bechar","Bechar","Algeria","Africa",3309
+"Tembisa","Gauteng","South Africa","Africa",3314
+"Kadoma","Mashonaland West","Zimbabwe","Africa",3334
+"Ulundi","Kwazulu-natal","South Africa","Africa",3341
+"Keren","Anseba","Eritrea","Africa",3342
+"Bata","Litoral","Equatorial Guinea","Africa",3346
+"Stanger","Kwazulu-natal","South Africa","Africa",3349
+"Abuja","Abuja Capital Territory","Nigeria","Africa",3355
+"eMbalenhle","Mpumalanga","South Africa","Africa",3358
+"Tete","Tete","Mozambique","Africa",3363
+"Ouidah","Atlantique","Benin","Africa",3367
+"Mpumalanga","Kwazulu-natal","South Africa","Africa",3368
+"Namibe","Namibe","Angola","Africa",3372
+"Chimoio","Manica","Mozambique","Africa",3379
+"Sidi Qacem","Gharb-Chrarda-Béni Hssen","Morocco","Africa",3385
+"Kafr ad Dawwar","Al Buhayrah","Egypt","Africa",3387
+"Makeni","Northern","Sierra Leone","Africa",3391
+"Ugep","Cross River","Nigeria","Africa",3407
+"Maroua","Extreme-Nord","Cameroon","Africa",3408
+"Samalut","Al Minya","Egypt","Africa",3413
+"Botshabelo","Free State","South Africa","Africa",3414
+"Funtua","Katsina","Nigeria","Africa",3419
+"Chalinze","Pwani","Tanzania","Africa",3424
+"Mubi","Adamawa","Nigeria","Africa",3431
+"Jinja","Jinja","Uganda","Africa",3452
+"Kasama","Northern","Zambia","Africa",3454
+"Gombe","Gombe","Nigeria","Africa",3456
+"Vereeniging","Gauteng","South Africa","Africa",3474
+"Berrechid","Chaouia-Ouardigha","Morocco","Africa",3496
+"Sokoto","Sokoto","Nigeria","Africa",3501
+"Pemba","Cabo Delgado","Mozambique","Africa",3508
+"Guelmim","Guelmim-Es Semara","Morocco","Africa",3510
+"Abeokuta","Ogun","Nigeria","Africa",3520
+"Toliara","Atsimo-Andrefana","Madagascar","Africa",3522
+"Malanje","Malanje","Angola","Africa",3533
+"Epworth","Harare","Zimbabwe","Africa",3544
+"Igurusi","Mbeya","Tanzania","Africa",3545
+"Toamasina","Atsinanana","Madagascar","Africa",3548
+"Katsina","Katsina","Nigeria","Africa",3553
+"Boksburg","Gauteng","South Africa","Africa",3564
+"Kara","Kara","Togo","Africa",3568
+"Zwedru","Grand Gedeh","Liberia","Africa",3577
+"Akhmim","Suhaj","Egypt","Africa",3579
+"Larache","Tanger-Tétouan","Morocco","Africa",3585
+"Cape Coast","Central","Ghana","Africa",3607
+"Umtata","Eastern Cape","South Africa","Africa",3612
+"Nguigmi","Diffa","Niger","Africa",3622
+"Akure","Ondo","Nigeria","Africa",3623
+"El Jadida","Doukkala-Abda","Morocco","Africa",3624
+"Krugersdorp","Gauteng","South Africa","Africa",3655
+"Maxixe","Inhambane","Mozambique","Africa",3669
+"Marsa Matruh","Matruh","Egypt","Africa",3673
+"Abakaliki","Ebonyi","Nigeria","Africa",3696
+"Kigoma","Kigoma","Tanzania","Africa",3708
+"Dar Chioukh","Djelfa","Algeria","Africa",3713
+"Gitarama","Southern","Rwanda","Africa",3723
+"Lokossa","Mono","Benin","Africa",3728
+"Mutare","Manicaland","Zimbabwe","Africa",3737
+"Kafr ash Shaykh","Kafr Ash Shaykh","Egypt","Africa",3742
+"Al Manaqil","Gezira","Sudan","Africa",3754
+"Fort Portal","Kabarole","Uganda","Africa",3758
+"Vanderbijlpark","Gauteng","South Africa","Africa",3759
+"Victoria Falls","Matabeleland North","Zimbabwe","Africa",3772
+"Stockton-on-Tees","England","United Kingdom","North",35
+"Huddersfield","England","United Kingdom","North",39
+"London","England","United Kingdom","North",64
+"Harrogate","England","United Kingdom","North",146
+"West Bromwich","England","United Kingdom","North",177
+"Burnley","England","United Kingdom","North",179
+"Preston","England","United Kingdom","North",200
+"Newcastle upon Tyne","England","United Kingdom","North",214
+"Cambridge","England","United Kingdom","North",225
+"Tamworth","England","United Kingdom","North",271
+"Dudley","England","United Kingdom","North",359
+"Stoke-on-Trent","England","United Kingdom","North",365
+"Colchester","England","United Kingdom","North",417
+"Rugby","England","United Kingdom","North",423
+"York","England","United Kingdom","North",433
+"Blackpool","England","United Kingdom","North",469
+"Crawley","England","United Kingdom","North",482
+"Worthing","England","United Kingdom","North",526
+"Kingswood","England","United Kingdom","North",599
+"Leeds","England","United Kingdom","North",601
+"Chester","England","United Kingdom","North",628
+"Hastings","England","United Kingdom","North",642
+"Wolverhampton","England","United Kingdom","North",669
+"Nottingham","England","United Kingdom","North",685
+"Woking","England","United Kingdom","North",709
+"Reading","England","United Kingdom","North",742
+"Carlisle","England","United Kingdom","North",747
+"Sheffield","England","United Kingdom","North",761
+"Doncaster","England","United Kingdom","North",802
+"Birmingham","England","United Kingdom","North",812
+"Derby","England","United Kingdom","North",830
+"Littlehampton","England","United Kingdom","North",844
+"Stourbridge","England","United Kingdom","North",853
+"Bognor Regis","England","United Kingdom","North",856
+"South Shields","England","United Kingdom","North",862
+"Farnborough","England","United Kingdom","North",874
+"Slough","England","United Kingdom","North",907
+"Rotherham","England","United Kingdom","North",929
+"Hartlepool","England","United Kingdom","North",962
+"Sunderland","England","United Kingdom","North",980
+"Bath","England","United Kingdom","North",987
+"Gateshead","England","United Kingdom","North",990
+"Wigan","England","United Kingdom","North",1048
+"Leicester","England","United Kingdom","North",1054
+"Bradford","England","United Kingdom","North",1113
+"Great Yarmouth","England","United Kingdom","North",1142
+"Coventry","England","United Kingdom","North",1156
+"Exeter","England","United Kingdom","North",1167
+"Harrow","England","United Kingdom","North",1172
+"Portsmouth","England","United Kingdom","North",1202
+"Watford","England","United Kingdom","North",1210
+"Chelmsford","England","United Kingdom","North",1225
+"Ashford","England","United Kingdom","North",1227
+"Mansfield","England","United Kingdom","North",1245
+"Bolton","England","United Kingdom","North",1306
+"Liverpool","England","United Kingdom","North",1385
+"Manchester","England","United Kingdom","North",1394
+"Middlesbrough","England","United Kingdom","North",1404
+"Gloucester","England","United Kingdom","North",1406
+"Basildon","England","United Kingdom","North",1430
+"Crewe","England","United Kingdom","North",1441
+"Northampton","England","United Kingdom","North",1473
+"Worcester","England","United Kingdom","North",1489
+"Letchworth","England","United Kingdom","North",1534
+"Aylesbury","England","United Kingdom","North",1550
+"Warrington","England","United Kingdom","North",1553
+"Peterborough","England","United Kingdom","North",1563
+"Lowestoft","England","United Kingdom","North",1574
+"Widnes","England","United Kingdom","North",1596
+"Waterlooville","England","United Kingdom","North",1630
+"Dewsbury","England","United Kingdom","North",1634
+"Dartford","England","United Kingdom","North",1651
+"Poole","England","United Kingdom","North",1666
+"Cheshunt","England","United Kingdom","North",1748
+"Torquay","England","United Kingdom","North",1754
+"Birkenhead","England","United Kingdom","North",1763
+"Margate","England","United Kingdom","North",1808
+"Brighton","England","United Kingdom","North",1830
+"Maidenhead","England","United Kingdom","North",1838
+"Wallasey","England","United Kingdom","North",1862
+"Guildford","England","United Kingdom","North",1874
+"Luton","England","United Kingdom","North",1879
+"Wakefield","England","United Kingdom","North",1974
+"Walsall","England","United Kingdom","North",1979
+"Halesowen","England","United Kingdom","North",1995
+"Lincoln","England","United Kingdom","North",2011
+"Washington","England","United Kingdom","North",2012
+"Southend-on-Sea","England","United Kingdom","North",2014
+"Blackburn","England","United Kingdom","North",2093
+"Bedford","England","United Kingdom","North",2123
+"Oxford","England","United Kingdom","North",2134
+"Bournemouth","England","United Kingdom","North",2146
+"Norwich","England","United Kingdom","North",2177
+"Eastbourne","England","United Kingdom","North",2205
+"Rottingdean","England","United Kingdom","North",2212
+"Rochdale","England","United Kingdom","North",2243
+"Hereford","England","United Kingdom","North",2278
+"Northwich","England","United Kingdom","North",2301
+"Dunstable","England","United Kingdom","North",2304
+"Bristol","England","United Kingdom","North",2350
+"Halifax","England","United Kingdom","North",2412
+"Solihull","England","United Kingdom","North",2415
+"Ipswich","England","United Kingdom","North",2448
+"Sale","England","United Kingdom","North",2501
+"Southport","England","United Kingdom","North",2510
+"Basingstoke","England","United Kingdom","North",2558
+"Chesterfield","England","United Kingdom","North",2575
+"Hove","England","United Kingdom","North",2577
+"Shrewsbury","England","United Kingdom","North",2589
+"Weston-super-Mare","England","United Kingdom","North",2592
+"Redditch","England","United Kingdom","North",2601
+"Kettering","England","United Kingdom","North",2633
+"Stockport","England","United Kingdom","North",2639
+"Swindon","England","United Kingdom","North",2642
+"Oldham","England","United Kingdom","North",2690
+"Plymouth","England","United Kingdom","North",2693
+"Barnsley","England","United Kingdom","North",2703
+"Loughborough","England","United Kingdom","North",2832
+"Darton","England","United Kingdom","North",2835
+"Clacton-on-Sea","England","United Kingdom","North",2853
+"Hinckley","England","United Kingdom","North",2949
+"Hemel Hempstead","England","United Kingdom","North",2979
+"Fareham","England","United Kingdom","North",2996
+"Nuneaton","England","United Kingdom","North",3050
+"High Wycombe","England","United Kingdom","North",3058
+"Runcorn","England","United Kingdom","North",3070
+"Taunton","England","United Kingdom","North",3077
+"Chatham","England","United Kingdom","North",3106
+"Maidstone","England","United Kingdom","North",3137
+"Bury","England","United Kingdom","North",3222
+"Harlow","England","United Kingdom","North",3270
+"Gillingham","England","United Kingdom","North",3306
+"Bideford","England","United Kingdom","North",3325
+"Gosport","England","United Kingdom","North",3339
+"Bracknell","England","United Kingdom","North",3375
+"Cheltenham","England","United Kingdom","North",3394
+"Stafford","England","United Kingdom","North",3429
+"Dronfield","England","United Kingdom","North",3477
+"Ferndown","England","United Kingdom","North",3489
+"Chapel Allerton","England","United Kingdom","North",3521
+"Darlington","England","United Kingdom","North",3551
+"Kidderminster","England","United Kingdom","North",3605
+"Morley","England","United Kingdom","North",3659
+"Gravesend","England","United Kingdom","North",3660
+"Jizan","Jizan","Saudi Arabia","EMEA",13
+"Bytom","Silesia","Poland","EMEA",19
+"Behshahr","Mazandaran","Iran","EMEA",44
+"Kharkiv","Kharkiv","Ukraine","EMEA",59
+"Jeddah","Makkah","Saudi Arabia","EMEA",130
+"Brest","Brest","Belarus","EMEA",138
+"Zhytomyr","Zhytomyr","Ukraine","EMEA",141
+"Shiraz","Fars","Iran","EMEA",162
+"Astrakhan'","Astrakhan'","Russia","EMEA",168
+"Baku","Baki","Azerbaijan","EMEA",178
+"Vilnius","Vilnius","Lithuania","EMEA",181
+"Piatra-Neamt","Neamt","Romania","EMEA",207
+"Rybinsk","Yaroslavl'","Russia","EMEA",220
+"Gyula","Bekes","Hungary","EMEA",231
+"Buzau","Buzau","Romania","EMEA",244
+"Khorramabad","Lorestan","Iran","EMEA",268
+"Kermanshah","Kermanshah","Iran","EMEA",280
+"Al Amarah","Maysan","Iraq","EMEA",303
+"Mashhad","Razavi Khorasan","Iran","EMEA",305
+"Gyor","Gyor","Hungary","EMEA",310
+"Tbilisi","Tbilisi","Georgia","EMEA",315
+"Lublin","Lublin","Poland","EMEA",320
+"Elbasan","Elbasan","Albania","EMEA",322
+"Voronezh","Voronezh","Russia","EMEA",323
+"Podgorica","Podgorica","Montenegro","EMEA",331
+"Hamadan","Hamadan","Iran","EMEA",336
+"Ufa","Bashkortostan","Russia","EMEA",353
+"Tehran","Tehran","Iran","EMEA",354
+"Vienna","Vienna","Austria","EMEA",360
+"Luts'k","Volyn","Ukraine","EMEA",362
+"Poltava","Poltava","Ukraine","EMEA",381
+"Vladimir","Vladimir","Russia","EMEA",389
+"Doha","Ad Dawhah","Qatar","EMEA",410
+"Kaliningrad","Kaliningrad","Russia","EMEA",450
+"Ad Diwaniyah","Al Qadisiyah","Iraq","EMEA",452
+"Kaunas","Kaunas","Lithuania","EMEA",460
+"Ardabil","Ardabil","Iran","EMEA",461
+"Mecca","Makkah","Saudi Arabia","EMEA",463
+"Tallinn","Harjumaa","Estonia","EMEA",484
+"Riyadh","Ar Riyad","Saudi Arabia","EMEA",501
+"Malayer","Hamadan","Iran","EMEA",505
+"Magnitogorsk","Chelyabinsk","Russia","EMEA",517
+"Baghdad","Baghdad","Iraq","EMEA",529
+"Prague","Prague","Czech Republic","EMEA",536
+"Kashan","Esfahan","Iran","EMEA",560
+"L'viv","L'viv","Ukraine","EMEA",565
+"Arbil","Arbil","Iraq","EMEA",567
+"Blagoveshchensk","Amur","Russia","EMEA",580
+"Durres","Durrës","Albania","EMEA",589
+"Homs","Hims","Syria","EMEA",607
+"Chelyabinsk","Chelyabinsk","Russia","EMEA",619
+"Rasht","Gilan","Iran","EMEA",631
+"Beirut","Beirut","Lebanon","EMEA",634
+"Katowice","Silesia","Poland","EMEA",723
+"Fasa","Fars","Iran","EMEA",727
+"Sofia","Sofiya-Grad","Bulgaria","EMEA",744
+"Kryvyy Rih","Dnipropetrovs'k","Ukraine","EMEA",745
+"Makhachkala","Dagestan","Russia","EMEA",754
+"Ramat Aviv","Tel Aviv","Israel","EMEA",780
+"Donets'k","Donetsk","Ukraine","EMEA",817
+"Brasov","Brasov","Romania","EMEA",827
+"Sakaka","Al Jawf","Saudi Arabia","EMEA",851
+"Arkhangelsk","Arkhangel'sk","Russia","EMEA",878
+"Ljubljana","Ljubljana","Slovenia","EMEA",879
+"Nizhyn","Chernihiv","Ukraine","EMEA",882
+"Dnipropetrovs'k","Dnipropetrovs'k","Ukraine","EMEA",886
+"Arzgir","Stavropol'","Russia","EMEA",894
+"Vinnytsya","Vinnytsya","Ukraine","EMEA",899
+"Ashdod","Southern","Israel","EMEA",905
+"Galati","Galati","Romania","EMEA",912
+"Tabuk","Tabuk","Saudi Arabia","EMEA",923
+"Bene Beraq","Tel Aviv","Israel","EMEA",928
+"Basra","Al Basrah","Iraq","EMEA",938
+"Qom","Qom","Iran","EMEA",977
+"Budapest","Budapest","Hungary","EMEA",986
+"Dabrowa Gornicza","Silesia","Poland","EMEA",1024
+"Karbala'","Karbala'","Iraq","EMEA",1042
+"Hrodna","Hrodna","Belarus","EMEA",1043
+"Shumen","Shumen","Bulgaria","EMEA",1079
+"Borujerd","Lorestan","Iran","EMEA",1112
+"Kerman","Kerman","Iran","EMEA",1157
+"Gdansk","Pomerania","Poland","EMEA",1162
+"Ulan Bator","Ulaanbaatar","Mongolia","EMEA",1182
+"Kramators'k","Donetsk","Ukraine","EMEA",1217
+"Kazerun","Fars","Iran","EMEA",1246
+"Ploiesti","Prahova","Romania","EMEA",1283
+"Saqqez","Kordestan","Iran","EMEA",1285
+"Hradec Kralove","Hradec Kralove","Czech Republic","EMEA",1289
+"Kopeysk","Chelyabinsk","Russia","EMEA",1296
+"Samarra'","Salah Ad Din","Iraq","EMEA",1301
+"Sumy","Sumy","Ukraine","EMEA",1303
+"Dayr az Zawr","Dayr Az Zawr","Syria","EMEA",1317
+"Irkutsk","Irkutsk","Russia","EMEA",1318
+"Bryansk","Bryansk","Russia","EMEA",1324
+"Severodvinsk","Arkhangel'sk","Russia","EMEA",1325
+"Behbahan","Khuzestan","Iran","EMEA",1345
+"Cluj-Napoca","Cluj","Romania","EMEA",1347
+"Oradea","Bihor","Romania","EMEA",1348
+"Oleksandriya","Kirovohrad","Ukraine","EMEA",1361
+"Ivanovo","Ivanovo","Russia","EMEA",1373
+"Kaluga","Kaluga","Russia","EMEA",1380
+"Melitopol'","Zaporizhzhya","Ukraine","EMEA",1397
+"Ashqelon","Southern","Israel","EMEA",1400
+"Sarajevo","Federation of Bosnia and Herzegovina","Bosnia and Herzegovina","EMEA",1401
+"Khmel'nyts'kyy","Khmel'nyts'kyy","Ukraine","EMEA",1411
+"Lugoj","Timis","Romania","EMEA",1453
+"Jerusalem","Jerusalem","Israel","EMEA",1468
+"Masjed Soleyman","Khuzestan","Iran","EMEA",1470
+"Medina","Al Madinah","Saudi Arabia","EMEA",1486
+"Constanta","Constanta","Romania","EMEA",1500
+"Rafsanjan","Kerman","Iran","EMEA",1503
+"Al Mubarraz","Ash Sharqiyah","Saudi Arabia","EMEA",1505
+"Khomeynishahr","Esfahan","Iran","EMEA",1518
+"Lodz","Lodz","Poland","EMEA",1528
+"Mosul","Ninawa","Iraq","EMEA",1535
+"Sibiu","Sibiu","Romania","EMEA",1537
+"Mykolayiv","Mykolayiv","Ukraine","EMEA",1546
+"Yaroslavl'","Yaroslavl'","Russia","EMEA",1558
+"Salavat","Bashkortostan","Russia","EMEA",1559
+"Zagreb","Grad Zagreb","Croatia","EMEA",1567
+"Al Hillah","Babil","Iraq","EMEA",1573
+"Gdynia","Pomerania","Poland","EMEA",1593
+"Kaspiysk","Dagestan","Russia","EMEA",1597
+"Panevezys","Panevezys","Lithuania","EMEA",1606
+"Sari","Mazandaran","Iran","EMEA",1623
+"Bishkek","Bishkek","Kyrgyzstan","EMEA",1635
+"Rybnik","Silesia","Poland","EMEA",1657
+"Termez","Surxondaryo","Uzbekistan","EMEA",1669
+"Poznan","Greater Poland","Poland","EMEA",1708
+"Shahriar","Tehran","Iran","EMEA",1719
+"Opole","Opole","Poland","EMEA",1737
+"Klagenfurt","Carinthia","Austria","EMEA",1747
+"Homyel'","Homyel'","Belarus","EMEA",1753
+"Al Muharraq","Muharraq","Bahrain","EMEA",1759
+"Bacau","Bacau","Romania","EMEA",1769
+"Zanjan","Zanjan","Iran","EMEA",1785
+"Sterlitamak","Bashkortostan","Russia","EMEA",1796
+"Haifa","Haifa","Israel","EMEA",1798
+"Taizz","Ta'izz","Yemen","EMEA",1824
+"Amman","'Amman","Jordan","EMEA",1845
+"Sanandaj","Kordestan","Iran","EMEA",1855
+"Slupsk","Pomerania","Poland","EMEA",1859
+"Ras al Khaymah","Ra's Al Khaymah","United Arab Emirates","EMEA",1863
+"Ruda Slaska","Silesia","Poland","EMEA",1875
+"Shkoder","Shkodër","Albania","EMEA",1883
+"Abadan","Khuzestan","Iran","EMEA",1884
+"Ahvaz","Khuzestan","Iran","EMEA",1888
+"Chisinau","Chisinau","Moldova","EMEA",1904
+"Gorgan","Golestan","Iran","EMEA",1914
+"Targu Jiu","Gorj","Romania","EMEA",1921
+"Timisoara","Timis","Romania","EMEA",1930
+"Varna","Varna","Bulgaria","EMEA",1933
+"Takestan","Qazvin","Iran","EMEA",1936
+"Bistrita","Bistrita-Nasaud","Romania","EMEA",1941
+"Kherson","Kherson","Ukraine","EMEA",1949
+"Kirovohrad","Kirovohrad","Ukraine","EMEA",1952
+"Berdyans'k","Zaporizhzhya","Ukraine","EMEA",1954
+"Borazjan","Bushehr","Iran","EMEA",1957
+"Samobor","Zagrebacka","Croatia","EMEA",1977
+"Wadi as Sir","'Amman","Jordan","EMEA",1991
+"Zahedan","Sistan Va Baluchestan","Iran","EMEA",1993
+"Bandar Abbas","Hormozgan","Iran","EMEA",2001
+"Satu Mare","Satu Mare","Romania","EMEA",2008
+"Tripoli","North Lebanon","Lebanon","EMEA",2010
+"Derbent","Dagestan","Russia","EMEA",2022
+"Ramnicu Valcea","Valcea","Romania","EMEA",2024
+"Hod HaSharon","Central","Israel","EMEA",2026
+"Quchan","Razavi Khorasan","Iran","EMEA",2046
+"K'ut'aisi","Imereti","Georgia","EMEA",2048
+"Myslowice","Silesia","Poland","EMEA",2050
+"Rivne","Rivne","Ukraine","EMEA",2051
+"Siedlce","Masovia","Poland","EMEA",2055
+"Budënnovsk","Stavropol'","Russia","EMEA",2060
+"Burgas","Burgas","Bulgaria","EMEA",2061
+"Zlatoust","Chelyabinsk","Russia","EMEA",2062
+"Warsaw","Masovia","Poland","EMEA",2076
+"Plzen","Plzen","Czech Republic","EMEA",2079
+"Mazyr","Homyel'","Belarus","EMEA",2080
+"Botosani","Botosani","Romania","EMEA",2095
+"Targu Mures","Mures","Romania","EMEA",2140
+"Vratsa","Vratsa","Bulgaria","EMEA",2158
+"Namangan","Namangan","Uzbekistan","EMEA",2180
+"Holon","Tel Aviv","Israel","EMEA",2191
+"Abha","'Asir","Saudi Arabia","EMEA",2203
+"Orsha","Vitsyebsk","Belarus","EMEA",2207
+"Ibb","Ibb","Yemen","EMEA",2208
+"Roman","Neamt","Romania","EMEA",2217
+"Chernihiv","Chernihiv","Ukraine","EMEA",2219
+"Cherkasy","Cherkasy","Ukraine","EMEA",2228
+"Angarsk","Irkutsk","Russia","EMEA",2264
+"Horlivka","Donetsk","Ukraine","EMEA",2271
+"Plovdiv","Plovdiv","Bulgaria","EMEA",2276
+"Radom","Masovia","Poland","EMEA",2288
+"Ashgabat","Ashgabat","Turkmenistan","EMEA",2305
+"Najafabad","Esfahan","Iran","EMEA",2308
+"Iasi","Iasi","Romania","EMEA",2319
+"Irbid","Irbid","Jordan","EMEA",2327
+"Arak","Markazi","Iran","EMEA",2330
+"Dniprodzerzhyns'k","Dnipropetrovs'k","Ukraine","EMEA",2337
+"Osh","Osh","Kyrgyzstan","EMEA",2340
+"Bandar-e Anzali","Gilan","Iran","EMEA",2352
+"Amol","Mazandaran","Iran","EMEA",2359
+"Zabol","Sistan Va Baluchestan","Iran","EMEA",2361
+"Al Hufuf","Ash Sharqiyah","Saudi Arabia","EMEA",2376
+"Zabrze","Silesia","Poland","EMEA",2393
+"Saveh","Markazi","Iran","EMEA",2398
+"Vlore","Vlorë","Albania","EMEA",2421
+"Kokshetau","Aqmola","Kazakhstan","EMEA",2429
+"Pila","Greater Poland","Poland","EMEA",2443
+"Chorzow","Silesia","Poland","EMEA",2450
+"Sevastopol","Sevastopol'","Ukraine","EMEA",2465
+"Qarshi","Qashqadaryo","Uzbekistan","EMEA",2477
+"Ternopil'","Ternopil'","Ukraine","EMEA",2478
+"Bratsk","Irkutsk","Russia","EMEA",2486
+"Yambol","Yambol","Bulgaria","EMEA",2493
+"Oktyabr'skiy","Bashkortostan","Russia","EMEA",2495
+"Sabzevar","Razavi Khorasan","Iran","EMEA",2513
+"Drobeta-Turnu Severin","Mehedinti","Romania","EMEA",2517
+"Baia Mare","Maramures","Romania","EMEA",2526
+"Innsbruck","Tyrol","Austria","EMEA",2536
+"Czestochowa","Silesia","Poland","EMEA",2559
+"Qostanay","Qostanay","Kazakhstan","EMEA",2567
+"Shahreza","Esfahan","Iran","EMEA",2570
+"Nikopol'","Dnipropetrovs'k","Ukraine","EMEA",2580
+"Hadera","Haifa","Israel","EMEA",2582
+"Tel Aviv","Tel Aviv","Israel","EMEA",2586
+"Piotrkow Trybunalski","Lodz","Poland","EMEA",2595
+"Khorramshahr","Khuzestan","Iran","EMEA",2618
+"Pavlodar","Pavlodar","Kazakhstan","EMEA",2621
+"Tartu","Tartumaa","Estonia","EMEA",2622
+"Qazvin","Qazvin","Iran","EMEA",2626
+"Zenica","Federation of Bosnia and Herzegovina","Bosnia and Herzegovina","EMEA",2635
+"Miass","Chelyabinsk","Russia","EMEA",2636
+"Tychy","Silesia","Poland","EMEA",2637
+"Drogobych","L'viv","Ukraine","EMEA",2640
+"Balmazujvaros","Hajdu-Bihar","Hungary","EMEA",2643
+"Nitra","Nitra","Slovakia","EMEA",2650
+"Gubkin","Belgorod","Russia","EMEA",2659
+"Uvarovo","Tambov","Russia","EMEA",2691
+"Luhans'k","Luhans'k","Ukraine","EMEA",2701
+"Pinsk","Brest","Belarus","EMEA",2715
+"Almaty","Almaty City","Kazakhstan","EMEA",2740
+"Balti","Balti","Moldova","EMEA",2745
+"Kremenchuk","Poltava","Ukraine","EMEA",2783
+"Gliwice","Silesia","Poland","EMEA",2802
+"Astana","Astana","Kazakhstan","EMEA",2817
+"Mariupol'","Donetsk","Ukraine","EMEA",2818
+"Zaporizhzhya","Zaporizhzhya","Ukraine","EMEA",2820
+"Dzhezkazgan","Qaraghandy","Kazakhstan","EMEA",2841
+"Sosnowiec","Silesia","Poland","EMEA",2845
+"Ostrava","Moravian-Silesian","Czech Republic","EMEA",2882
+"Ramat Gan","Tel Aviv","Israel","EMEA",2890
+"Bialystok","Podlaskie","Poland","EMEA",2893
+"Kashira","Moscow","Russia","EMEA",2899
+"Giurgiu","Giurgiu","Romania","EMEA",2901
+"Kulob","Khatlon","Tajikistan","EMEA",2903
+"Pestovo","Novgorod","Russia","EMEA",2911
+"Javanrud","Kermanshah","Iran","EMEA",2920
+"Belgorod","Belgorod","Russia","EMEA",2922
+"Sliven","Sliven","Bulgaria","EMEA",2930
+"Turkmenabat","Lebap","Turkmenistan","EMEA",2936
+"Yazd","Yazd","Iran","EMEA",2947
+"Braila","Braila","Romania","EMEA",2959
+"Temirtau","Qaraghandy","Kazakhstan","EMEA",2984
+"Linz","Upper Austria","Austria","EMEA",2985
+"Jizzakh","Jizzakh","Uzbekistan","EMEA",2994
+"Zielona Gora","Lubusz","Poland","EMEA",2995
+"Bielsko-Biala","Silesia","Poland","EMEA",2999
+"Qaraghandy","Qaraghandy","Kazakhstan","EMEA",3000
+"Stara Zagora","Stara Zagora","Bulgaria","EMEA",3008
+"Rijeka","Primorsko-Goranska","Croatia","EMEA",3009
+"Urganch","Khorezm","Uzbekistan","EMEA",3029
+"An Nasiriyah","Dhi Qar","Iraq","EMEA",3037
+"Sarkand","Almaty","Kazakhstan","EMEA",3044
+"Lida","Hrodna","Belarus","EMEA",3057
+"Banska Bystrica","Banská Bystrica","Slovakia","EMEA",3073
+"Pazardzhik","Pazardzhik","Bulgaria","EMEA",3097
+"Baqubah","Diyala","Iraq","EMEA",3114
+"Jaworzno","Silesia","Poland","EMEA",3119
+"Birobidzhan","Yevrey","Russia","EMEA",3124
+"Usol'ye-Sibirskoye","Irkutsk","Russia","EMEA",3130
+"Arad","Arad","Romania","EMEA",3131
+"Shushtar","Khuzestan","Iran","EMEA",3135
+"Olomouc","Olomouc","Czech Republic","EMEA",3176
+"Yanbu al Bahr","Al Madinah","Saudi Arabia","EMEA",3178
+"Ilam","Ilam","Iran","EMEA",3199
+"Torbat-e Heydariyeh","Razavi Khorasan","Iran","EMEA",3204
+"Stakhanov","Luhans'k","Ukraine","EMEA",3205
+"Polatsk","Vitsyebsk","Belarus","EMEA",3206
+"Kumanovo","Kumanovo","Macedonia","EMEA",3209
+"Siauliai","Šiauliai","Lithuania","EMEA",3215
+"Craiova","Dolj","Romania","EMEA",3218
+"Graz","Styria","Austria","EMEA",3230
+"Mary","Mary","Turkmenistan","EMEA",3235
+"Salzburg","Salzburg","Austria","EMEA",3236
+"Kalisz","Greater Poland","Poland","EMEA",3245
+"Ivano-Frankivs'k","Ivano-Frankivsk","Ukraine","EMEA",3247
+"Ekibastuz","Pavlodar","Kazakhstan","EMEA",3266
+"Zilina","Žilina","Slovakia","EMEA",3274
+"Babol","Mazandaran","Iran","EMEA",3279
+"Pitesti","Arges","Romania","EMEA",3298
+"Ajman","'Ajman","United Arab Emirates","EMEA",3303
+"Toguchin","Novosibirsk","Russia","EMEA",3313
+"Berdychiv","Zhytomyr","Ukraine","EMEA",3321
+"Focsani","Vrancea","Romania","EMEA",3332
+"Be'er Sheva","Southern","Israel","EMEA",3344
+"Lisichansk","Luhans'k","Ukraine","EMEA",3359
+"Andijon","Andijan","Uzbekistan","EMEA",3366
+"Vanadzor","Lori","Armenia","EMEA",3377
+"Tuzla","Federation of Bosnia and Herzegovina","Bosnia and Herzegovina","EMEA",3399
+"Split","Splitsko-Dalmatinska","Croatia","EMEA",3401
+"Nal'chik","Kabardino-Balkariya","Russia","EMEA",3403
+"Uman'","Cherkasy","Ukraine","EMEA",3418
+"Liberec","Liberec","Czech Republic","EMEA",3433
+"Chalus","Mazandaran","Iran","EMEA",3441
+"Plock","Masovia","Poland","EMEA",3442
+"Usti nad Labem","Usti nad Labem","Czech Republic","EMEA",3443
+"Deva","Hunedoara","Romania","EMEA",3444
+"Klaipeda","Klaipeda","Lithuania","EMEA",3457
+"Leoben","Styria","Austria","EMEA",3472
+"Iranshahr","Sistan Va Baluchestan","Iran","EMEA",3493
+"Blagoveshchensk","Bashkortostan","Russia","EMEA",3497
+"Aligudarz","Lorestan","Iran","EMEA",3507
+"Ar Raqqah","Ar Raqqah","Syria","EMEA",3513
+"Pleven","Pleven","Bulgaria","EMEA",3517
+"Suceava","Suceava","Romania","EMEA",3519
+"Khasavyurt","Dagestan","Russia","EMEA",3537
+"Birjand","South Khorasan","Iran","EMEA",3574
+"Varamin","Tehran","Iran","EMEA",3584
+"Nysa","Opole","Poland","EMEA",3587
+"Al Hudaydah","Al Hudaydah","Yemen","EMEA",3617
+"Krasnyy Luch","Luhans'k","Ukraine","EMEA",3618
+"Kalush","Ivano-Frankivsk","Ukraine","EMEA",3619
+"Neyshabur","Razavi Khorasan","Iran","EMEA",3633
+"Resita","Caras-Severin","Romania","EMEA",3635
+"Gorzow Wielkopolski","Lubusz","Poland","EMEA",3640
+"Taldyqorghan","Almaty","Kazakhstan","EMEA",3649
+"Korce","Korçë","Albania","EMEA",3653
+"Semnan","Semnan","Iran","EMEA",3682
+"Osijek","Osjecko-Baranjska","Croatia","EMEA",3684
+"Taraz","Zhambyl","Kazakhstan","EMEA",3692
+"Rehovot","Central","Israel","EMEA",3701
+"Gonabad","Razavi Khorasan","Iran","EMEA",3711
+"Bitola","Bitola","Macedonia","EMEA",3717
+"Pernik","Pernik","Bulgaria","EMEA",3722
+"Jastrzebie Zdroj","Silesia","Poland","EMEA",3726
+"Obninsk","Kaluga","Russia","EMEA",3740
+"Zhlobin","Homyel'","Belarus","EMEA",3744
+"Izmir","Izmir","Turkey","EMEA",210
+"Istanbul","Istanbul","Turkey","EMEA",459
+"Bandirma","Balikesir","Turkey","EMEA",489
+"Kutahya","Kutahya","Turkey","EMEA",661
+"Bagcilar","Istanbul","Turkey","EMEA",690
+"Torbali","Izmir","Turkey","EMEA",713
+"Beykoz","Istanbul","Turkey","EMEA",1049
+"Adana","Adana","Turkey","EMEA",1089
+"Mamak","Ankara","Turkey","EMEA",1150
+"Silivri","Istanbul","Turkey","EMEA",1201
+"Nazilli","Aydin","Turkey","EMEA",1339
+"Denizli","Denizli","Turkey","EMEA",1376
+"Gaziantep","Gaziantep","Turkey","EMEA",1497
+"Bingol","Bingol","Turkey","EMEA",1616
+"Uskudar","Istanbul","Turkey","EMEA",1778
+"Sincan","Ankara","Turkey","EMEA",1789
+"Mardin","Mardin","Turkey","EMEA",1818
+"Ankara","Ankara","Turkey","EMEA",1832
+"Gebze","Kocaeli","Turkey","EMEA",1856
+"Batman","Batman","Turkey","EMEA",1910
+"Nevsehir","Nevsehir","Turkey","EMEA",1934
+"Ceyhan","Adana","Turkey","EMEA",1998
+"Bursa","Bursa","Turkey","EMEA",2086
+"Bornova","Izmir","Turkey","EMEA",2097
+"Diyarbakir","Diyarbakir","Turkey","EMEA",2137
+"Kartal","Istanbul","Turkey","EMEA",2198
+"Bolu","Bolu","Turkey","EMEA",2229
+"Esenyurt","Istanbul","Turkey","EMEA",2289
+"Polatli","Ankara","Turkey","EMEA",2303
+"Turgutlu","Manisa","Turkey","EMEA",2315
+"Karliova","Bingol","Turkey","EMEA",2347
+"Kirsehir","Kirsehir","Turkey","EMEA",2351
+"Balikesir","Balikesir","Turkey","EMEA",2354
+"Malatya","Malatya","Turkey","EMEA",2374
+"Cankaya","Ankara","Turkey","EMEA",2399
+"Iskenderun","Hatay","Turkey","EMEA",2416
+"Canakkale","Canakkale","Turkey","EMEA",2417
+"Kozan","Adana","Turkey","EMEA",2419
+"Gaziemir","Izmir","Turkey","EMEA",2436
+"Antalya","Antalya","Turkey","EMEA",2445
+"Buca","Izmir","Turkey","EMEA",2454
+"Van","Van","Turkey","EMEA",2456
+"Corlu","Tekirdag","Turkey","EMEA",2525
+"Osmaniye","Osmaniye","Turkey","EMEA",2612
+"Igdir","Igdir","Turkey","EMEA",2627
+"Tarsus","Mersin","Turkey","EMEA",2655
+"Kayseri","Kayseri","Turkey","EMEA",2668
+"Corum","Corum","Turkey","EMEA",2669
+"Manisa","Manisa","Turkey","EMEA",2670
+"Antakya","Hatay","Turkey","EMEA",2673
+"Mezitli","Mersin","Turkey","EMEA",2684
+"Kahramanmaras","Kahramanmaras","Turkey","EMEA",2771
+"Mersin","Mersin","Turkey","EMEA",2807
+"Konya","Konya","Turkey","EMEA",2851
+"Adiyaman","Adiyaman","Turkey","EMEA",2900
+"Sanliurfa","Sanliurfa","Turkey","EMEA",2909
+"Kars","Kars","Turkey","EMEA",2989
+"Eskisehir","Eskisehir","Turkey","EMEA",2990
+"Tokat","Tokat","Turkey","EMEA",3014
+"Etimesgut","Ankara","Turkey","EMEA",3017
+"Sivas","Sivas","Turkey","EMEA",3031
+"Trabzon","Trabzon","Turkey","EMEA",3080
+"Samsun","Samsun","Turkey","EMEA",3128
+"Maltepe","Istanbul","Turkey","EMEA",3147
+"Erzurum","Erzurum","Turkey","EMEA",3172
+"Soma","Manisa","Turkey","EMEA",3194
+"Kiziltepe","Mardin","Turkey","EMEA",3210
+"Alanya","Antalya","Turkey","EMEA",3224
+"Ordu","Ordu","Turkey","EMEA",3234
+"Isparta","Isparta","Turkey","EMEA",3253
+"Kocaeli","Kocaeli","Turkey","EMEA",3275
+"Umraniye","Istanbul","Turkey","EMEA",3304
+"Menemen","Izmir","Turkey","EMEA",3331
+"Tekirdag","Tekirdag","Turkey","EMEA",3333
+"Aksaray","Aksaray","Turkey","EMEA",3351
+"Amasya","Amasya","Turkey","EMEA",3352
+"Silopi","Sirnak","Turkey","EMEA",3360
+"Siirt","Siirt","Turkey","EMEA",3362
+"Inegol","Bursa","Turkey","EMEA",3392
+"Bafra","Samsun","Turkey","EMEA",3463
+"Salihli","Manisa","Turkey","EMEA",3464
+"Ardahan","Ardahan","Turkey","EMEA",3502
+"Yalova","Yalova","Turkey","EMEA",3516
+"Akhisar","Manisa","Turkey","EMEA",3518
+"Elazig","Elazig","Turkey","EMEA",3573
+"Viransehir","Sanliurfa","Turkey","EMEA",3581
+"Cubuk","Ankara","Turkey","EMEA",3591
+"Afyon","Afyonkarahisar","Turkey","EMEA",3614
+"Kastamonu","Kastamonu","Turkey","EMEA",3631
+"Kilis","Kilis","Turkey","EMEA",3632
+"Usak","Usak","Turkey","EMEA",3643
+"Cizre","Sirnak","Turkey","EMEA",3706
+"Aydin","Aydin","Turkey","EMEA",3707
+"Edirne","Edirne","Turkey","EMEA",3719
+"Midyat","Mardin","Turkey","EMEA",3736
+"Felahiye","Kayseri","Turkey","EMEA",3770
+"Treviso","Veneto","Italy","South",117
+"Turin","Piedmont","Italy","South",234
+"Barletta","Apulia","Italy","South",270
+"Rome","Lazio","Italy","South",308
+"Reggio nell'Emilia","Emilia-Romagna","Italy","South",318
+"Rovigo","Veneto","Italy","South",357
+"Bologna","Emilia-Romagna","Italy","South",408
+"Velletri","Lazio","Italy","South",411
+"Trento","Trentino-Alto Adige","Italy","South",472
+"Ravenna","Emilia-Romagna","Italy","South",473
+"Milan","Lombardy","Italy","South",478
+"Florence","Tuscany","Italy","South",520
+"Pescara","Abruzzi","Italy","South",522
+"San Severo","Apulia","Italy","South",530
+"Sesto San Giovanni","Lombardy","Italy","South",678
+"Venice","Veneto","Italy","South",687
+"Capannori","Tuscany","Italy","South",694
+"Brindisi","Apulia","Italy","South",801
+"Aprilia","Lazio","Italy","South",832
+"La Spezia","Liguria","Italy","South",840
+"Catania","Sicily","Italy","South",888
+"Bari","Apulia","Italy","South",921
+"Altamura","Apulia","Italy","South",971
+"Ferrara","Emilia-Romagna","Italy","South",989
+"Asti","Piedmont","Italy","South",1124
+"Casoria","Campania","Italy","South",1174
+"Perugia","Umbria","Italy","South",1186
+"Naples","Campania","Italy","South",1195
+"Marano di Napoli","Campania","Italy","South",1208
+"Varese","Lombardy","Italy","South",1223
+"Foggia","Apulia","Italy","South",1233
+"Vicenza","Veneto","Italy","South",1267
+"Parma","Emilia-Romagna","Italy","South",1298
+"Taranto","Apulia","Italy","South",1304
+"Messina","Sicily","Italy","South",1343
+"Prato","Tuscany","Italy","South",1349
+"Como","Lombardy","Italy","South",1395
+"Genoa","Liguria","Italy","South",1409
+"Lecce","Apulia","Italy","South",1432
+"Pozzuoli","Campania","Italy","South",1449
+"Palermo","Sicily","Italy","South",1459
+"Cagliari","Sardinia","Italy","South",1464
+"Grosseto","Tuscany","Italy","South",1478
+"Carrara","Tuscany","Italy","South",1499
+"Acerra","Campania","Italy","South",1516
+"Lucca","Tuscany","Italy","South",1701
+"Bolzano","Trentino-Alto Adige","Italy","South",1772
+"Trapani","Sicily","Italy","South",1809
+"Verona","Veneto","Italy","South",1829
+"Legnano","Lombardy","Italy","South",1849
+"Cerignola","Apulia","Italy","South",1956
+"Chieti","Abruzzi","Italy","South",2004
+"Cremona","Lombardy","Italy","South",2074
+"Modica","Sicily","Italy","South",2098
+"Latina","Lazio","Italy","South",2132
+"Torre del Greco","Campania","Italy","South",2136
+"Viterbo","Lazio","Italy","South",2160
+"Montecatini Terme","Tuscany","Italy","South",2163
+"Capua","Campania","Italy","South",2172
+"Boscoreale","Campania","Italy","South",2178
+"Gallarate","Lombardy","Italy","South",2265
+"Pistoia","Tuscany","Italy","South",2285
+"Bergamo","Lombardy","Italy","South",2290
+"Trieste","Friuli-Venezia Giulia","Italy","South",2353
+"Carpi","Emilia-Romagna","Italy","South",2358
+"Monza","Lombardy","Italy","South",2422
+"Civitavecchia","Lazio","Italy","South",2441
+"Tivoli","Lazio","Italy","South",2447
+"Marsala","Sicily","Italy","South",2452
+"Benevento","Campania","Italy","South",2469
+"Agrigento","Sicily","Italy","South",2500
+"Novara","Piedmont","Italy","South",2506
+"Acireale","Sicily","Italy","South",2520
+"Bisceglie","Apulia","Italy","South",2547
+"Marina di Carrara","Tuscany","Italy","South",2552
+"Cesena","Emilia-Romagna","Italy","South",2569
+"Ercolano","Campania","Italy","South",2573
+"Caserta","Campania","Italy","South",2610
+"Ancona","Marche","Italy","South",2687
+"Brescia","Lombardy","Italy","South",2698
+"Vittoria","Sicily","Italy","South",2719
+"Guidonia Montecelio","Lazio","Italy","South",2754
+"Vignola","Emilia-Romagna","Italy","South",2767
+"Fano","Marche","Italy","South",2797
+"Piacenza","Emilia-Romagna","Italy","South",2813
+"Trani","Apulia","Italy","South",2830
+"Pomezia","Lazio","Italy","South",2854
+"Moncalieri","Piedmont","Italy","South",2877
+"Arezzo","Tuscany","Italy","South",2907
+"Molfetta","Apulia","Italy","South",2923
+"Avellino","Campania","Italy","South",2933
+"Treviglio","Lombardy","Italy","South",2974
+"Cosenza","Calabria","Italy","South",2992
+"Potenza","Basilicata","Italy","South",3001
+"Cinisello Balsamo","Lombardy","Italy","South",3013
+"Anzio","Lazio","Italy","South",3071
+"Alessandria","Piedmont","Italy","South",3115
+"Gela","Sicily","Italy","South",3116
+"Chioggia","Veneto","Italy","South",3141
+"Pisa","Tuscany","Italy","South",3153
+"Sassari","Sardinia","Italy","South",3165
+"Quartu Sant'Elena","Sardinia","Italy","South",3192
+"Imola","Emilia-Romagna","Italy","South",3195
+"Portici","Campania","Italy","South",3201
+"Savona","Liguria","Italy","South",3229
+"Fiumicino","Lazio","Italy","South",3232
+"Rimini","Emilia-Romagna","Italy","South",3264
+"Pesaro","Marche","Italy","South",3361
+"Faenza","Emilia-Romagna","Italy","South",3365
+"Foligno","Umbria","Italy","South",3378
+"Busto Arsizio","Lombardy","Italy","South",3404
+"Siena","Tuscany","Italy","South",3411
+"Afragola","Campania","Italy","South",3422
+"Cercola","Campania","Italy","South",3428
+"Modena","Emilia-Romagna","Italy","South",3438
+"Vigevano","Lombardy","Italy","South",3491
+"Cuneo","Piedmont","Italy","South",3503
+"Crotone","Calabria","Italy","South",3528
+"Battipaglia","Campania","Italy","South",3588
+"Andria","Apulia","Italy","South",3589
+"Castellammare di Stabia","Campania","Italy","South",3590
+"Falconara Marittima","Marche","Italy","South",3630
+"Teramo","Abruzzi","Italy","South",3654
+"Ragusa","Sicily","Italy","South",3675
+"Manfredonia","Apulia","Italy","South",3688
+"Massa","Tuscany","Italy","South",3689
+"Seville","Andalusía","Spain","South",56
+"Vigo","Galicia","Spain","South",96
+"Madrid","Madrid","Spain","South",129
+"Valencia","Valenciana","Spain","South",139
+"Barakaldo","Basque Country","Spain","South",157
+"Benidorm","Valenciana","Spain","South",165
+"Granollers","Catalonia","Spain","South",202
+"Santander","Cantabria","Spain","South",216
+"Barcelona","Catalonia","Spain","South",304
+"Pamplona","Navarra","Spain","South",374
+"Oviedo","Asturias","Spain","South",376
+"Torrevieja","Valenciana","Spain","South",379
+"Burgos","Castile and León","Spain","South",390
+"Elx","Valenciana","Spain","South",404
+"San Sebastian","Basque Country","Spain","South",571
+"Huelva","Andalusía","Spain","South",635
+"Bilbao","Basque Country","Spain","South",689
+"Orihuela","Valenciana","Spain","South",725
+"Parla","Madrid","Spain","South",774
+"Zamora","Castile and León","Spain","South",786
+"El Prat de Llobregat","Catalonia","Spain","South",795
+"Albacete","Castile-La Mancha","Spain","South",797
+"Puertollano","Castile-La Mancha","Spain","South",867
+"Murcia","Murcia","Spain","South",872
+"Dos Hermanas","Andalusía","Spain","South",958
+"Santiago de Compostela","Galicia","Spain","South",1027
+"Ponferrada","Castile and León","Spain","South",1062
+"Valladolid","Castile and León","Spain","South",1084
+"Fuengirola","Andalusía","Spain","South",1085
+"Guadalajara","Castile-La Mancha","Spain","South",1092
+"Lorca","Murcia","Spain","South",1109
+"Palma de Mallorca","Balearic Islands","Spain","South",1239
+"Chiclana de la Frontera","Andalusía","Spain","South",1250
+"Lugo","Galicia","Spain","South",1311
+"Alicante","Valenciana","Spain","South",1351
+"Vitoria","Basque Country","Spain","South",1403
+"Jerez de la Frontera","Andalusía","Spain","South",1498
+"Castelldefels","Catalonia","Spain","South",1595
+"El Ejido","Andalusía","Spain","South",1653
+"Granada","Andalusía","Spain","South",1682
+"Coslada","Madrid","Spain","South",1726
+"Lora del Río","Andalusía","Spain","South",1781
+"Irun","Basque Country","Spain","South",1866
+"Las Rozas de Madrid","Madrid","Spain","South",1901
+"Tarragona","Catalonia","Spain","South",1927
+"Ceuta","Ceuta","Spain","South",1932
+"Girona","Catalonia","Spain","South",1950
+"Badalona","Catalonia","Spain","South",2009
+"Cartagena","Murcia","Spain","South",2049
+"Sabadell","Catalonia","Spain","South",2065
+"San Fernando","Andalusía","Spain","South",2069
+"Getafe","Madrid","Spain","South",2081
+"Palencia","Castile and León","Spain","South",2115
+"Talavera de la Reina","Castile-La Mancha","Spain","South",2161
+"Rubí","Catalonia","Spain","South",2286
+"Reus","Catalonia","Spain","South",2362
+"Badajoz","Extremadura","Spain","South",2364
+"Marbella","Andalusía","Spain","South",2372
+"Molina de Segura","Murcia","Spain","South",2394
+"Sant Boi de Llobregat","Catalonia","Spain","South",2455
+"Alcobendas","Madrid","Spain","South",2555
+"Valdemoro","Madrid","Spain","South",2727
+"Salamanca","Castile and León","Spain","South",2731
+"Cártama","Andalusía","Spain","South",2738
+"Getxo","Basque Country","Spain","South",2811
+"Toledo","Castile-La Mancha","Spain","South",2831
+"Fuenlabrada","Madrid","Spain","South",2850
+"Gandia","Valenciana","Spain","South",2874
+"Pontevedra","Galicia","Spain","South",2905
+"Mijas","Andalusía","Spain","South",2908
+"Majadahonda","Madrid","Spain","South",2925
+"Sagunto","Valenciana","Spain","South",2931
+"El Escorial","Madrid","Spain","South",2970
+"Elda","Valenciana","Spain","South",3324
+"Manresa","Catalonia","Spain","South",3406
+"Melilla","Melilla","Spain","South",3446
+"Segovia","Castile and León","Spain","South",3498
+"Cuenca","Castile-La Mancha","Spain","South",3580
+"Estepona","Andalusía","Spain","South",3608
+"Ponteareas","Galicia","Spain","South",3638
+"Torremolinos","Andalusía","Spain","South",3756
+"Paysandú","Paysandú","Uruguay","South",43
+"Medellín","Antioquia","Colombia","South",92
+"Quito","Pichincha","Ecuador","South",107
+"Buenos Aires","Buenos Aires","Argentina","South",182
+"Cartagena","Bolívar","Colombia","South",262
+"Piedecuesta","Santander","Colombia","South",282
+"Bogotá","Bogota","Colombia","South",313
+"Lisbon","Lisboa","Portugal","South",347
+"Soacha","Cundinamarca","Colombia","South",358
+"Fernando de la Mora","Central","Paraguay","South",503
+"San Luis","San Luis","Argentina","South",531
+"Oruro","Oruro","Bolivia","South",575
+"Copiapó","Atacama","Chile","South",594
+"Cochabamba","Cochabamba","Bolivia","South",668
+"Talcahuano","Biobio","Chile","South",673
+"Santiago","Santiago","Chile","South",674
+"Villa Alemana","Valparaíso","Chile","South",719
+"Carora","Lara","Venezuela","South",724
+"Montenegro","Quindío","Colombia","South",749
+"Soledad","Atlántico","Colombia","South",779
+"Bello","Antioquia","Colombia","South",792
+"Osorno","Los Lagos","Chile","South",800
+"Santa Cruz de la Sierra","Santa Cruz","Bolivia","South",816
+"Quevedo","Los Rios","Ecuador","South",849
+"Montevideo","Montevideo","Uruguay","South",884
+"La Plata","Provincia de Buenos Aires","Argentina","South",982
+"Santa Marta","Magdalena","Colombia","South",1013
+"Córdoba","Córdoba","Argentina","South",1014
+"San Juan","San Juan","Argentina","South",1029
+"Manizales","Caldas","Colombia","South",1053
+"Amadora","Lisboa","Portugal","South",1100
+"Jamundí","Valle del Cauca","Colombia","South",1105
+"Comodoro Rivadavia","Chubut","Argentina","South",1135
+"Resistencia","Chaco","Argentina","South",1138
+"Ibagué","Tolima","Colombia","South",1180
+"Coimbra","Coimbra","Portugal","South",1226
+"Puerto La Cruz","Anzoátegui","Venezuela","South",1230
+"Lima","Lima (city)","Peru","South",1268
+"Dos Quebradas","Risaralda","Colombia","South",1286
+"Potosí","Potosí","Bolivia","South",1312
+"Chillán","Biobio","Chile","South",1320
+"Presidencia Roque Sáenz Peña","Chaco","Argentina","South",1331
+"Arica","Arica y Parinacota","Chile","South",1336
+"Caracas","Distrito Capital","Venezuela","South",1360
+"Valencia","Carabobo","Venezuela","South",1378
+"Cúcuta","Norte de Santander","Colombia","South",1426
+"Charallave","Miranda","Venezuela","South",1469
+"Cuenca","Azuay","Ecuador","South",1485
+"Guacara","Carabobo","Venezuela","South",1504
+"Puente Alto","Santiago","Chile","South",1511
+"San Bernardo","Santiago","Chile","South",1524
+"Rosario","Santa Fe","Argentina","South",1545
+"Ciénaga","Magdalena","Colombia","South",1615
+"Pereira","Risaralda","Colombia","South",1619
+"Baruta","Miranda","Venezuela","South",1624
+"Porto","Porto","Portugal","South",1685
+"Duitama","Boyacá","Colombia","South",1694
+"Guayaquil","Guayas","Ecuador","South",1714
+"Rancagua","O'Higgins","Chile","South",1715
+"Guatire","Miranda","Venezuela","South",1793
+"San Lorenzo","Central","Paraguay","South",1795
+"Barranquilla","Atlántico","Colombia","South",1800
+"Arequipa","Arequipa","Peru","South",1851
+"Paraná","Entre Ríos","Argentina","South",1872
+"Maracaibo","Zulia","Venezuela","South",1895
+"San Rafael","Mendoza","Argentina","South",1913
+"Punta Arenas","Magallanes y Antártica Chilena","Chile","South",1918
+"Neiva","Huila","Colombia","South",1925
+"Quilmes","Provincia de Buenos Aires","Argentina","South",1937
+"Huancayo","Junín","Peru","South",1944
+"Pasto","Nariño","Colombia","South",2037
+"Quibdó","Chocó","Colombia","South",2059
+"Los Patios","Norte de Santander","Colombia","South",2143
+"Valle de La Pascua","Guárico","Venezuela","South",2159
+"Guayana","Bolivar","Venezuela","South",2164
+"Pucallpa","Ucayali","Peru","South",2169
+"Chincha Alta","Ica","Peru","South",2174
+"Yacuiba","Tarija","Bolivia","South",2181
+"La Pintana","Santiago","Chile","South",2182
+"Girón","Santander","Colombia","South",2190
+"Callao","Callao","Peru","South",2241
+"Catia La Mar","Vargas","Venezuela","South",2247
+"Portoviejo","Manabi","Ecuador","South",2282
+"La Paz","La Paz","Bolivia","South",2297
+"Florencia","Caquetá","Colombia","South",2306
+"Puerto Montt","Los Lagos","Chile","South",2325
+"Braga","Braga","Portugal","South",2363
+"Sucre","Chuquisaca","Bolivia","South",2367
+"Esquina","Corrientes","Argentina","South",2397
+"Floridablanca","Santander","Colombia","South",2411
+"Cipolletti","Río Negro","Argentina","South",2460
+"Arauca","Arauca","Colombia","South",2462
+"Porlamar","Nueva Esparta","Venezuela","South",2476
+"Ipiales","Nariño","Colombia","South",2484
+"Ocaña","Norte de Santander","Colombia","South",2492
+"Mar del Plata","Provincia de Buenos Aires","Argentina","South",2498
+"Asunción","Asunción","Paraguay","South",2508
+"Mendoza","Mendoza","Argentina","South",2509
+"San José de Guanipa","Anzoátegui","Venezuela","South",2527
+"San Justo","Santa Fe","Argentina","South",2541
+"Santo Domingo de los Colorados","Pichincha","Ecuador","South",2542
+"Antofagasta","Antofagasta","Chile","South",2588
+"Bucaramanga","Santander","Colombia","South",2594
+"Las Piedras","Canelones","Uruguay","South",2604
+"Posadas","Misiones","Argentina","South",2613
+"Guanare","Portuguesa","Venezuela","South",2629
+"Acarigua","Portuguesa","Venezuela","South",2648
+"Maturín","Monagas","Venezuela","South",2649
+"Barquisimeto","Lara","Venezuela","South",2651
+"Malambo","Atlántico","Colombia","South",2706
+"Iquitos","Loreto","Peru","South",2708
+"Santiago del Estero","Santiago del Estero","Argentina","South",2732
+"Armenia","Quindío","Colombia","South",2750
+"Petare","Miranda","Venezuela","South",2751
+"Valledupar","Cesar","Colombia","South",2763
+"Bolívar","Bolivar","Venezuela","South",2777
+"Yaritagua","Yaracuy","Venezuela","South",2781
+"Feira","Aveiro","Portugal","South",2798
+"Trinidad","Beni","Bolivia","South",2808
+"Maracay","Aragua","Venezuela","South",2822
+"Viña del Mar","Valparaíso","Chile","South",2828
+"Chimbote","Ancash","Peru","South",2848
+"Cartago","Valle del Cauca","Colombia","South",2849
+"Cumaná","Sucre","Venezuela","South",2863
+"Valparaíso","Valparaíso","Chile","South",2884
+"Arrentela","Setúbal","Portugal","South",2886
+"Ayacucho","Ayacucho","Peru","South",2941
+"Corrientes","Corrientes","Argentina","South",2943
+"Santa Fe","Santa Fe","Argentina","South",2963
+"Sogamoso","Boyacá","Colombia","South",2968
+"Avellaneda","Santa Fe","Argentina","South",2973
+"Juliaca","Puno","Peru","South",2998
+"Guimarães","Braga","Portugal","South",3020
+"Turmero","Aragua","Venezuela","South",3023
+"Palmira","Valle del Cauca","Colombia","South",3024
+"Ilo","Moquegua","Peru","South",3025
+"San Salvador de Jujuy","Jujuy","Argentina","South",3054
+"Palo Negro","Aragua","Venezuela","South",3059
+"Santa Rosa","La Pampa","Argentina","South",3069
+"Puno","Puno","Peru","South",3094
+"Neuquén","Neuquén","Argentina","South",3105
+"Cajamarca","Cajamarca","Peru","South",3111
+"La Rioja","La Rioja","Argentina","South",3118
+"Bahía Blanca","Provincia de Buenos Aires","Argentina","South",3120
+"Villavicencio","Meta","Colombia","South",3138
+"San Nicolás de los Arroyos","Provincia de Buenos Aires","Argentina","South",3167
+"Iquique","Tarapacá","Chile","South",3173
+"Barcelona","Anzoátegui","Venezuela","South",3174
+"Loures","Lisboa","Portugal","South",3180
+"Salta","Salta","Argentina","South",3190
+"El Limón","Aragua","Venezuela","South",3214
+"Trujillo","La Libertad","Peru","South",3259
+"Cabimas","Zulia","Venezuela","South",3260
+"Vila Nova de Gaia","Porto","Portugal","South",3268
+"Lo Prado","Santiago","Chile","South",3281
+"Piura","Piura","Peru","South",3336
+"Junín","Provincia de Buenos Aires","Argentina","South",3338
+"Mosquera","Cundinamarca","Colombia","South",3364
+"Barranca","Lima","Peru","South",3370
+"Chiclayo","Lambayeque","Peru","South",3393
+"Apartadó","Antioquia","Colombia","South",3402
+"Concepción del Uruguay","Entre Ríos","Argentina","South",3412
+"San Carlos del Zulia","Zulia","Venezuela","South",3415
+"Facatativá","Cundinamarca","Colombia","South",3416
+"Tinaquillo","Cojedes","Venezuela","South",3451
+"Mérida","Mérida","Venezuela","South",3475
+"Riberalta","Beni","Bolivia","South",3482
+"Pitalito","Huila","Colombia","South",3509
+"San Antonio","Valparaíso","Chile","South",3527
+"Sabanalarga","Atlántico","Colombia","South",3530
+"Cúa","Miranda","Venezuela","South",3535
+"Lambaré","Central","Paraguay","South",3554
+"Los Ángeles","Biobio","Chile","South",3566
+"Rivera","Rivera","Uruguay","South",3571
+"Guarenas","Miranda","Venezuela","South",3582
+"El Tigre","Anzoátegui","Venezuela","South",3583
+"San Fernando del Valle de Catamarca","Catamarca","Argentina","South",3586
+"Cagua","Aragua","Venezuela","South",3599
+"Paita","Piura","Peru","South",3601
+"Talara","Piura","Peru","South",3602
+"Calabozo","Guárico","Venezuela","South",3644
+"Huaraz","Ancash","Peru","South",3646
+"Yopal","Casanare","Colombia","South",3658
+"Necochea","Provincia de Buenos Aires","Argentina","South",3665
+"San Cristóbal","Táchira","Venezuela","South",3666
+"Montería","Córdoba","Colombia","South",3702
+"Odivelas","Lisboa","Portugal","South",3710
+"Calama","Antofagasta","Chile","South",3712
+"Envigado","Antioquia","Colombia","South",3734
+"Tartagal","Salta","Argentina","South",3760
+"Toledo","Parana","Brazil","South",14
+"Feira de Santana","Bahia","Brazil","South",188
+"Bayeux","Paraíba","Brazil","South",245
+"Valparaíso de Goiás","Goiás","Brazil","South",277
+"Brasília","Federal District","Brazil","South",406
+"Açu","Rio Grande do Norte","Brazil","South",416
+"Joinville","Santa Catarina","Brazil","South",428
+"Colombo","Parana","Brazil","South",429
+"Uberaba","Minas Gerais","Brazil","South",481
+"Paranaguá","Parana","Brazil","South",486
+"Indaial","Santa Catarina","Brazil","South",499
+"Serra","Espírito Santo","Brazil","South",519
+"Petrópolis","Rio de Janeiro","Brazil","South",603
+"Araguaína","Tocantins","Brazil","South",610
+"Grajaú","Maranhão","Brazil","South",632
+"Curitiba","Parana","Brazil","South",658
+"Conselheiro Lafaiete","Minas Gerais","Brazil","South",666
+"Macapá","Amapá","Brazil","South",684
+"São Gonçalo","Rio de Janeiro","Brazil","South",721
+"Natal","Rio Grande do Norte","Brazil","South",734
+"Cabo de Santo Agostinho","Pernambuco","Brazil","South",768
+"Paulista","Pernambuco","Brazil","South",781
+"Cajazeiras","Paraíba","Brazil","South",784
+"Maringá","Parana","Brazil","South",799
+"Castanhal","Pará","Brazil","South",838
+"Presidente Dutra","Maranhão","Brazil","South",854
+"Patrocínio","Minas Gerais","Brazil","South",906
+"Balneário Camboriú","Santa Catarina","Brazil","South",915
+"Itamaraju","Bahia","Brazil","South",994
+"Ibirité","Minas Gerais","Brazil","South",1001
+"Manaus","Amazonas","Brazil","South",1030
+"São Luís","Maranhão","Brazil","South",1075
+"Ponte Nova","Minas Gerais","Brazil","South",1080
+"Nova Serrana","Minas Gerais","Brazil","South",1090
+"Santa Helena","Maranhão","Brazil","South",1094
+"Belo Horizonte","Minas Gerais","Brazil","South",1096
+"Caucaia","Ceará","Brazil","South",1111
+"Fortaleza","Ceará","Brazil","South",1114
+"Bom Jesus da Lapa","Bahia","Brazil","South",1120
+"Ananindeua","Pará","Brazil","South",1131
+"Barra Mansa","Rio de Janeiro","Brazil","South",1176
+"Francisco Beltrão","Parana","Brazil","South",1188
+"Itajaí","Santa Catarina","Brazil","South",1205
+"Goiânia","Goiás","Brazil","South",1206
+"Teresópolis","Rio de Janeiro","Brazil","South",1231
+"Juiz de Fora","Minas Gerais","Brazil","South",1232
+"Criciúma","Santa Catarina","Brazil","South",1238
+"Maceió","Alagoas","Brazil","South",1299
+"Cuiabá","Mato Grosso","Brazil","South",1421
+"Ijuí","Rio Grande do Sul","Brazil","South",1427
+"Divinópolis","Minas Gerais","Brazil","South",1452
+"Passo Fundo","Rio Grande do Sul","Brazil","South",1455
+"Ituiutaba","Minas Gerais","Brazil","South",1494
+"Montes Claros","Minas Gerais","Brazil","South",1507
+"João Pessoa","Paraíba","Brazil","South",1536
+"Cambé","Parana","Brazil","South",1551
+"Aracaju","Sergipe","Brazil","South",1552
+"Limoeiro do Norte","Ceará","Brazil","South",1555
+"Novo Gama","Goiás","Brazil","South",1562
+"Resende","Rio de Janeiro","Brazil","South",1569
+"Chapecó","Santa Catarina","Brazil","South",1598
+"Abreu e Lima","Pernambuco","Brazil","South",1618
+"Caxias do Sul","Rio Grande do Sul","Brazil","South",1696
+"Pelotas","Rio Grande do Sul","Brazil","South",1704
+"Campo Grande","Mato Grosso do Sul","Brazil","South",1706
+"Rondonópolis","Mato Grosso","Brazil","South",1724
+"Farroupilha","Rio Grande do Sul","Brazil","South",1775
+"Blumenau","Santa Catarina","Brazil","South",1803
+"Gravatá","Pernambuco","Brazil","South",1805
+"Sapucaia do Sul","Rio Grande do Sul","Brazil","South",1811
+"Paço do Lumiar","Maranhão","Brazil","South",1812
+"Gravataí","Rio Grande do Sul","Brazil","South",1852
+"Niterói","Rio de Janeiro","Brazil","South",1853
+"Santa Rosa","Rio Grande do Sul","Brazil","South",1871
+"Salvador","Bahia","Brazil","South",1878
+"Guanambi","Bahia","Brazil","South",1898
+"Barreiras","Bahia","Brazil","South",1907
+"Canoas","Rio Grande do Sul","Brazil","South",1929
+"Rio Branco","Acre","Brazil","South",1938
+"Surubim","Pernambuco","Brazil","South",1961
+"Pilar","Alagoas","Brazil","South",1970
+"Araranguá","Santa Catarina","Brazil","South",2018
+"Paracatu","Minas Gerais","Brazil","South",2057
+"Vitória","Espírito Santo","Brazil","South",2063
+"Duque de Caxias","Rio de Janeiro","Brazil","South",2075
+"Lajeado","Rio Grande do Sul","Brazil","South",2078
+"Gaspar","Santa Catarina","Brazil","South",2087
+"Betim","Minas Gerais","Brazil","South",2089
+"Rolândia","Parana","Brazil","South",2091
+"Recife","Pernambuco","Brazil","South",2122
+"Anápolis","Goiás","Brazil","South",2144
+"Porto Alegre","Rio Grande do Sul","Brazil","South",2147
+"Sousa","Paraíba","Brazil","South",2176
+"Teresina","Piauí","Brazil","South",2186
+"Altamira","Pará","Brazil","South",2192
+"Cabo Frio","Rio de Janeiro","Brazil","South",2194
+"Passos","Minas Gerais","Brazil","South",2209
+"Boa Vista","Roraima","Brazil","South",2257
+"São Miguel dos Campos","Alagoas","Brazil","South",2272
+"São Leopoldo","Rio Grande do Sul","Brazil","South",2284
+"Caçador","Santa Catarina","Brazil","South",2295
+"Mossoró","Rio Grande do Norte","Brazil","South",2320
+"Barbacena","Minas Gerais","Brazil","South",2328
+"Penedo","Alagoas","Brazil","South",2336
+"Senhor do Bonfim","Bahia","Brazil","South",2345
+"Vacaria","Rio Grande do Sul","Brazil","South",2371
+"Bezerros","Pernambuco","Brazil","South",2375
+"Bagé","Rio Grande do Sul","Brazil","South",2377
+"Uruguaiana","Rio Grande do Sul","Brazil","South",2400
+"Pontes e Lacerda","Mato Grosso","Brazil","South",2414
+"São Pedro da Aldeia","Rio de Janeiro","Brazil","South",2425
+"Cruz das Almas","Bahia","Brazil","South",2459
+"Quixadá","Ceará","Brazil","South",2474
+"Poços de Caldas","Minas Gerais","Brazil","South",2504
+"Itaúna","Minas Gerais","Brazil","South",2512
+"Jurema","Pernambuco","Brazil","South",2549
+"Pinheiro","Maranhão","Brazil","South",2561
+"Barreirinhas","Maranhão","Brazil","South",2564
+"Vilhena","Rondônia","Brazil","South",2585
+"Brumado","Bahia","Brazil","South",2614
+"Umuarama","Parana","Brazil","South",2665
+"Navegantes","Santa Catarina","Brazil","South",2694
+"Contagem","Minas Gerais","Brazil","South",2743
+"Boa Esperança","Minas Gerais","Brazil","South",2749
+"Tianguá","Ceará","Brazil","South",2759
+"Garanhuns","Pernambuco","Brazil","South",2819
+"Vassouras","Rio de Janeiro","Brazil","South",2826
+"Arcoverde","Pernambuco","Brazil","South",2840
+"Jequié","Bahia","Brazil","South",2846
+"Pirapora","Minas Gerais","Brazil","South",2865
+"Eunápolis","Bahia","Brazil","South",2869
+"Santa Cruz do Sul","Rio Grande do Sul","Brazil","South",2872
+"Águas Lindas de Goiás","Goiás","Brazil","South",2876
+"Camaçari","Bahia","Brazil","South",2892
+"Vespasiano","Minas Gerais","Brazil","South",2895
+"Ji-Paraná","Rondônia","Brazil","South",2898
+"Barra do Piraí","Rio de Janeiro","Brazil","South",2902
+"Camocim","Ceará","Brazil","South",2910
+"Floriano","Piauí","Brazil","South",2927
+"Oriximiná","Pará","Brazil","South",2937
+"Erechim","Rio Grande do Sul","Brazil","South",2938
+"Guarapari","Espírito Santo","Brazil","South",2951
+"Itapecuru Mirim","Maranhão","Brazil","South",2961
+"Juazeiro","Bahia","Brazil","South",2981
+"Dourados","Mato Grosso do Sul","Brazil","South",3002
+"Ilhéus","Bahia","Brazil","South",3036
+"Arapiraca","Alagoas","Brazil","South",3068
+"Ariquemes","Rondônia","Brazil","South",3079
+"Rio Grande","Rio Grande do Sul","Brazil","South",3081
+"Palmares","Pernambuco","Brazil","South",3084
+"Jacobina","Bahia","Brazil","South",3103
+"Várzea Grande","Mato Grosso","Brazil","South",3183
+"Sobral","Ceará","Brazil","South",3216
+"Cassilândia","Mato Grosso do Sul","Brazil","South",3249
+"Manacapuru","Amazonas","Brazil","South",3265
+"Coari","Amazonas","Brazil","South",3272
+"Arapongas","Parana","Brazil","South",3278
+"Santarém","Pará","Brazil","South",3287
+"Bento Gonçalves","Rio Grande do Sul","Brazil","South",3291
+"Itaituba","Pará","Brazil","South",3297
+"Palhoça","Santa Catarina","Brazil","South",3310
+"Cruzeiro do Sul","Acre","Brazil","South",3311
+"Vitória de Santo Antão","Pernambuco","Brazil","South",3369
+"Apucarana","Parana","Brazil","South",3389
+"Ipatinga","Minas Gerais","Brazil","South",3405
+"Aracati","Ceará","Brazil","South",3425
+"São Benedito","Ceará","Brazil","South",3430
+"Cidade Ocidental","Goiás","Brazil","South",3467
+"Pato Branco","Parana","Brazil","South",3476
+"Londrina","Parana","Brazil","South",3487
+"Araucária","Parana","Brazil","South",3490
+"Campina Grande","Paraíba","Brazil","South",3514
+"Camaragibe","Pernambuco","Brazil","South",3524
+"Uberlândia","Minas Gerais","Brazil","South",3531
+"Simões Filho","Bahia","Brazil","South",3538
+"Parintins","Amazonas","Brazil","South",3547
+"Novo Cruzeiro","Minas Gerais","Brazil","South",3561
+"Igarassu","Pernambuco","Brazil","South",3565
+"Pouso Alegre","Minas Gerais","Brazil","South",3595
+"Gurupi","Tocantins","Brazil","South",3597
+"Catalão","Goiás","Brazil","South",3609
+"Linhares","Espírito Santo","Brazil","South",3637
+"Sinop","Mato Grosso","Brazil","South",3652
+"Guarapuava","Parana","Brazil","South",3670
+"Vitória da Conquista","Bahia","Brazil","South",3671
+"Crato","Ceará","Brazil","South",3683
+"Jataí","Goiás","Brazil","South",3693
+"Seropédica","Rio de Janeiro","Brazil","South",3699
+"Sorriso","Mato Grosso","Brazil","South",3751
+"Buriticupu","Maranhão","Brazil","South",3757
+"Salto","São Paulo","Brazil","South",116
+"Tupã","São Paulo","Brazil","South",195
+"Ibiúna","São Paulo","Brazil","South",221
+"Ribeirão Preto","São Paulo","Brazil","South",332
+"São Paulo","São Paulo","Brazil","South",366
+"Santo André","São Paulo","Brazil","South",396
+"Lençóis Paulista","São Paulo","Brazil","South",527
+"Americana","São Paulo","Brazil","South",559
+"José Bonifácio","São Paulo","Brazil","South",936
+"Santana de Parnaíba","São Paulo","Brazil","South",943
+"Mauá","São Paulo","Brazil","South",1125
+"Araçatuba","São Paulo","Brazil","South",1190
+"Limeira","São Paulo","Brazil","South",1204
+"Taubaté","São Paulo","Brazil","South",1240
+"Valinhos","São Paulo","Brazil","South",1307
+"Franca","São Paulo","Brazil","South",1334
+"Barueri","São Paulo","Brazil","South",1448
+"Cotia","São Paulo","Brazil","South",1501
+"Itapevi","São Paulo","Brazil","South",1543
+"Sorocaba","São Paulo","Brazil","South",1587
+"Sumaré","São Paulo","Brazil","South",1700
+"Birigui","São Paulo","Brazil","South",1709
+"São Bernardo do Campo","São Paulo","Brazil","South",1739
+"Guarulhos","São Paulo","Brazil","South",1752
+"Osasco","São Paulo","Brazil","South",1955
+"Santos","São Paulo","Brazil","South",2030
+"Presidente Prudente","São Paulo","Brazil","South",2066
+"Francisco Morato","São Paulo","Brazil","South",2107
+"Jundiaí","São Paulo","Brazil","South",2113
+"São José dos Campos","São Paulo","Brazil","South",2148
+"Andradina","São Paulo","Brazil","South",2151
+"Jacareí","São Paulo","Brazil","South",2200
+"Diadema","São Paulo","Brazil","South",2291
+"Jaú","São Paulo","Brazil","South",2294
+"Lorena","São Paulo","Brazil","South",2300
+"Registro","São Paulo","Brazil","South",2464
+"Taboão da Serra","São Paulo","Brazil","South",2553
+"Itapecerica da Serra","São Paulo","Brazil","South",2583
+"Lins","São Paulo","Brazil","South",2672
+"Bragança Paulista","São Paulo","Brazil","South",2752
+"Barretos","São Paulo","Brazil","South",2753
+"Pindamonhangaba","São Paulo","Brazil","South",2764
+"Mococa","São Paulo","Brazil","South",2801
+"Cruzeiro","São Paulo","Brazil","South",2859
+"Indaiatuba","São Paulo","Brazil","South",2978
+"Catanduva","São Paulo","Brazil","South",3011
+"Guarujá","São Paulo","Brazil","South",3085
+"Guaratinguetá","São Paulo","Brazil","South",3088
+"Caraguatatuba","São Paulo","Brazil","South",3125
+"Tatuí","São Paulo","Brazil","South",3134
+"Praia Grande","São Paulo","Brazil","South",3142
+"Itapetininga","São Paulo","Brazil","South",3152
+"Votuporanga","São Paulo","Brazil","South",3175
+"Itu","São Paulo","Brazil","South",3233
+"Carapicuíba","São Paulo","Brazil","South",3410
+"Itapeva","São Paulo","Brazil","South",3432
+"São Vicente","São Paulo","Brazil","South",3440
+"Campo Limpo Paulista","São Paulo","Brazil","South",3465
+"Mogi das Cruzes","São Paulo","Brazil","South",3481
+"Araraquara","São Paulo","Brazil","South",3563
+"Cubatão","São Paulo","Brazil","South",3593
+"Jaboticabal","São Paulo","Brazil","South",3645
+"Cosmópolis","São Paulo","Brazil","South",3686
+"Franco da Rocha","São Paulo","Brazil","South",3727

@@ -130,19 +130,19 @@ params = dict(
     verbose=False,
 )
 train_pool = Pool(XC_train, yC_train, cat_features=cat_cols)
-cv_result = cv(
-    pool=train_pool,
-    params=params,
-    fold_count=3,
-    shuffle=True,
-    stratified=True,
-    partition_random_seed=42,
-    verbose=False
-)
-best_iter = cv_result['test-TotalF1:average=Macro-mean'].idxmax()
+# cv_result = cv(
+#     pool=train_pool,
+#     params=params,
+#     fold_count=3,
+#     shuffle=True,
+#     stratified=True,
+#     partition_random_seed=42,
+#     verbose=False
+# )
+# best_iter = cv_result['test-TotalF1:average=Macro-mean'].idxmax()
 # best_iter = cv_result['test-TotalF1:average=Macro-mean'].idxmax()
 final_model = CatBoostClassifier(
-    iterations=best_iter,
+    iterations=1900,
     loss_function="MultiClass",
     eval_metric="TotalF1:average=Macro",
     depth=7,

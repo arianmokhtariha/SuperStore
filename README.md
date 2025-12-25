@@ -4,7 +4,7 @@
 ![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
 ![Machine Learning](https://img.shields.io/badge/ML-XGBoost%20%7C%20CatBoost%20%7C%20Sklearn-orange)
 ![Hypothesis Testing](https://img.shields.io/badge/Hypothesis%20Testing-SciPy%20%7C%20Shapiro%20%7C%20Mann--Whitney-purple)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
 > **Credit & Collaboration Note:**  
 > This project was originally developed as a group effort for Quera's Data Analysis bootcamp. This repository is a **continuation/fork** containing my own refactored code, additional machine learning optimizations, and extended documentation.  

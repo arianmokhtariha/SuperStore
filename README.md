@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
 ![Machine Learning](https://img.shields.io/badge/ML-XGBoost%20%7C%20CatBoost%20%7C%20Sklearn-orange)
+![Hypothesis Testing](https://img.shields.io/badge/Hypothesis%20Testing-SciPy%20%7C%20Shapiro%20%7C%20Mann--Whitney-purple)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 > **Credit & Collaboration Note:**  

@@ -8,7 +8,12 @@
 
 > **Credit & Collaboration Note:**  
 > This project was originally developed as a group effort for Quera's Data Analysis bootcamp. This repository is a **continuation/fork** containing my own refactored code, additional machine learning optimizations, and extended documentation.  
-> **Original Team:** [Your Name], [Friend's Name]
+> **Original Team:**
+  [@AlirezaNyi](https://github.com/AlirezaNyi)
+  [@arianmokhtariha](https://github.com/arianmokhtariha)
+  [@mohsen20roohi-hue](https://github.com/mohsen20roohi-hue)
+  [@MonaKheirieh](https://github.com/MonaKheirieh)
+  [@anooshanth](https://github.com/anooshanth)
 
 ---
 

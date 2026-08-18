@@ -10,6 +10,10 @@ database, apply its schema, load the CSVs). This script does the fast half —
 everything downstream of that — so iterating on a marts layer costs seconds
 instead of a full reload.
 
+Here it builds the `olap` star schema from sql/OLAP on top of the `oltp`
+schema that db_setup.py loads. oltp is listed as protected and is only ever
+read from, so this is safe to run as often as you like.
+
 Reusable across projects: to retarget it, edit ONLY the CONFIG block below.
 Nothing further down is project-specific.
 
@@ -43,19 +47,19 @@ SQL_ROOT: Path = _ROOT / "sql"
 #   00_schema.sql, 10_dimensions.sql, 20_facts.sql
 # The glob is non-recursive, matching db_setup.py — sub-directories are ignored.
 BUILD_TARGETS: list[tuple[str, Path]] = [
-    ("analyst_ready", SQL_ROOT / "analyst_ready"),
+    ("olap", SQL_ROOT / "OLAP"),
 ]
 
 # The base schema every target is built FROM. It must already exist and hold
 # tables before anything runs; if it does not, this script stops and tells you
 # to run db_setup.py first, rather than failing later with an opaque SQL error.
-REQUIRED_SCHEMA: str = "processed"
+REQUIRED_SCHEMA: str = "oltp"
 
 # Schemas this script must never drop. The base schema belongs here: this
 # script reads from it and never writes to it. The guard runs before any
 # destructive statement, so a typo in BUILD_TARGETS aborts harmlessly.
 PROTECTED_SCHEMAS: set[str] = {
-    "processed",
+    "oltp",
     "public",
     "pg_catalog",
     "pg_toast",
@@ -394,7 +398,10 @@ def build_schema(
             with Spinner(f"Running   {_c(path.name, BOLD, WHITE)}"):
                 # No parameters are passed, so psycopg2 performs no
                 # interpolation and a literal '%' in the SQL is safe.
-                cursor.execute(path.read_text(encoding="utf-8"))
+                # utf-8-sig, not utf-8: a Windows editor may leave a byte-order
+                # mark, which Postgres reports as a syntax error at or near ""
+                # with nothing pointing at the cause.
+                cursor.execute(path.read_text(encoding="utf-8-sig"))
 
         conn.commit()
 

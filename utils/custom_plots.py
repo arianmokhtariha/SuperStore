@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import math
-from typing import Callable, List, Literal, Optional, Tuple, Union
+from typing import Callable, List, Literal, Optional, Sequence, Tuple, Union
 
 import numpy as np
 import pandas as pd
@@ -83,6 +83,21 @@ _SEVERITY_STOPS: List[Tuple[float, str]] = [
     (0.5, "#FFA15A"),
     (1.0, "#EF553B"),
 ]
+
+# Sequential ramp for count matrices whose cells carry white text — a confusion
+# matrix through cross_tab_heatmap being the usual case. Every stop is darker
+# than #1566B6, the lightest blue that still clears WCAG 4.5:1 against white, so
+# no cell label is ever washed out. Public because callers pass it by name.
+SEQ_BLUE = [
+    [0.0, "#1a1a1a"],
+    [0.25, "#1c3350"],
+    [0.5, "#1c4374"],
+    [0.75, "#175496"],
+    [1.0, "#1566B6"],
+]
+
+# Array-likes accepted by the model-diagnostic plots.
+ArrayLike = Union[Sequence[float], np.ndarray, pd.Series]
 
 
 # ── Private helpers ──────────────────────────────────────────────────────────
@@ -1917,7 +1932,9 @@ def cross_tab_heatmap(
     col2: str,
     normalize: Optional[Literal["row", "col", "all"]] = "row",
     show_counts: bool = False,
-    colorscale: str = "Viridis",
+    row_order: Optional[Sequence] = None,
+    col_order: Optional[Sequence] = None,
+    colorscale: Union[str, List] = "Viridis",
     title: str = "",
     width: int = 1400,
     height: Optional[int] = None,
@@ -1943,8 +1960,17 @@ def cross_tab_heatmap(
     show_counts : bool, default False
         When normalising, append ``(n=45)`` under each percentage. No-op when
         ``normalize=None`` (counts are already shown).
-    colorscale : str, default 'Viridis'
-        Any named Plotly colorscale.
+    row_order, col_order : sequence, optional
+        Explicit category order for an axis; categories absent from the data are
+        still drawn, as an empty row or column. ``None`` uses the order pandas
+        produces, which is sorted. Pass the same list to both to force a square
+        matrix — that is what turns this into a confusion matrix, where a class
+        the model never predicted has to keep its column rather than vanish.
+    colorscale : str or list, default 'Viridis'
+        A named Plotly colorscale, or an explicit list of ``[position, colour]``
+        stops. Every cell carries a white label, so a scale that runs bright at
+        one end (Viridis does) will wash those labels out; ``SEQ_BLUE`` is the
+        house scale that stays dark enough to read against.
     title : str, default ""
         Main title; empty auto-generates ``"col1 × col2"``.
     width : int, default 1400
@@ -1965,6 +1991,10 @@ def cross_tab_heatmap(
         raise ValueError(
             "Crosstab is empty after dropping nulls — nothing to plot."
         )
+    if row_order is not None:
+        ct = ct.reindex(index=list(row_order), fill_value=0)
+    if col_order is not None:
+        ct = ct.reindex(columns=list(col_order), fill_value=0)
 
     counts = ct.to_numpy(dtype=float)
     if normalize == "row":
@@ -3008,5 +3038,1111 @@ def pareto_plot(
     _apply_base_layout(
         fig, title=title or f"Pareto of {category_col}", subtitle=subtitle,
         width=width, height=height if height is not None else 600,
+    )
+    return fig
+
+
+# ── Model diagnostics ────────────────────────────────────────────────────────
+# The plots below read model *output* — predictions, scores, importances — not a
+# source DataFrame, so they take arrays rather than ``df, col``. None of them
+# imports scikit-learn: ROC, precision-recall, calibration and threshold sweeps
+# are all derived from the score vector with numpy, which keeps this module's
+# dependency set exactly what it was for the EDA plots. Anything genuinely
+# expensive to compute (per-sample silhouettes, learning curves, SHAP values)
+# is computed by the caller and passed in.
+
+
+def _as_1d(a: ArrayLike, name: str) -> np.ndarray:
+    """Coerce an array-like to a 1-D float array, or raise with its name."""
+    arr = np.asarray(a, dtype=float).ravel()
+    if arr.size == 0:
+        raise ValueError(f"{name} is empty.")
+    if not np.isfinite(arr).all():
+        raise ValueError(f"{name} contains NaN or infinite values.")
+    return arr
+
+
+def _check_binary(y_true: np.ndarray, name: str = "y_true") -> np.ndarray:
+    """Coerce a binary label vector to 0/1, or raise if it is not binary."""
+    classes = np.unique(y_true)
+    if classes.size != 2:
+        raise ValueError(
+            f"{name} must hold exactly two classes; found {classes.size} "
+            f"({classes[:5].tolist()})."
+        )
+    return (y_true == classes[1]).astype(int)
+
+
+def _roc_curve(y: np.ndarray, score: np.ndarray) -> Tuple[np.ndarray, ...]:
+    """
+    ROC points and AUC for a binary problem, computed by ranking the scores.
+
+    Scores are sorted descending and swept once; tied scores are collapsed to a
+    single point so a model that assigns the same score to many rows produces one
+    vertex rather than a staircase through them. The curve is anchored at (0, 0)
+    and AUC is the trapezoidal area under it.
+
+    Returns
+    -------
+    tuple of (np.ndarray, np.ndarray, float)
+        ``(fpr, tpr, auc)``.
+    """
+    order = np.argsort(-score, kind="mergesort")
+    y, score = y[order], score[order]
+
+    tps = np.cumsum(y)
+    fps = np.cumsum(1 - y)
+    last_of_tie = np.r_[np.flatnonzero(np.diff(score)), score.size - 1]
+    tps, fps = tps[last_of_tie], fps[last_of_tie]
+
+    if tps[-1] == 0 or fps[-1] == 0:
+        raise ValueError("ROC needs at least one positive and one negative row.")
+
+    tpr = np.r_[0.0, tps / tps[-1]]
+    fpr = np.r_[0.0, fps / fps[-1]]
+    return fpr, tpr, float(np.trapezoid(tpr, fpr))
+
+
+def _pr_curve(y: np.ndarray, score: np.ndarray) -> Tuple[np.ndarray, ...]:
+    """
+    Precision-recall points and average precision, computed by ranking scores.
+
+    Average precision is the step-wise sum ``Σ (rₙ − rₙ₋₁) · pₙ``, which is the
+    honest summary here: trapezoidal area over a PR curve is optimistic because
+    the curve is not monotone.
+
+    Returns
+    -------
+    tuple of (np.ndarray, np.ndarray, float)
+        ``(recall, precision, average_precision)``.
+    """
+    order = np.argsort(-score, kind="mergesort")
+    y, score = y[order], score[order]
+
+    tps = np.cumsum(y)
+    fps = np.cumsum(1 - y)
+    last_of_tie = np.r_[np.flatnonzero(np.diff(score)), score.size - 1]
+    tps, fps = tps[last_of_tie], fps[last_of_tie]
+
+    if tps[-1] == 0:
+        raise ValueError("Precision-recall needs at least one positive row.")
+
+    precision = tps / (tps + fps)
+    recall = tps / tps[-1]
+    ap = float(np.sum(np.diff(np.r_[0.0, recall]) * precision))
+    return recall, precision, ap
+
+
+def classification_curve_plot(
+    y_true: ArrayLike,
+    y_score: ArrayLike,
+    kind: Literal["roc", "pr"] = "roc",
+    labels: Optional[Sequence] = None,
+    title: str = "",
+    width: int = 820,
+    height: Optional[int] = None,
+) -> go.Figure:
+    """
+    ROC or precision-recall curve, for a binary model or one-vs-rest per class.
+
+    Pass a 1-D score vector for a binary model, or the ``(n_rows, n_classes)``
+    probability matrix for a multiclass one — each class then gets its own
+    one-vs-rest curve plus a macro average in the legend.
+
+    Which curve to read depends on the base rate. ROC holds the diagonal as its
+    "no better than chance" reference whatever the class balance is, so it
+    flatters a model on a rare positive class; the PR curve's reference is the
+    positive rate itself, which is why it is the fairer view when positives are
+    scarce (returns, churn, fraud).
+
+    Parameters
+    ----------
+    y_true : array-like
+        Observed labels.
+    y_score : array-like
+        Predicted score or probability of the positive class (1-D), or a
+        ``(n_rows, n_classes)`` probability matrix for multiclass.
+    kind : {'roc', 'pr'}, default 'roc'
+        ``'roc'`` plots TPR against FPR; ``'pr'`` plots precision against recall.
+    labels : sequence, optional
+        Class order matching the columns of a 2-D ``y_score``. ``None`` sorts the
+        observed classes, which is the order scikit-learn's ``predict_proba``
+        uses.
+    title : str, default ""
+        Main title; empty auto-generates one.
+    width : int, default 820
+        Figure width in px.
+    height : int, optional
+        Figure height in px; ``None`` defaults to 660.
+
+    Returns
+    -------
+    plotly.graph_objects.Figure
+    """
+    if kind not in ("roc", "pr"):
+        raise ValueError(f"kind must be 'roc' or 'pr'; got {kind!r}.")
+
+    truth = np.asarray(y_true).ravel()
+    scores = np.asarray(y_score, dtype=float)
+    if scores.ndim == 1:
+        scores = scores.reshape(-1, 1)
+    if scores.shape[0] != truth.size:
+        raise ValueError(
+            f"y_true has {truth.size} rows but y_score has {scores.shape[0]}."
+        )
+
+    classes = list(labels) if labels is not None else sorted(set(truth.tolist()))
+    if scores.shape[1] == 1:
+        # Binary: the single column scores the second class in sorted order.
+        curves = [(str(classes[-1]), _check_binary(truth), scores[:, 0])]
+    else:
+        if len(classes) != scores.shape[1]:
+            raise ValueError(
+                f"y_score has {scores.shape[1]} columns but {len(classes)} "
+                f"classes were resolved; pass `labels` to fix the order."
+            )
+        curves = [
+            (str(cls), (truth == cls).astype(int), scores[:, i])
+            for i, cls in enumerate(classes)
+        ]
+
+    fig = go.Figure()
+    areas = []
+    for i, (name, y_bin, s) in enumerate(curves):
+        colour = _CATEGORICAL_COLORS[i % len(_CATEGORICAL_COLORS)]
+        if kind == "roc":
+            x, y_vals, area = _roc_curve(y_bin, s)
+            hover = "FPR %{x:.3f}<br>TPR %{y:.3f}<extra></extra>"
+        else:
+            x, y_vals, area = _pr_curve(y_bin, s)
+            hover = "recall %{x:.3f}<br>precision %{y:.3f}<extra></extra>"
+        areas.append(area)
+        metric = "AUC" if kind == "roc" else "AP"
+        fig.add_trace(go.Scatter(
+            x=x, y=y_vals, mode="lines", name=f"{name} ({metric} {area:.3f})",
+            line=dict(color=colour, width=2.5), hovertemplate=hover,
+        ))
+
+    if kind == "roc":
+        fig.add_trace(go.Scatter(
+            x=[0, 1], y=[0, 1], mode="lines", name="chance",
+            line=dict(color=_OTHER_COLOR, width=1.5, dash="dash"),
+            hoverinfo="skip",
+        ))
+        axis_titles = ("false positive rate", "true positive rate")
+    else:
+        base = float(np.mean(_check_binary(truth))) if scores.shape[1] == 1 \
+            else float(np.mean([np.mean(y_bin) for _, y_bin, _ in curves]))
+        fig.add_trace(go.Scatter(
+            x=[0, 1], y=[base, base], mode="lines",
+            name=f"base rate ({base:.1%})",
+            line=dict(color=_OTHER_COLOR, width=1.5, dash="dash"),
+            hoverinfo="skip",
+        ))
+        axis_titles = ("recall", "precision")
+
+    subtitle = ""
+    if len(curves) > 1:
+        metric = "AUC" if kind == "roc" else "AP"
+        subtitle = f"one-vs-rest per class · macro {metric} {np.mean(areas):.3f}"
+
+    final_height = height if height is not None else 660
+    fig.update_layout(
+        width=width, height=final_height,
+        xaxis=dict(title=dict(text=axis_titles[0], font=dict(size=13)),
+                   range=[-0.02, 1.02], showgrid=True, gridcolor=_GRID_CLR,
+                   gridwidth=0.5),
+        yaxis=dict(title=dict(text=axis_titles[1], font=dict(size=13)),
+                   range=[-0.02, 1.02], showgrid=True, gridcolor=_GRID_CLR,
+                   gridwidth=0.5, scaleanchor="x", scaleratio=1),
+        legend=dict(yanchor="bottom", y=0.02, xanchor="right", x=0.98,
+                    bgcolor="rgba(0,0,0,0.55)", bordercolor=_GRID_CLR,
+                    borderwidth=1, font=dict(size=11)),
+        margin=dict(l=90, r=60, t=110, b=80),
+    )
+    default_title = ("ROC curve" if kind == "roc"
+                     else "Precision-recall curve")
+    _apply_base_layout(
+        fig, title=title or default_title, subtitle=subtitle,
+        width=width, height=final_height,
+    )
+    return fig
+
+
+def calibration_plot(
+    y_true: ArrayLike,
+    y_prob: ArrayLike,
+    n_bins: int = 10,
+    strategy: Literal["quantile", "uniform"] = "quantile",
+    title: str = "",
+    width: int = 900,
+    height: Optional[int] = None,
+) -> go.Figure:
+    """
+    Reliability curve — when the model says 30%, does it happen 30% of the time?
+
+    Rows are binned by predicted probability and each bin's observed rate is
+    plotted against its mean prediction; a perfectly calibrated model sits on the
+    diagonal. This is the check that has to pass before a probability is used as
+    a number rather than a ranking — "flag orders above 40% return risk" is only
+    a meaningful rule if 40% means 40%.
+
+    Wilson intervals are drawn on each point, so a bin holding forty rows is
+    visibly less trustworthy than one holding four thousand. The histogram
+    underneath shows where the predictions actually live: deviation in a bin that
+    holds 2% of the data is not the same problem as deviation in the bulk.
+
+    Parameters
+    ----------
+    y_true : array-like
+        Observed binary labels.
+    y_prob : array-like
+        Predicted probability of the positive class, in [0, 1].
+    n_bins : int, default 10
+        Number of probability bins.
+    strategy : {'quantile', 'uniform'}, default 'quantile'
+        ``'quantile'`` puts an equal number of rows in each bin, which keeps
+        every point's interval usable when predictions cluster near zero;
+        ``'uniform'`` cuts [0, 1] into equal widths.
+    title : str, default ""
+        Main title; empty auto-generates one.
+    width : int, default 900
+        Figure width in px.
+    height : int, optional
+        Figure height in px; ``None`` defaults to 700.
+
+    Returns
+    -------
+    plotly.graph_objects.Figure
+    """
+    prob = _as_1d(y_prob, "y_prob")
+    truth = _check_binary(np.asarray(y_true).ravel())
+    if prob.size != truth.size:
+        raise ValueError(
+            f"y_true has {truth.size} rows but y_prob has {prob.size}."
+        )
+    if prob.min() < 0 or prob.max() > 1:
+        raise ValueError("y_prob must lie in [0, 1].")
+    if n_bins < 2:
+        raise ValueError(f"n_bins must be at least 2; got {n_bins}.")
+
+    if strategy == "quantile":
+        edges = np.unique(np.quantile(prob, np.linspace(0, 1, n_bins + 1)))
+    elif strategy == "uniform":
+        edges = np.linspace(0, 1, n_bins + 1)
+    else:
+        raise ValueError(f"strategy must be 'quantile' or 'uniform'; got {strategy!r}.")
+    if edges.size < 3:
+        raise ValueError(
+            "Predictions are too concentrated to form bins; try strategy='uniform'."
+        )
+
+    idx = np.clip(np.digitize(prob, edges[1:-1], right=True), 0, edges.size - 2)
+    rows = []
+    for b in range(edges.size - 1):
+        mask = idx == b
+        n = int(mask.sum())
+        if n == 0:
+            continue
+        hits = int(truth[mask].sum())
+        p_hat = hits / n
+        # Wilson score interval — behaves at p near 0 or 1, where Wald does not.
+        z = 1.959963984540054  # 95% two-sided normal quantile
+        centre = (p_hat + z * z / (2 * n)) / (1 + z * z / n)
+        half = (z / (1 + z * z / n)) * math.sqrt(
+            p_hat * (1 - p_hat) / n + z * z / (4 * n * n)
+        )
+        rows.append(dict(
+            mean_pred=float(prob[mask].mean()), observed=p_hat, n=n,
+            lo=max(0.0, centre - half), hi=min(1.0, centre + half),
+        ))
+    binned = pd.DataFrame(rows)
+
+    brier = float(np.mean((prob - truth) ** 2))
+    final_height = height if height is not None else 700
+
+    fig = make_subplots(
+        rows=2, cols=1, shared_xaxes=True, row_heights=[0.72, 0.28],
+        vertical_spacing=0.07,
+    )
+    fig.add_trace(go.Scatter(
+        x=[0, 1], y=[0, 1], mode="lines", name="perfect calibration",
+        line=dict(color=_OTHER_COLOR, width=1.5, dash="dash"), hoverinfo="skip",
+    ), row=1, col=1)
+    fig.add_trace(go.Scatter(
+        x=binned["mean_pred"], y=binned["observed"], mode="lines+markers",
+        name="observed rate", line=dict(color=PALETTE[0], width=2.5),
+        marker=dict(size=9, color=PALETTE[0]),
+        error_y=dict(
+            type="data", symmetric=False,
+            array=binned["hi"] - binned["observed"],
+            arrayminus=binned["observed"] - binned["lo"],
+            color=PALETTE[0], thickness=1.2, width=4,
+        ),
+        customdata=binned["n"],
+        hovertemplate=("predicted %{x:.1%}<br>observed %{y:.1%}"
+                       "<br>%{customdata:,} rows in bin<extra></extra>"),
+    ), row=1, col=1)
+    fig.add_trace(go.Histogram(
+        x=prob, nbinsx=50, name="predictions",
+        marker=dict(color=PALETTE[0], opacity=0.55),
+        hovertemplate="predicted %{x:.2f}<br>%{y:,} rows<extra></extra>",
+        showlegend=False,
+    ), row=2, col=1)
+
+    fig.add_annotation(
+        text=f"Brier score <b>{brier:.4f}</b> · lower is better",
+        xref="paper", yref="paper", x=0.02, y=0.97,
+        xanchor="left", yanchor="top", showarrow=False,
+        font=dict(size=12, color="#fafafa"),
+        bgcolor="rgba(0,0,0,0.55)", bordercolor=_GRID_CLR,
+        borderwidth=1, borderpad=6,
+    )
+
+    fig.update_xaxes(range=[-0.02, 1.02], showgrid=True, gridcolor=_GRID_CLR,
+                     gridwidth=0.5)
+    fig.update_xaxes(title_text="predicted probability", row=2, col=1)
+    fig.update_yaxes(title_text="observed rate", range=[-0.02, 1.02],
+                     showgrid=True, gridcolor=_GRID_CLR, gridwidth=0.5,
+                     zeroline=False, row=1, col=1)
+    fig.update_yaxes(title_text="rows", showgrid=False, row=2, col=1)
+    fig.update_layout(
+        width=width, height=final_height,
+        legend=dict(yanchor="top", y=0.98, xanchor="right", x=0.98,
+                    bgcolor="rgba(0,0,0,0.55)", bordercolor=_GRID_CLR,
+                    borderwidth=1, font=dict(size=11)),
+        margin=dict(l=90, r=60, t=110, b=70), bargap=0.02,
+    )
+    _apply_base_layout(
+        fig, title=title or "Calibration of predicted probabilities",
+        subtitle=f"{len(binned)} {strategy} bins · 95% Wilson intervals",
+        width=width, height=final_height,
+    )
+    return fig
+
+
+def threshold_sweep_plot(
+    y_true: ArrayLike,
+    y_score: ArrayLike,
+    optimise: Literal["f1", "youden"] = "f1",
+    n_thresholds: int = 200,
+    title: str = "",
+    width: int = 1000,
+    height: Optional[int] = None,
+) -> go.Figure:
+    """
+    Precision, recall and F1 across every cut-off — where to set the decision line.
+
+    A classifier does not come with a threshold; 0.5 is a default, not a decision.
+    This sweeps the cut-off and shows what each choice costs: moving left catches
+    more of the positives and wastes more effort on false alarms, moving right
+    does the reverse. The marked point is only a starting suggestion — the right
+    threshold is the one whose precision/recall trade matches what a false alarm
+    and a miss actually cost the business.
+
+    Parameters
+    ----------
+    y_true : array-like
+        Observed binary labels.
+    y_score : array-like
+        Predicted score or probability of the positive class.
+    optimise : {'f1', 'youden'}, default 'f1'
+        Statistic the marked threshold maximises. ``'f1'`` balances precision and
+        recall; ``'youden'`` maximises ``TPR − FPR``, which ignores how rare the
+        positive class is.
+    n_thresholds : int, default 200
+        Number of cut-offs evaluated across the observed score range.
+    title : str, default ""
+        Main title; empty auto-generates one.
+    width : int, default 1000
+        Figure width in px.
+    height : int, optional
+        Figure height in px; ``None`` defaults to 620.
+
+    Returns
+    -------
+    plotly.graph_objects.Figure
+    """
+    score = _as_1d(y_score, "y_score")
+    truth = _check_binary(np.asarray(y_true).ravel())
+    if score.size != truth.size:
+        raise ValueError(
+            f"y_true has {truth.size} rows but y_score has {score.size}."
+        )
+    if n_thresholds < 10:
+        raise ValueError(f"n_thresholds must be at least 10; got {n_thresholds}.")
+
+    cuts = np.quantile(score, np.linspace(0.0, 1.0, n_thresholds))
+    cuts = np.unique(cuts)[:-1]  # a cut at the max flags nothing
+    if cuts.size == 0:
+        raise ValueError("All scores are identical; there is no threshold to sweep.")
+
+    flagged = score[:, None] >= cuts[None, :]
+    tp = (flagged & (truth[:, None] == 1)).sum(axis=0).astype(float)
+    fp = (flagged & (truth[:, None] == 0)).sum(axis=0).astype(float)
+    n_pos, n_neg = float(truth.sum()), float((1 - truth).sum())
+
+    precision = np.divide(tp, tp + fp, out=np.zeros_like(tp), where=(tp + fp) > 0)
+    recall = tp / n_pos
+    f1 = np.divide(2 * precision * recall, precision + recall,
+                   out=np.zeros_like(tp), where=(precision + recall) > 0)
+    flag_rate = (tp + fp) / truth.size
+
+    objective = f1 if optimise == "f1" else recall - (fp / n_neg)
+    best = int(np.argmax(objective))
+
+    series = [
+        ("precision", precision, PALETTE[0]),
+        ("recall", recall, PALETTE[1]),
+        ("F1", f1, PALETTE[2]),
+        ("share of rows flagged", flag_rate, _OTHER_COLOR),
+    ]
+    fig = go.Figure()
+    for name, values, colour in series:
+        dashed = name == "share of rows flagged"
+        fig.add_trace(go.Scatter(
+            x=cuts, y=values, mode="lines", name=name,
+            line=dict(color=colour, width=2,
+                      dash="dot" if dashed else "solid"),
+            hovertemplate=f"{name} %{{y:.3f}} at cut-off %{{x:.3f}}<extra></extra>",
+        ))
+    fig.add_vline(x=cuts[best], line=dict(color="#FFD700", width=1.5, dash="dash"))
+    fig.add_annotation(
+        text=(f"best {optimise} at cut-off <b>{cuts[best]:.3f}</b><br>"
+              f"precision {precision[best]:.2f} · recall {recall[best]:.2f} · "
+              f"flags {flag_rate[best]:.1%} of rows"),
+        xref="paper", yref="paper", x=0.99, y=0.99,
+        xanchor="right", yanchor="top", showarrow=False, align="right",
+        font=dict(size=12, color="#fafafa"),
+        bgcolor="rgba(0,0,0,0.55)", bordercolor="#FFD700",
+        borderwidth=1, borderpad=6,
+    )
+
+    final_height = height if height is not None else 620
+    fig.update_layout(
+        width=width, height=final_height,
+        xaxis=dict(title=dict(text="decision cut-off", font=dict(size=13)),
+                   showgrid=True, gridcolor=_GRID_CLR, gridwidth=0.5),
+        yaxis=dict(title=dict(text="score", font=dict(size=13)),
+                   range=[-0.02, 1.02], showgrid=True, gridcolor=_GRID_CLR,
+                   gridwidth=0.5, zeroline=False),
+        legend=dict(orientation="h", yanchor="bottom", y=-0.22,
+                    xanchor="center", x=0.5, font=dict(size=11)),
+        margin=dict(l=90, r=60, t=110, b=110),
+    )
+    _apply_base_layout(
+        fig, title=title or "Precision and recall across decision cut-offs",
+        subtitle=f"positive class is {truth.mean():.1%} of {truth.size:,} rows",
+        width=width, height=final_height,
+    )
+    return fig
+
+
+def regression_diagnostics_plot(
+    y_true: ArrayLike,
+    y_pred: ArrayLike,
+    n_trend_bins: int = 20,
+    point_size: int = 5,
+    opacity: float = 0.45,
+    title: str = "",
+    width: int = 1400,
+    height: Optional[int] = None,
+) -> go.Figure:
+    """
+    The three views that decide whether a fitted regression can be trusted.
+
+    Left, predicted against observed on a locked 1:1 aspect with the identity
+    line — the axes are forced to a common range because a squashed axis makes
+    almost any model look well behaved. Systematic sag below the line at high
+    values is the regression-to-the-mean signature: the model hedging on exactly
+    the extremes it was asked to predict.
+
+    Middle, the residuals against the fitted values. A healthy model leaves a
+    shapeless band around zero; a binned median line runs through it because
+    tens of thousands of semi-transparent points will hide a drift that the line
+    makes obvious. Right, the same residuals as a distribution, which is where a
+    model that is biased in one direction shows up.
+
+    This is a fixed diagnostic panel rather than three calls to
+    :func:`scatter_plot`: the reference here is the identity line and a zero
+    line, not a fitted trend, and the middle and right panels deliberately share
+    one residual scale so the spread reads the same in both.
+
+    Parameters
+    ----------
+    y_true : array-like
+        Observed target values.
+    y_pred : array-like
+        Model predictions, same length as ``y_true``.
+    n_trend_bins : int, default 20
+        Number of equal-count bins behind the median trend line.
+    point_size : int, default 5
+        Marker size in px.
+    opacity : float, default 0.45
+        Marker opacity, so overplotted regions read as density.
+    title : str, default ""
+        Main title; empty auto-generates one.
+    width : int, default 1400
+        Figure width in px.
+    height : int, optional
+        Figure height in px; ``None`` defaults to 560.
+
+    Returns
+    -------
+    plotly.graph_objects.Figure
+    """
+    truth = _as_1d(y_true, "y_true")
+    pred = _as_1d(y_pred, "y_pred")
+    if truth.size != pred.size:
+        raise ValueError(
+            f"y_true has {truth.size} rows but y_pred has {pred.size}."
+        )
+    if n_trend_bins < 2:
+        raise ValueError(f"n_trend_bins must be at least 2; got {n_trend_bins}.")
+
+    resid = truth - pred
+    ss_res = float(np.sum(resid ** 2))
+    ss_tot = float(np.sum((truth - truth.mean()) ** 2))
+    r2 = 1.0 - ss_res / ss_tot if ss_tot > 0 else float("nan")
+    rmse = math.sqrt(ss_res / truth.size)
+    mae = float(np.mean(np.abs(resid)))
+
+    lo = float(min(truth.min(), pred.min()))
+    hi = float(max(truth.max(), pred.max()))
+    pad = 0.03 * (hi - lo) if hi > lo else 1.0
+
+    bins = pd.qcut(pd.Series(pred), q=min(n_trend_bins, pred.size),
+                   duplicates="drop")
+    trend = (
+        pd.DataFrame({"pred": pred, "resid": resid, "bin": bins})
+        .groupby("bin", observed=True)
+        .agg(x=("pred", "median"), y=("resid", "median"))
+        .dropna()
+        .sort_values("x")
+    )
+
+    fig = make_subplots(
+        rows=1, cols=3, column_widths=[0.34, 0.44, 0.22],
+        horizontal_spacing=0.075,
+        subplot_titles=("predicted vs observed", "residuals vs fitted",
+                        "residual distribution"),
+    )
+    fig.add_trace(go.Scatter(
+        x=truth, y=pred, mode="markers",
+        marker=dict(size=point_size, color=PALETTE[0], opacity=opacity,
+                    line=dict(width=0)),
+        hovertemplate="observed %{x:,.2f}<br>predicted %{y:,.2f}<extra></extra>",
+        showlegend=False,
+    ), row=1, col=1)
+    fig.add_trace(go.Scatter(
+        x=[lo - pad, hi + pad], y=[lo - pad, hi + pad], mode="lines",
+        name="perfect prediction",
+        line=dict(color="#FFD700", width=1.5, dash="dash"), hoverinfo="skip",
+    ), row=1, col=1)
+
+    fig.add_trace(go.Scatter(
+        x=pred, y=resid, mode="markers",
+        marker=dict(size=point_size, color=PALETTE[0], opacity=opacity,
+                    line=dict(width=0)),
+        hovertemplate="fitted %{x:,.2f}<br>residual %{y:,.2f}<extra></extra>",
+        showlegend=False,
+    ), row=1, col=2)
+    fig.add_trace(go.Scatter(
+        x=trend["x"], y=trend["y"], mode="lines+markers", name="binned median",
+        line=dict(color="#FFD700", width=2), marker=dict(size=6),
+        hovertemplate="median residual %{y:,.2f}<extra></extra>",
+    ), row=1, col=2)
+    fig.add_hline(y=0, line=dict(color=_OTHER_COLOR, width=1.5, dash="dash"),
+                  row=1, col=2)
+
+    fig.add_trace(go.Histogram(
+        y=resid, nbinsy=60, marker=dict(color=PALETTE[0], opacity=0.75),
+        hovertemplate="residual %{y:,.2f}<br>%{x:,} rows<extra></extra>",
+        showlegend=False,
+    ), row=1, col=3)
+
+    fig.add_annotation(
+        text=(f"R² <b>{r2:.3f}</b> · RMSE {rmse:,.2f} · MAE {mae:,.2f} · "
+              f"mean residual {resid.mean():,.2f} · "
+              f"median {np.median(resid):,.2f}"),
+        xref="paper", yref="paper", x=0.0, y=1.0, yshift=36,
+        xanchor="left", yanchor="bottom", showarrow=False,
+        font=dict(size=12, color="#fafafa"),
+    )
+
+    final_height = height if height is not None else 560
+    resid_axis = dict(showgrid=True, gridcolor=_GRID_CLR, gridwidth=0.5,
+                      zeroline=False)
+    fig.update_xaxes(title_text="observed", range=[lo - pad, hi + pad],
+                     **resid_axis, row=1, col=1)
+    fig.update_yaxes(title_text="predicted", range=[lo - pad, hi + pad],
+                     scaleanchor="x", scaleratio=1, **resid_axis, row=1, col=1)
+    fig.update_xaxes(title_text="fitted value", **resid_axis, row=1, col=2)
+    fig.update_yaxes(title_text="residual (observed − predicted)",
+                     **resid_axis, row=1, col=2)
+    fig.update_xaxes(title_text="rows", showgrid=False, zeroline=False,
+                     row=1, col=3)
+    fig.update_yaxes(matches="y2", showgrid=False, zeroline=False,
+                     showticklabels=False, row=1, col=3)
+    fig.update_layout(
+        width=width, height=final_height,
+        legend=dict(orientation="h", yanchor="bottom", y=-0.30,
+                    xanchor="center", x=0.5, font=dict(size=11)),
+        margin=dict(l=90, r=50, t=135, b=140),
+    )
+    for note in fig.layout.annotations[:3]:
+        note.font.size = 13
+    _apply_base_layout(
+        fig, title=title or "Regression diagnostics",
+        subtitle=f"{truth.size:,} rows", width=width, height=final_height,
+    )
+    return fig
+
+
+def learning_curve_plot(
+    train_sizes: ArrayLike,
+    train_scores: ArrayLike,
+    valid_scores: ArrayLike,
+    score_label: str = "score",
+    title: str = "",
+    width: int = 1000,
+    height: Optional[int] = None,
+) -> go.Figure:
+    """
+    Training and validation score against sample size — the overfitting picture.
+
+    Takes the three arrays scikit-learn's ``learning_curve`` returns, with the
+    score arrays shaped ``(n_sizes, n_folds)``; the band is the spread across
+    folds at each size.
+
+    Two shapes matter. A wide gap that stays wide is variance — the model is
+    memorising, and more rows will help. Two curves that meet low and flatten is
+    bias — more rows will not help, the model or the features need to change.
+
+    Parameters
+    ----------
+    train_sizes : array-like
+        Number of training rows at each step.
+    train_scores : array-like
+        Training scores, ``(n_sizes,)`` or ``(n_sizes, n_folds)``.
+    valid_scores : array-like
+        Validation scores, same shape as ``train_scores``.
+    score_label : str, default "score"
+        Name of the metric on the y-axis (e.g. "R²", "macro F1").
+    title : str, default ""
+        Main title; empty auto-generates one.
+    width : int, default 1000
+        Figure width in px.
+    height : int, optional
+        Figure height in px; ``None`` defaults to 620.
+
+    Returns
+    -------
+    plotly.graph_objects.Figure
+    """
+    sizes = np.asarray(train_sizes, dtype=float).ravel()
+    train = np.atleast_2d(np.asarray(train_scores, dtype=float))
+    valid = np.atleast_2d(np.asarray(valid_scores, dtype=float))
+    if train.shape[0] == 1 and train.shape[1] == sizes.size:
+        train, valid = train.T, valid.T
+    if train.shape[0] != sizes.size or valid.shape[0] != sizes.size:
+        raise ValueError(
+            f"train_sizes has {sizes.size} steps but the score arrays have "
+            f"{train.shape[0]} and {valid.shape[0]}."
+        )
+
+    fig = go.Figure()
+    for label, scores, colour in (
+        ("training", train, PALETTE[0]),
+        ("validation", valid, PALETTE[1]),
+    ):
+        mean = scores.mean(axis=1)
+        if scores.shape[1] > 1:
+            spread = scores.std(axis=1)
+            fig.add_trace(go.Scatter(
+                x=np.r_[sizes, sizes[::-1]],
+                y=np.r_[mean + spread, (mean - spread)[::-1]],
+                fill="toself", fillcolor=_hex_to_rgba(colour, 0.18),
+                line=dict(width=0), hoverinfo="skip", showlegend=False,
+            ))
+        fig.add_trace(go.Scatter(
+            x=sizes, y=mean, mode="lines+markers", name=label,
+            line=dict(color=colour, width=2.5), marker=dict(size=7),
+            hovertemplate=(f"{label}<br>%{{x:,.0f}} rows"
+                           f"<br>{score_label} %{{y:.4f}}<extra></extra>"),
+        ))
+
+    gap = float(train.mean(axis=1)[-1] - valid.mean(axis=1)[-1])
+    fig.add_annotation(
+        text=(f"gap at full size <b>{gap:+.4f}</b> {score_label}"),
+        xref="paper", yref="paper", x=0.99, y=0.02,
+        xanchor="right", yanchor="bottom", showarrow=False,
+        font=dict(size=12, color="#fafafa"),
+        bgcolor="rgba(0,0,0,0.55)", bordercolor=_GRID_CLR,
+        borderwidth=1, borderpad=6,
+    )
+
+    final_height = height if height is not None else 620
+    fig.update_layout(
+        width=width, height=final_height,
+        xaxis=dict(title=dict(text="training rows", font=dict(size=13)),
+                   showgrid=True, gridcolor=_GRID_CLR, gridwidth=0.5),
+        yaxis=dict(title=dict(text=score_label, font=dict(size=13)),
+                   showgrid=True, gridcolor=_GRID_CLR, gridwidth=0.5),
+        legend=dict(yanchor="top", y=0.98, xanchor="right", x=0.98,
+                    bgcolor="rgba(0,0,0,0.55)", bordercolor=_GRID_CLR,
+                    borderwidth=1, font=dict(size=11)),
+        margin=dict(l=90, r=60, t=110, b=80),
+    )
+    _apply_base_layout(
+        fig, title=title or "Learning curve",
+        subtitle="band is ±1 sd across folds" if train.shape[1] > 1 else "",
+        width=width, height=final_height,
+    )
+    return fig
+
+
+def shap_summary_plot(
+    shap_values: ArrayLike,
+    features: pd.DataFrame,
+    top_n: int = 15,
+    max_points: int = 3000,
+    title: str = "",
+    width: int = 1100,
+    height: Optional[int] = None,
+    random_state: int = 0,
+) -> go.Figure:
+    """
+    SHAP beeswarm — how much each feature moved each prediction, and in which direction.
+
+    One point per row per feature. Its horizontal position is that row's SHAP
+    value (how far this feature pushed this prediction away from the baseline)
+    and its colour is that row's feature value. So the pattern to read is the
+    pairing: red points on the right means "high values of this feature push the
+    prediction up".
+
+    A bar chart of importances says only which features matter. This says what
+    they do, which is what turns a model into a recommendation.
+
+    Colour uses each feature's percentile rank rather than its raw value, so one
+    extreme outlier cannot flatten the whole colour range.
+
+    Parameters
+    ----------
+    shap_values : array-like
+        SHAP values shaped ``(n_rows, n_features)``, aligned with ``features``.
+    features : pd.DataFrame
+        The feature matrix the SHAP values were computed on. Column names label
+        the rows of the plot.
+    top_n : int, default 15
+        Number of features shown, ranked by mean absolute SHAP value.
+    max_points : int, default 3000
+        Rows sampled for the swarm. Beyond a few thousand points the ink stops
+        adding information and the figure gets heavy.
+    title : str, default ""
+        Main title; empty auto-generates one.
+    width : int, default 1100
+        Figure width in px.
+    height : int, optional
+        Figure height in px; ``None`` scales with the feature count.
+    random_state : int, default 0
+        Seed for the row sample and the vertical jitter.
+
+    Returns
+    -------
+    plotly.graph_objects.Figure
+    """
+    sv = np.asarray(shap_values, dtype=float)
+    if sv.ndim != 2:
+        raise ValueError(f"shap_values must be 2-D; got shape {sv.shape}.")
+    if sv.shape != features.shape:
+        raise ValueError(
+            f"shap_values has shape {sv.shape} but features has {features.shape}."
+        )
+    if top_n < 1:
+        raise ValueError(f"top_n must be at least 1; got {top_n}.")
+
+    rng = np.random.default_rng(random_state)
+    n_rows = sv.shape[0]
+    if n_rows > max_points:
+        keep = rng.choice(n_rows, size=max_points, replace=False)
+        sv, features = sv[keep], features.iloc[keep]
+
+    mean_abs = np.abs(sv).mean(axis=0)
+    order = np.argsort(mean_abs)[::-1][:top_n][::-1]  # weakest first = bottom row
+
+    fig = go.Figure()
+    for row, col_idx in enumerate(order):
+        x = sv[:, col_idx]
+        original = features.iloc[:, col_idx]
+        raw = pd.to_numeric(original, errors="coerce")
+        # Percentile rank keeps one outlier from collapsing the colour range.
+        # A constant column has no ranking and a non-numeric one has no order at
+        # all, so both sit at the midpoint rather than dropping out of the plot.
+        colour = (raw.rank(pct=True).fillna(0.5).to_numpy()
+                  if raw.notna().any() and raw.nunique() > 1
+                  else np.full(len(raw), 0.5))
+
+        # Density-aware jitter: crowded regions of the axis spread wider, which
+        # is what makes a beeswarm readable rather than a smear.
+        counts, edges = np.histogram(x, bins=40)
+        local = counts[np.clip(np.digitize(x, edges[1:-1]), 0, counts.size - 1)]
+        spread = 0.38 * np.sqrt(local / max(local.max(), 1))
+        y = row + rng.uniform(-1, 1, size=x.size) * spread
+
+        fig.add_trace(go.Scatter(
+            x=x, y=y, mode="markers",
+            marker=dict(
+                size=4.5, color=colour, colorscale=_RDBU, reversescale=True,
+                cmin=0.0, cmax=1.0, opacity=0.7, line=dict(width=0),
+                showscale=(row == order.size - 1),
+                colorbar=dict(
+                    title=dict(text="feature<br>value", font=dict(size=11)),
+                    tickmode="array", tickvals=[0.02, 0.98],
+                    ticktext=["low", "high"], tickfont=dict(size=11),
+                    len=0.45, thickness=14, y=0.5,
+                ),
+            ),
+            customdata=original.to_numpy(),
+            hovertemplate=(f"<b>{features.columns[col_idx]}</b>"
+                           "<br>value %{customdata}"
+                           "<br>SHAP %{x:+.4g}<extra></extra>"),
+            showlegend=False,
+        ))
+
+    fig.add_vline(x=0, line=dict(color=_OTHER_COLOR, width=1.5, dash="dash"))
+
+    final_height = height if height is not None else max(420, 44 * order.size + 180)
+    fig.update_layout(
+        width=width, height=final_height,
+        xaxis=dict(title=dict(text="SHAP value (impact on the prediction)",
+                              font=dict(size=13)),
+                   showgrid=True, gridcolor=_GRID_CLR, gridwidth=0.5, zeroline=False),
+        yaxis=dict(
+            tickmode="array", tickvals=list(range(order.size)),
+            ticktext=[str(features.columns[i]) for i in order],
+            tickfont=dict(size=11), showgrid=False, zeroline=False,
+            automargin=True, range=[-0.7, order.size - 0.3],
+        ),
+        margin=dict(l=40, r=60, t=110, b=80),
+    )
+    _apply_base_layout(
+        fig, title=title or "SHAP summary",
+        subtitle=(f"top {order.size} of {len(features.columns)} features · "
+                  f"{len(features):,} rows sampled"),
+        width=width, height=final_height,
+    )
+    return fig
+
+
+def elbow_plot(
+    k_values: ArrayLike,
+    inertia: ArrayLike,
+    silhouette: Optional[ArrayLike] = None,
+    title: str = "",
+    width: int = 1000,
+    height: Optional[int] = None,
+) -> go.Figure:
+    """
+    Choosing k — within-cluster inertia and silhouette on one pair of axes.
+
+    Inertia always falls as k rises, so its absolute level says nothing; the
+    elbow, where the fall stops paying for itself, is the readable part and it is
+    marked here as the point furthest from the straight line joining the first
+    and last values. Silhouette does have a meaningful maximum, so its best k is
+    marked too.
+
+    They often disagree, and that is the useful outcome: it means the data has no
+    single obvious k, and the choice should come from what the segments are for
+    rather than from the curves.
+
+    Parameters
+    ----------
+    k_values : array-like
+        Cluster counts evaluated, ascending.
+    inertia : array-like
+        Within-cluster sum of squares at each k.
+    silhouette : array-like, optional
+        Mean silhouette score at each k, on the secondary axis.
+    title : str, default ""
+        Main title; empty auto-generates one.
+    width : int, default 1000
+        Figure width in px.
+    height : int, optional
+        Figure height in px; ``None`` defaults to 620.
+
+    Returns
+    -------
+    plotly.graph_objects.Figure
+    """
+    ks = np.asarray(k_values, dtype=float).ravel()
+    wcss = _as_1d(inertia, "inertia")
+    if ks.size != wcss.size:
+        raise ValueError(
+            f"k_values has {ks.size} entries but inertia has {wcss.size}."
+        )
+    if ks.size < 3:
+        raise ValueError("At least three k values are needed to find an elbow.")
+
+    # Kneedle: the k whose point sits furthest from the chord between the ends,
+    # measured on both axes rescaled to [0, 1] so the units cannot dominate.
+    kx = (ks - ks[0]) / (ks[-1] - ks[0])
+    ky = (wcss - wcss[-1]) / (wcss[0] - wcss[-1]) if wcss[0] != wcss[-1] else wcss * 0
+    elbow = int(np.argmax(np.abs(ky - (1 - kx))))
+
+    fig = make_subplots(specs=[[{"secondary_y": True}]])
+    fig.add_trace(go.Scatter(
+        x=ks, y=wcss, mode="lines+markers", name="inertia",
+        line=dict(color=PALETTE[0], width=2.5), marker=dict(size=8),
+        hovertemplate="k=%{x:.0f}<br>inertia %{y:,.4g}<extra></extra>",
+    ), secondary_y=False)
+
+    notes = [f"elbow at <b>k={ks[elbow]:.0f}</b>"]
+    if silhouette is not None:
+        sil = _as_1d(silhouette, "silhouette")
+        if sil.size != ks.size:
+            raise ValueError(
+                f"k_values has {ks.size} entries but silhouette has {sil.size}."
+            )
+        fig.add_trace(go.Scatter(
+            x=ks, y=sil, mode="lines+markers", name="mean silhouette",
+            line=dict(color=PALETTE[2], width=2.5, dash="dot"),
+            marker=dict(size=8),
+            hovertemplate="k=%{x:.0f}<br>silhouette %{y:.4f}<extra></extra>",
+        ), secondary_y=True)
+        best = int(np.argmax(sil))
+        notes.append(f"best silhouette at <b>k={ks[best]:.0f}</b> ({sil[best]:.3f})")
+        fig.add_vline(x=ks[best],
+                      line=dict(color=PALETTE[2], width=1.5, dash="dot"))
+
+    fig.add_vline(x=ks[elbow], line=dict(color="#FFD700", width=1.5, dash="dash"))
+    fig.add_annotation(
+        text=" · ".join(notes),
+        xref="paper", yref="paper", x=0.99, y=0.99,
+        xanchor="right", yanchor="top", showarrow=False,
+        font=dict(size=12, color="#fafafa"),
+        bgcolor="rgba(0,0,0,0.55)", bordercolor=_GRID_CLR,
+        borderwidth=1, borderpad=6,
+    )
+
+    final_height = height if height is not None else 620
+    fig.update_layout(
+        width=width, height=final_height,
+        xaxis=dict(title=dict(text="number of clusters (k)", font=dict(size=13)),
+                   dtick=1, showgrid=True, gridcolor=_GRID_CLR, gridwidth=0.5),
+        legend=dict(yanchor="bottom", y=0.03, xanchor="left", x=0.03,
+                    bgcolor="rgba(0,0,0,0.55)", bordercolor=_GRID_CLR,
+                    borderwidth=1, font=dict(size=11)),
+        margin=dict(l=100, r=90, t=110, b=80),
+    )
+    fig.update_yaxes(title_text="inertia (within-cluster sum of squares)",
+                     showgrid=True, gridcolor=_GRID_CLR, gridwidth=0.5,
+                     zeroline=False, secondary_y=False)
+    fig.update_yaxes(title_text="mean silhouette", showgrid=False,
+                     zeroline=False, secondary_y=True)
+    _apply_base_layout(
+        fig, title=title or "Choosing the number of clusters",
+        subtitle="", width=width, height=final_height,
+    )
+    return fig
+
+
+def silhouette_plot(
+    silhouette_values: ArrayLike,
+    labels: ArrayLike,
+    title: str = "",
+    width: int = 1000,
+    height: Optional[int] = None,
+) -> go.Figure:
+    """
+    Per-row silhouette scores, sorted within each cluster.
+
+    Each cluster becomes a blade: width is how well its rows fit, height is how
+    many rows it holds. A clean solution has blades that all reach past the
+    overall mean and are roughly comparable in size. Rows with a negative score
+    sit closer to a neighbouring cluster than to their own, so a blade that dips
+    below zero is a cluster that has not really separated.
+
+    Pass the per-row values from scikit-learn's ``silhouette_samples``, not the
+    single mean from ``silhouette_score`` — the mean is exactly the summary this
+    plot exists to unpack.
+
+    Parameters
+    ----------
+    silhouette_values : array-like
+        One silhouette score per row.
+    labels : array-like
+        Cluster label per row, same length as ``silhouette_values``.
+    title : str, default ""
+        Main title; empty auto-generates one.
+    width : int, default 1000
+        Figure width in px.
+    height : int, optional
+        Figure height in px; ``None`` defaults to 640.
+
+    Returns
+    -------
+    plotly.graph_objects.Figure
+    """
+    vals = _as_1d(silhouette_values, "silhouette_values")
+    lab = np.asarray(labels).ravel()
+    if vals.size != lab.size:
+        raise ValueError(
+            f"silhouette_values has {vals.size} entries but labels has {lab.size}."
+        )
+
+    clusters = sorted(set(lab.tolist()))
+    overall = float(vals.mean())
+
+    fig = go.Figure()
+    y_cursor = 0
+    tick_pos, tick_text = [], []
+    gap = max(1, int(0.02 * vals.size / max(len(clusters), 1)))
+
+    for i, cluster in enumerate(clusters):
+        member = np.sort(vals[lab == cluster])
+        y = np.arange(y_cursor, y_cursor + member.size)
+        colour = _CATEGORICAL_COLORS[i % len(_CATEGORICAL_COLORS)]
+        fig.add_trace(go.Scatter(
+            x=np.r_[0.0, member, 0.0], y=np.r_[y[0], y, y[-1]],
+            mode="lines", fill="toself",
+            line=dict(color=colour, width=0.5),
+            fillcolor=_hex_to_rgba(colour, 0.75),
+            name=f"cluster {cluster}",
+            hovertemplate=(f"cluster {cluster}<br>silhouette %{{x:.3f}}"
+                           f"<extra></extra>"),
+            showlegend=False,
+        ))
+        tick_pos.append(y_cursor + member.size / 2)
+        tick_text.append(f"{cluster}<br><span style='font-size:10px'>"
+                         f"n={member.size:,} · mean {member.mean():.2f}</span>")
+        y_cursor += member.size + gap
+
+    fig.add_vline(x=overall, line=dict(color="#FFD700", width=1.5, dash="dash"))
+    fig.add_annotation(
+        text=f"overall mean silhouette <b>{overall:.3f}</b>",
+        xref="paper", yref="paper", x=0.99, y=0.99,
+        xanchor="right", yanchor="top", showarrow=False,
+        font=dict(size=12, color="#fafafa"),
+        bgcolor="rgba(0,0,0,0.55)", bordercolor="#FFD700",
+        borderwidth=1, borderpad=6,
+    )
+
+    final_height = height if height is not None else 640
+    fig.update_layout(
+        width=width, height=final_height,
+        xaxis=dict(title=dict(text="silhouette score", font=dict(size=13)),
+                   showgrid=True, gridcolor=_GRID_CLR, gridwidth=0.5,
+                   zeroline=True, zerolinecolor=_OTHER_COLOR, zerolinewidth=1),
+        yaxis=dict(title=dict(text="cluster", font=dict(size=13)),
+                   tickmode="array", tickvals=tick_pos, ticktext=tick_text,
+                   tickfont=dict(size=11), showgrid=False, zeroline=False,
+                   automargin=True),
+        margin=dict(l=40, r=60, t=110, b=80),
+    )
+    _apply_base_layout(
+        fig, title=title or "Silhouette by cluster",
+        subtitle=f"{len(clusters)} clusters over {vals.size:,} rows",
+        width=width, height=final_height,
     )
     return fig

@@ -1,7 +1,18 @@
 __pycache__
+.ipynb_checkpoints
 /.vscode
 
 .env
 
 CLAUDE.md 
 .claude 
+# Claude Code MCP config (contains credentials)
+.mcp.json
+.mcp-kit.json
+
+# Pre-rebuild bootcamp notebooks and scripts, kept locally for reference only.
+# Every file is still recoverable from git history.
+/archive
+
+# Personal homework, not part of the deliverable
+homework_questions.md
